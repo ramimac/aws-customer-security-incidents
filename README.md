@@ -18,7 +18,7 @@ This repository is in no way intended as a criticism of the listed companies. In
 
 A repository of breaches of AWS customers
 
-| Name  | Date | Root Cause | Escalation Vector(s) | Impact | Link to details
+| Name  | Date | Root Cause | Escalation Vector(s) | Impact | Link to details|
 | ------------- | ------------- | ------------- | ------------- |
 | Capital One  | 2019, April  | "Misconfigured WAF" that allowed for a SSRF attack  | Over-privileged EC2 Role |  [A Technical Analysis of the Capital One Cloud Misconfiguration Breach](https://www.fugue.co/blog/a-technical-analysis-of-the-capital-one-cloud-misconfiguration-breach)  |
 | Code Spaces  | 2014, June  | AWS Console Credentials (Phishing?) | Attacker created additional accounts/access keys | Wiped S3 buckets, EC2 instances, AMIs, EBS snapshots | [Hacker puts code spaces out of business](https://threatpost.com/hacker-puts-hosting-service-code-spaces-out-of-business/106761/)  |
