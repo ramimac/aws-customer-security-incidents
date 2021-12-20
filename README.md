@@ -12,8 +12,6 @@ You can find the slides [here](https://speakerdeck.com/ramimac/learning-from-aws
 
 This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame. 
 
-## Statistics
-
 ## Catalog of AWS Customer Security Incidents
 
 A repository of breaches of AWS customers
@@ -32,8 +30,9 @@ A repository of breaches of AWS customers
 | Capital One  | 2019, April  | "Misconfigured WAF" that allowed for a SSRF attack  | Over-privileged EC2 Role | 100 million credit applications |  [A Technical Analysis of the Capital One Cloud Misconfiguration Breach](https://www.fugue.co/blog/a-technical-analysis-of-the-capital-one-cloud-misconfiguration-breach)  |
 | JW Player | 2019, September  | Weave Scope (publicly exposed), RCE by design | N/A | Cryptojacking | [ Malindo Air: Data Breach Was Inside Job](https://web.archive.org/web/20210828044334/https://medium.com/jw-player-engineering/how-a-cryptocurrency-miner-made-its-way-onto-our-internal-kubernetes-clusters-9b09c4704205) |
 | Imperva | 2019, October  | “Internal compute instance” globally accessible, “Contained” AWS API key | N/A | RDS snapshot stolen | [Hacker puts code spaces out of business](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) |
+| Cameo | 2020, February  | Credentials in mobile app package | N/A | Access to backend infrastructure, including user data | [Celeb Shout-Out App Cameo Exposes Private Videos and User Data](https://www.vice.com/en/article/akwj5z/cameo-app-exposed-private-videos-user-data-passwords) |
 | Expel case study 1 | 2020, April  | 8 IAM access keys compromised | Backdoored security groups | Command line access to EC2 instances | [Finding evil in AWS: A key pair to remember](https://web.archive.org/web/20210226132628/https://expel.io/blog/finding-evil-in-aws/) |
-| TeamTNT Worm| 2020, April  | Misconfigured Docker & k8s platforms | Steals AWS credentials from \~/.aws/* | Cryptojacking for Monero | [Team TNT – The First Crypto-Mining Worm to Steal AWS Credentials](https://web.archive.org/web/20210607223609/https://www.cadosecurity.com/post/team-tnt-the-first-crypto-mining-worm-to-steal-aws-credentials/) |
+| TeamTNT Worm| 2020, April  | Misconfigured Docker & k8s platforms | Steals AWS credentials from \~/.aws/* | Cryptojacking for Monero | [Team TNT – The First Crypto-Mining Worm to Steal AWS Credentials](https://web.archive.org/web/20210607223609/https://www.cadosecurity.com/post/team-tnt-the-first-crypto-mining-worm-to-steal-aws-credentials/), [TeamTNT with new campaign aka “Chimaera”](https://cybersecurity.att.com/blogs/labs-research/teamtnt-with-new-campaign-aka-chimaera) |
 | Twilio | 2020, July  |S3 global write access | N/A | Magecart[<sup>2</sup>](#2) | [Incident Report: TaskRouter JS SDK Security Incident](https://web.archive.org/web/20210813010417/https://www.twilio.com/blog/incident-report-taskrouter-js-sdk-july-2020) |
 | Expel case study 2 | 2020, July  | Root IAM user access keycompromised | SSH keys generated for EC2 instances  | Cryptojacking | [Behind the scenes in the Expel SOC: Alert-to-fix in AWS](https://web.archive.org/web/20210128055101/https://expel.io/blog/behind-the-scenes-expel-soc-alert-aws/) |
 | Cryptomining AMI | 2020, August  | Windows 2008 Server Community AMI | N/A | Monero miner | [Cryptominer Found Embedded in AWS Community AMI](https://web.archive.org/web/20210625192906/https://www.darkreading.com/cloud/cryptominer-found-embedded-in-aws-community-ami/d/d-id/1338713/) |
@@ -43,9 +42,10 @@ A repository of breaches of AWS customers
 | Juspay | 2021, January | Compromised old, unrecycled Amazon Web Services (AWS) access key | N/A | Masked card data, email IDs and phone numbers | [Data from August Breach of Amazon Partner Juspay Dumped Online](https://web.archive.org/web/20210127001214/https://threatpost.com/data-from-august-breach-of-amazon-partner-juspay-dumped-online/162740/) |
 | LogicGate | 2021, April | Compromised credentials | N/A | Backup files in S3 stolen | [Risk startup LogicGate confirms data breach](https://web.archive.org/web/20210519233848/https://techcrunch.com/2021/04/13/logicgate-risk-cloud-data-breach/) |
 | Ubiquiti | 2021, April | Compromised credentials from IT employee Lastpass (alleged former employee insider threat) | N/A | root administrator access to all AWS accounts, extortion | [Ubiquiti All But Confirms Breach Response Iniquity](https://web.archive.org/web/20210731152054/https://krebsonsecurity.com/2021/04/ubiquiti-all-but-confirms-breach-response-iniquity/) |
-
-## TKTK https://www.databreaches.net/20-20-eye-care-network-and-hearing-care-network-notify-3253822-health-plan-members-of-breach-that-deleted-contents-of-aws-buckets/
+| 20/20 Eye Care Network and Hearing Care Network | 2021, January | Compromised credential | N/A | S3 buckets accessed then deleted | [20/20 Eye Care Network and Hearing Care Network notify 3,253,822 health plan members of breach that deleted contents of AWS buckets](https://www.databreaches.net/20-20-eye-care-network-and-hearing-care-network-notify-3253822-health-plan-members-of-breach-that-deleted-contents-of-aws-buckets/) |
+| Kaspersky | 2021, November | Compromised SES token from third party | N/A | Phishing attacks | [Kaspersky's stolen Amazon SES token used in Office 365 phishing](https://www.bleepingcomputer.com/news/security/kasperskys-stolen-amazon-ses-token-used-in-office-365-phishing/) |
 
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
+
 <a class="anchor" id="2"></a> _Note_: There have been numerous identified incidents of Magecart exploiting S3 Global Write - in [one review targeting "well over 17,000 domains"](https://web.archive.org/web/20210620145033/https://www.riskiq.com/blog/labs/magecart-amazon-s3-buckets/)
