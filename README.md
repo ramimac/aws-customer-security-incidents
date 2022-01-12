@@ -4,7 +4,6 @@ Security is an exercise in managing risk. Reviewing the common root causes of se
 
 This repository seeks to index all publicly disclosed AWS customer security incidents with a known root cause. It will exclude incidents involving exposed data stores (e.g S3 bucket leaks, exposed managed or hosted databases). Those incidents are already well understood, and examples can be found cataloged in places like https://github.com/nagwww/s3-leaks, https://www.upguard.com/breaches and Corey Quinn's [LWIAWS](https://www.lastweekinaws.com) S3 Bucket Negligence Award.
 
-
 The intial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_
 You can find the slides [here](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents)
 
@@ -44,6 +43,7 @@ A repository of breaches of AWS customers
 | Ubiquiti | 2021, April | Compromised credentials from IT employee Lastpass (alleged former employee insider threat) | N/A | root administrator access to all AWS accounts, extortion | [Ubiquiti All But Confirms Breach Response Iniquity](https://web.archive.org/web/20210731152054/https://krebsonsecurity.com/2021/04/ubiquiti-all-but-confirms-breach-response-iniquity/) |
 | 20/20 Eye Care Network and Hearing Care Network | 2021, January | Compromised credential | N/A | S3 buckets accessed then deleted | [20/20 Eye Care Network and Hearing Care Network notify 3,253,822 health plan members of breach that deleted contents of AWS buckets](https://www.databreaches.net/20-20-eye-care-network-and-hearing-care-network-notify-3253822-health-plan-members-of-breach-that-deleted-contents-of-aws-buckets/) |
 | Kaspersky | 2021, November | Compromised SES token from third party | N/A | Phishing attacks | [Kaspersky's stolen Amazon SES token used in Office 365 phishing](https://www.bleepingcomputer.com/news/security/kasperskys-stolen-amazon-ses-token-used-in-office-365-phishing/) |
+| Onus | 2021, December | Log4Shell vulnerability in Cyclos server | AmazonS3FullAccess creds (and DB creds) in Cyclos config | 2 million ONUS users’ information including EKYC data, personal information, and password hash was leaked.  | [The attack on ONUS – A real-life case of the Log4Shell vulnerability](https://cystack.net/research/the-attack-on-onus-a-real-life-case-of-the-log4shell-vulnerability) |
 
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
