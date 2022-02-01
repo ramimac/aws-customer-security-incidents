@@ -4,6 +4,8 @@ Security is an exercise in managing risk. Reviewing the common root causes of se
 
 This repository seeks to index all publicly disclosed AWS customer security incidents with a known root cause. It will exclude incidents involving exposed data stores (e.g S3 bucket leaks, exposed managed or hosted databases). Those incidents are already well understood, and examples can be found cataloged in places like https://github.com/nagwww/s3-leaks, https://www.upguard.com/breaches and Corey Quinn's [LWIAWS](https://www.lastweekinaws.com) S3 Bucket Negligence Award.
 
+It also exludes incidents impacting individuals, such as the periodic cryptomining due to compromised credentials. [1](https://vertis.io/2013/12/16/unauthorised-litecoin-mining/) [2](https://readwrite.com/amazon-web-services-hack-bitcoin-miners-github/) [3](http://www.nvenky.in/2014/03/bitcoin-mining-closed-my-aws-account.html)
+
 The intial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_
 You can find the slides [here](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents)
 
