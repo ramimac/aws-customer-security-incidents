@@ -1,8 +1,8 @@
 ## Background
 
-Security is an exercise in managing risk. Reviewing the common root causes of security incidents is an effective way to guide prioritized remediation efforts. 
+Security is an exercise in managing risk. Reviewing the common root causes of security incidents is an effective way to guide prioritized remediation efforts.
 
-This repository seeks to index all publicly disclosed AWS customer security incidents with a known root cause. It will exclude incidents involving exposed data stores (e.g S3 bucket leaks, exposed managed or hosted databases). Those incidents are already well understood, and examples can be found cataloged in places like https://github.com/nagwww/s3-leaks, https://www.upguard.com/breaches and Corey Quinn's [LWIAWS](https://www.lastweekinaws.com) S3 Bucket Negligence Award.
+This repository seeks to index all publicly disclosed AWS customer security incidents with a known root cause. It will exclude incidents involving exposed data stores (e.g S3 bucket leaks, exposed managed or hosted databases). Those incidents are already well understood, and examples can be found cataloged in places like https://github.com/nagwww/s3-leaks, https://www.upguard.com/breaches, https://www.hackmageddon.com/2022/02/21/leaky-buckets-in-2022/ and Corey Quinn's [LWIAWS](https://www.lastweekinaws.com) S3 Bucket Negligence Award.
 
 It also exludes incidents impacting individuals, such as the periodic cryptomining due to compromised credentials. [1](https://vertis.io/2013/12/16/unauthorised-litecoin-mining/) [2](https://readwrite.com/amazon-web-services-hack-bitcoin-miners-github/) [3](http://www.nvenky.in/2014/03/bitcoin-mining-closed-my-aws-account.html)
 
@@ -11,7 +11,7 @@ You can find the slides [here](https://speakerdeck.com/ramimac/learning-from-aws
 
 ### A Note on Blameless Postmortems
 
-This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame. 
+This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame.
 
 ## Catalog of AWS Customer Security Incidents
 
@@ -33,10 +33,12 @@ A repository of breaches of AWS customers
 | JW Player | 2019, September  | Weave Scope (publicly exposed), RCE by design | N/A | Cryptojacking | [ Malindo Air: Data Breach Was Inside Job](https://web.archive.org/web/20210828044334/https://medium.com/jw-player-engineering/how-a-cryptocurrency-miner-made-its-way-onto-our-internal-kubernetes-clusters-9b09c4704205) |
 | Imperva | 2019, October  | “Internal compute instance” globally accessible, “Contained” AWS API key | N/A | RDS snapshot stolen | [Hacker puts code spaces out of business](https://www.bloomberg.com/news/articles/2017-11-21/uber-concealed-cyberattack-that-exposed-57-million-people-s-data) |
 | Cameo | 2020, February  | Credentials in mobile app package | N/A | Access to backend infrastructure, including user data | [Celeb Shout-Out App Cameo Exposes Private Videos and User Data](https://www.vice.com/en/article/akwj5z/cameo-app-exposed-private-videos-user-data-passwords) |
+| Open Exchange Rates | 2020, March | Third-party compromise exposing access key | N/A | User database | [Exchange rate service’s customer details hacked via AWS](https://nakedsecurity.sophos.com/2020/03/20/exchange-rate-services-customer-details-hacked-via-aws/) |
 | Expel case study 1 | 2020, April  | 8 IAM access keys compromised | Backdoored security groups | Command line access to EC2 instances | [Finding evil in AWS: A key pair to remember](https://web.archive.org/web/20210226132628/https://expel.io/blog/finding-evil-in-aws/) |
 | TeamTNT Worm| 2020, April  | Misconfigured Docker & k8s platforms | Steals AWS credentials from \~/.aws/* | Cryptojacking for Monero | [Team TNT – The First Crypto-Mining Worm to Steal AWS Credentials](https://web.archive.org/web/20210607223609/https://www.cadosecurity.com/post/team-tnt-the-first-crypto-mining-worm-to-steal-aws-credentials/), [TeamTNT with new campaign aka “Chimaera”](https://cybersecurity.att.com/blogs/labs-research/teamtnt-with-new-campaign-aka-chimaera) |
 | Twilio | 2020, July  |S3 global write access | N/A | Magecart[<sup>2</sup>](#2) | [Incident Report: TaskRouter JS SDK Security Incident](https://web.archive.org/web/20210813010417/https://www.twilio.com/blog/incident-report-taskrouter-js-sdk-july-2020) |
 | Expel case study 2 | 2020, July  | Root IAM user access keycompromised | SSH keys generated for EC2 instances  | Cryptojacking | [Behind the scenes in the Expel SOC: Alert-to-fix in AWS](https://web.archive.org/web/20210128055101/https://expel.io/blog/behind-the-scenes-expel-soc-alert-aws/) |
+| Natures Basket responsible disclosure | 2020, July  | Hard-coded root keys in source code exposed via public S3 bucket | N/A | N/A | [GotRoot! AWS root Account Takeover](https://web.archive.org/web/20200825004529/https://medium.com/@gchib/naturesbasket-aws-root-account-takeover-e4aa5c5e95e1) |
 | Cryptomining AMI | 2020, August  | Windows 2008 Server Community AMI | N/A | Monero miner | [Cryptominer Found Embedded in AWS Community AMI](https://web.archive.org/web/20210625192906/https://www.darkreading.com/cloud/cryptominer-found-embedded-in-aws-community-ami/d/d-id/1338713/) |
 | Mandiant: Insider Threat Scenario | 2020, September | Fired employee uses credentials | Access CI/CD server, create a new user, steal credentials | Deleted production databases | [Cloud Breaches: Case Studies, Best Practices, and Pitfalls](https://web.archive.org/web/20201103091354/https://www.youtube.com/watch?v=rtEjI_5TPdw&feature=youtu.be/) |
 | Animal Jam | 2020, November | Slack comprise exposes AWS credentials | N/A | User database | [Kids' gaming website Animal Jam breached](https://web.archive.org/web/20210122070047/https://www.theregister.com/2020/11/12/animal_jam_breached/) |
@@ -48,7 +50,8 @@ A repository of breaches of AWS customers
 | Uran Company | 2021, July | Compromised Drupal with API keys | N/A | Cryptomining | [Clear and Uncommon Story About Overcoming Issues With AWS](https://topdigital.agency/clear-and-uncommon-story-about-overcoming-issues-with-aws/) |
 | Kaspersky | 2021, November | Compromised SES token from third party | N/A | Phishing attacks | [Kaspersky's stolen Amazon SES token used in Office 365 phishing](https://www.bleepingcomputer.com/news/security/kasperskys-stolen-amazon-ses-token-used-in-office-365-phishing/) |
 | Onus | 2021, December | Log4Shell vulnerability in Cyclos server | AmazonS3FullAccess creds (and DB creds) in Cyclos config | 2 million ONUS users’ information including EKYC data, personal information, and password hash was leaked.  | [The attack on ONUS – A real-life case of the Log4Shell vulnerability](https://cystack.net/research/the-attack-on-onus-a-real-life-case-of-the-log4shell-vulnerability) |
-
+| Flexbooker | 2021, December | Unknown | Unknown | 3.7M first and last names, email addresses, phone numbers, "encrypted" passwords | [Booking management platform FlexBooker leaks 3.7 million user records](https://therecord.media/booking-management-platform-flexbooker-leaks-3-7-million-user-records/) |
+| Expel case study 3 | 2022, April | Credentials in publicly available code repository | AttachUserPolicy used for privesc | Cryptomining (prevented) | [Incident report: From CLI to console, chasing an attacker in AWS](https://expel.com/blog/incident-report-from-cli-to-console-chasing-an-attacker-in-aws/) |
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
