@@ -1,6 +1,6 @@
 ## Background
 
-Security is an exercise in managing risk. Reviewing the common root causes of security incidents is an effective way to guide prioritized remediation efforts. 
+Security is an exercise in managing risk. Reviewing the common root causes of security incidents is an effective way to guide prioritized remediation efforts.
 
 This repository seeks to index all publicly disclosed AWS customer security incidents with a known root cause. It will exclude incidents involving exposed data stores (e.g S3 bucket leaks, exposed managed or hosted databases). Those incidents are already well understood, and examples can be found cataloged in places like https://github.com/nagwww/s3-leaks, https://www.upguard.com/breaches and Corey Quinn's [LWIAWS](https://www.lastweekinaws.com) S3 Bucket Negligence Award.
 
@@ -11,7 +11,7 @@ You can find the slides [here](https://speakerdeck.com/ramimac/learning-from-aws
 
 ### A Note on Blameless Postmortems
 
-This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame. 
+This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame.
 
 ## Catalog of AWS Customer Security Incidents
 
@@ -48,6 +48,8 @@ A repository of breaches of AWS customers
 | Uran Company | 2021, July | Compromised Drupal with API keys | N/A | Cryptomining | [Clear and Uncommon Story About Overcoming Issues With AWS](https://topdigital.agency/clear-and-uncommon-story-about-overcoming-issues-with-aws/) |
 | Kaspersky | 2021, November | Compromised SES token from third party | N/A | Phishing attacks | [Kaspersky's stolen Amazon SES token used in Office 365 phishing](https://www.bleepingcomputer.com/news/security/kasperskys-stolen-amazon-ses-token-used-in-office-365-phishing/) |
 | Onus | 2021, December | Log4Shell vulnerability in Cyclos server | AmazonS3FullAccess creds (and DB creds) in Cyclos config | 2 million ONUS users’ information including EKYC data, personal information, and password hash was leaked.  | [The attack on ONUS – A real-life case of the Log4Shell vulnerability](https://cystack.net/research/the-attack-on-onus-a-real-life-case-of-the-log4shell-vulnerability) |
+| Flexbooker | 2021, December | Unknown | Unknown | 3.7M first and last names, email addresses, phone numbers, "encrypted" passwords | [Booking management platform FlexBooker leaks 3.7 million user records](https://therecord.media/booking-management-platform-flexbooker-leaks-3-7-million-user-records/) |
+
 
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
