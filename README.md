@@ -4,9 +4,9 @@ Security is an exercise in managing risk. Reviewing the common root causes of se
 
 This repository seeks to index all publicly disclosed AWS customer security incidents with a known root cause. It will exclude incidents involving exposed data stores (e.g S3 bucket leaks, exposed managed or hosted databases). Those incidents are already well understood, and examples can be found cataloged in places like https://github.com/nagwww/s3-leaks, https://www.upguard.com/breaches, https://www.hackmageddon.com/2022/02/21/leaky-buckets-in-2022/ and Corey Quinn's [LWIAWS](https://www.lastweekinaws.com) S3 Bucket Negligence Award.
 
-It also exludes incidents impacting individuals, such as the periodic cryptomining due to compromised credentials. [1](https://vertis.io/2013/12/16/unauthorised-litecoin-mining/) [2](https://readwrite.com/amazon-web-services-hack-bitcoin-miners-github/) [3](http://www.nvenky.in/2014/03/bitcoin-mining-closed-my-aws-account.html)
+It also excludes incidents impacting individuals, such as the periodic cryptomining due to compromised credentials. [1](https://vertis.io/2013/12/16/unauthorised-litecoin-mining/) [2](https://readwrite.com/amazon-web-services-hack-bitcoin-miners-github/) [3](http://www.nvenky.in/2014/03/bitcoin-mining-closed-my-aws-account.html)
 
-The intial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_
+The initial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_
 You can find the slides [here](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents)
 
 ### A Note on Blameless Postmortems
@@ -55,6 +55,7 @@ A repository of breaches of AWS customers
 | Onus | 2021, December | Log4Shell vulnerability in Cyclos server | AmazonS3FullAccess creds (and DB creds) in Cyclos config | 2 million ONUS users’ information including EKYC data, personal information, and password hash was leaked.  | [The attack on ONUS – A real-life case of the Log4Shell vulnerability](https://cystack.net/research/the-attack-on-onus-a-real-life-case-of-the-log4shell-vulnerability) |
 | Flexbooker | 2021, December | Unknown | Unknown | 3.7M first and last names, email addresses, phone numbers, "encrypted" passwords | [Booking management platform FlexBooker leaks 3.7 million user records](https://therecord.media/booking-management-platform-flexbooker-leaks-3-7-million-user-records/) |
 | Expel case study 3 | 2022, April | Credentials in publicly available code repository | AttachUserPolicy used for privesc | Cryptomining (prevented) | [Incident report: From CLI to console, chasing an attacker in AWS](https://expel.com/blog/incident-report-from-cli-to-console-chasing-an-attacker-in-aws/) |
+| Permiso case study 1 | 2022, June | Gitlab vulnerability (CVE-2021-22205) | Credentials on the system found, used to create a backupuser | Cryptomining | [Anatomy of an Attack: Exposed keys to Crypto Mining](https://web.archive.org/web/20220629061640/https://permiso.io/blog/s/anatomy-of-attack-exposed-keys-to-crypto-mining/) |
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
