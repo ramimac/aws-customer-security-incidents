@@ -74,8 +74,16 @@ A repository of breaches of AWS customers
 * [ESEA Server-Side Request Forgery and Querying AWS Meta Data](https://buer.haus/2016/04/18/esea-server-side-request-forgery-and-querying-aws-meta-data/)
 * [A pair of Plotly bugs: Stored XSS and AWS Metadata SSRF](https://web.archive.org/web/20170527104436/https://ysx.me.uk/a-pair-of-plotly-bugs-stored-xss-and-aws-metadata-ssrf/)
 * [Dropbox - Full Response SSRF via Google Drive](https://github.com/httpvoid/writeups/blob/main/Hacking-Google-Drive-Integrations.md#dropboxs-full-read-ssrf)
+* [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
+
+## Catalog of AWS Threat Actors
+
+| Name | Vectors | Reports |
+| ------------- | ------------- | ------------- |
+| UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) | 
+
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
