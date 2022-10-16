@@ -101,7 +101,7 @@ For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata C
 | Name | Vectors | Reports |
 | ------------- | ------------- | ------------- |
 | UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
-
+| 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
