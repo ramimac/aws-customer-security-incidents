@@ -66,6 +66,17 @@ A repository of breaches of AWS customers
 | Expel case study 3 | 2022, April | Credentials in publicly available code repository | AttachUserPolicy used for privesc | Cryptomining (prevented) | [Incident report: From CLI to console, chasing an attacker in AWS](https://expel.com/blog/incident-report-from-cli-to-console-chasing-an-attacker-in-aws/) |
 | Permiso case study 1 | 2022, June | Gitlab vulnerability (CVE-2021-22205) | Credentials on the system found, used to create a backupuser | Cryptomining | [Anatomy of an Attack: Exposed keys to Crypto Mining](https://web.archive.org/web/20220629061640/https://permiso.io/blog/s/anatomy-of-attack-exposed-keys-to-crypto-mining/) |
 
+## Catalog of AWS Exploits via SSRF
+
+[Server-side request forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) is a class of attack that is not cloud or AWS specific. However, the existence of cloud metadata services, such as [IMDS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) in AWS, have historically allowed for a substantial straightforward impact when SSRF is achieved on a cloud hosted application. For that reason, we include this list of SSRF attacks against AWS environments.
+
+* [Bypassing SSRF Protection to Exfiltrate AWS Metadata from LarkSuite](https://sirleeroyjenkins.medium.com/bypassing-ssrf-protection-to-exfiltrate-aws-metadata-from-larksuite-bf99a3599462)
+* [ESEA Server-Side Request Forgery and Querying AWS Meta Data](https://buer.haus/2016/04/18/esea-server-side-request-forgery-and-querying-aws-meta-data/)
+* [A pair of Plotly bugs: Stored XSS and AWS Metadata SSRF](https://web.archive.org/web/20170527104436/https://ysx.me.uk/a-pair-of-plotly-bugs-stored-xss-and-aws-metadata-ssrf/)
+* [Dropbox - Full Response SSRF via Google Drive](https://github.com/httpvoid/writeups/blob/main/Hacking-Google-Drive-Integrations.md#dropboxs-full-read-ssrf)
+
+For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
+
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
 <a class="anchor" id="2"></a> _Note_: There have been numerous identified incidents of Magecart exploiting S3 Global Write - in [one review targeting "well over 17,000 domains"](https://web.archive.org/web/20210620145033/https://www.riskiq.com/blog/labs/magecart-amazon-s3-buckets/)
