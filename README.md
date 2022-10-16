@@ -15,8 +15,9 @@ GCP's [November 2021 Cloud Threat Intelligence report](https://services.google.c
 Their [July 2022 report](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_july2022.pdf) also highlights that:
 > the most common attack vectors used across cloud providers was brute force of cloud services that are exposed to the internet and have a weak or default password ... close behind brute force attacks was the exploitation of vulnerable software
 
-[Rich Mogull's](https://twitter.com/rmogull) summary of [a 2022 AWS re:Inforce session on ransomware](https://www.firemon.com/what-you-need-to-know-about-ransomware-in-aws/) highlight that ransomware is a common problem for AWS customers, stemming from two common exploit vectors:
+[Rich Mogull's](https://twitter.com/rmogull) summary of [a 2022 AWS re:Inforce session on ransomware](https://www.firemon.com/what-you-need-to-know-about-ransomware-in-aws/) highlight's that ransomware is a common problem for AWS customers, stemming from two common exploit vectors:
 > A traditional ransomware attack against instances in AWS. The attacker compromises an instance (often via phishing a user/admin, not always direct compromise), then installs their malware to encrypt the data and spread to other reachable instances. This is really no different than ransomware in a data center since it doesn’t involve anything cloud-specific.
+
 > The attacker copies data out of an S3 bucket and then deletes the original data. This is the most commonly seen cloud native ransomware on AWS.
 
 ## Talks
@@ -71,7 +72,10 @@ A repository of breaches of AWS customers
 
 
 ## Catalog of Vendor Reports on AWS Customer Security Incidents
-| TeamTNT Worm| 2020, April  | Misconfigured Docker & k8s platforms | Steals AWS credentials from \~/.aws/* | Cryptojacking for Monero | [Team TNT – The First Crypto-Mining Worm to Steal AWS Credentials](https://web.archive.org/web/20210607223609/https://www.cadosecurity.com/post/team-tnt-the-first-crypto-mining-worm-to-steal-aws-credentials/), [TeamTNT with new campaign aka “Chimaera”](https://cybersecurity.att.com/blogs/labs-research/teamtnt-with-new-campaign-aka-chimaera) |
+
+| Report | Date | Root Cause | Escalation Vector(s) | Impact | Link to details|
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| TeamTNT Worm| 2020, April | Misconfigured Docker & k8s platforms | Steals AWS credentials from \~/.aws/* | Cryptojacking for Monero | [Team TNT – The First Crypto-Mining Worm to Steal AWS Credentials](https://web.archive.org/web/20210607223609/https://www.cadosecurity.com/post/team-tnt-the-first-crypto-mining-worm-to-steal-aws-credentials/), [TeamTNT with new campaign aka “Chimaera”](https://cybersecurity.att.com/blogs/labs-research/teamtnt-with-new-campaign-aka-chimaera) |
 | Expel case study 1 | 2020, April  | 8 IAM access keys compromised | Backdoored security groups | Command line access to EC2 instances | [Finding evil in AWS: A key pair to remember](https://web.archive.org/web/20210226132628/https://expel.io/blog/finding-evil-in-aws/) |
 | Expel case study 2 | 2020, July  | Root IAM user access keycompromised | SSH keys generated for EC2 instances  | Cryptojacking | [Behind the scenes in the Expel SOC: Alert-to-fix in AWS](https://web.archive.org/web/20210128055101/https://expel.io/blog/behind-the-scenes-expel-soc-alert-aws/) |
 | Mandiant: Insider Threat Scenario | 2020, September | Fired employee uses credentials | Access CI/CD server, create a new user, steal credentials | Deleted production databases | [Cloud Breaches: Case Studies, Best Practices, and Pitfalls](https://web.archive.org/web/20201103091354/https://www.youtube.com/watch?v=rtEjI_5TPdw&feature=youtu.be/) |
