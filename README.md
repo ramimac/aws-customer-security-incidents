@@ -93,6 +93,12 @@ A repository of breaches of AWS customers
 * [A pair of Plotly bugs: Stored XSS and AWS Metadata SSRF](https://web.archive.org/web/20170527104436/https://ysx.me.uk/a-pair-of-plotly-bugs-stored-xss-and-aws-metadata-ssrf/)
 * [Dropbox - Full Response SSRF via Google Drive](https://github.com/httpvoid/writeups/blob/main/Hacking-Google-Drive-Integrations.md#dropboxs-full-read-ssrf)
 * [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903)
+* [SSRF leads to access AWS metadata.](https://infosecwriteups.com/ssrf-leads-to-access-aws-metadata-21952c220aeb)
+* [Escalating SSRF to RCE](https://sanderwind.medium.com/escalating-ssrf-to-rce-7c0147371c40)
+* [SSRF Leads To AWS Metadata Exposure](https://systemweakness.com/ssrf-leads-to-aws-metadata-exposure-8b4c3424755b)
+* [How I discovered an SSRF leading to AWS Metadata Leakage](https://techkranti.com/ssrf-aws-metadata-leakage/)
+* [Exploitation of an SSRF vulnerability against EC2 IMDSv2](https://www.yassineaboukir.com/blog/exploitation-of-an-SSRF-vulnerability-against-EC2-IMDSv2/)
+* [Mozilla - AWS SSRF to Pull AWS Metadata and Keys](https://bugzilla.mozilla.org/show_bug.cgi?id=1550366)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
