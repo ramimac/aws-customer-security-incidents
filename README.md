@@ -108,8 +108,16 @@ For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata C
 
 | Name | Vectors | Reports |
 | ------------- | ------------- | ------------- |
-| UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
 | 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
+| Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
+| Cosmic Wolf | Credential compromise | [CrowdStrike - 2022 Global Threat Report](https://irp.cdn-website.com/5d9b1ea1/files/uploaded/Report2022GTR.pdf) |
+| Demonia | Lambda Malware | [Cado Discovers Denonia: The First Malware Specifically Targeting Lambda](https://www.cadosecurity.com/cado-discovers-denonia-the-first-malware-specifically-targeting-lambda/) |
+| Kinsing | Malware| [CyberArk - Kinsing: The Malware with Two Faces](https://www.cyberark.com/resources/threat-research-blog/kinsing-the-malware-with-two-faces) |
+| LAPSUS$ / DEV-0537 | phone-based social engineering; SIM-swapping to facilitate account takeover; accessing personal email accounts of employees at target organizations; paying employees, suppliers, or business partners of target organizations for access to credentials and multifactor authentication (MFA) approval | [Microsoft - DEV-0537 criminal actor targeting organizations for data exfiltration and destruction](https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/) |
+| Rocke | Targeting known CVEs | [Cisco Talos -  Rocke: The Champion of Monero Miners ](https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html) |
+| TeamTNT | Exploit misconfigured docker and k8s | [MITRE ATT&CK -  TeamTNT](https://attack.mitre.org/groups/G0139/) |
+| UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
+| Watchdog | Exploit misconfigured docker and k8s | [TeamTNT Returns – or Does It?](https://www.trendmicro.com/en_us/research/22/j/teamtnt-returns-or-does-it.html) |
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
