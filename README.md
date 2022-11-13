@@ -1,4 +1,4 @@
-## Background
+# Background
 
 Security is an exercise in managing risk. Reviewing the common root causes of security incidents is an effective way to guide prioritized remediation efforts.
 
@@ -11,7 +11,7 @@ It also excludes incidents impacting individuals, such as the periodic reports o
 
 This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame.
 
-## Catalog of AWS Customer Security Incidents
+# Catalog of AWS Customer Security Incidents
 
 A repository of breaches of AWS customers
 
@@ -84,7 +84,7 @@ A repository of breaches of AWS customers
 | UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
 | Watchdog | Exploit misconfigured docker and k8s | [TeamTNT Returns – or Does It?](https://www.trendmicro.com/en_us/research/22/j/teamtnt-returns-or-does-it.html) |
 
-### "State of the Cloud" Report Incident Takeaways
+## "State of the Cloud" Report Incident Takeaways
 
 | Report | Takeaways | 
 | ------------- | ------------- | 
