@@ -7,24 +7,6 @@ Those incidents are already well understood, and examples can be found cataloged
 
 It also excludes incidents impacting individuals, such as the periodic reports of cryptomining due to compromised credentials. [1](https://vertis.io/2013/12/16/unauthorised-litecoin-mining/) [2](https://readwrite.com/amazon-web-services-hack-bitcoin-miners-github/) [3](http://www.nvenky.in/2014/03/bitcoin-mining-closed-my-aws-account.html)
 
-## Other Cloud Threat Trend Analysis
-
-GCP's [November 2021 Cloud Threat Intelligence report](https://services.google.com/fh/files/misc/gcat-threathorizons-full-nov2021.pdf) found that:
-> Of 50 recently compromised GCP instances, 86% of the compromised Google Cloud instances were used to perform cryptocurrency mining
-
-Their [July 2022 report](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_july2022.pdf) also highlights that:
-> the most common attack vectors used across cloud providers was brute force of cloud services that are exposed to the internet and have a weak or default password ... close behind brute force attacks was the exploitation of vulnerable software
-
-[Rich Mogull's](https://twitter.com/rmogull) summary of [a 2022 AWS re:Inforce session on ransomware](https://www.firemon.com/what-you-need-to-know-about-ransomware-in-aws/) highlight's that ransomware is a common problem for AWS customers, stemming from two common exploit vectors:
-> A traditional ransomware attack against instances in AWS. The attacker compromises an instance (often via phishing a user/admin, not always direct compromise), then installs their malware to encrypt the data and spread to other reachable instances. This is really no different than ransomware in a data center since it doesn’t involve anything cloud-specific.
-
-> The attacker copies data out of an S3 bucket and then deletes the original data. This is the most commonly seen cloud native ransomware on AWS.
-
-## Talks
-
-The initial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_  [slides here](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents)
-A follow up talk was given at OWASP DevSlop in May 2022. [video](https://www.youtube.com/watch?v=JBUgAXvcObU), [slides](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents-2022)
-
 ### A Note on Blameless Postmortems
 
 This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame.
@@ -47,6 +29,7 @@ A repository of breaches of AWS customers
 | Drizly  | 2018  | AWS Credentials committed to public github repo | N/A | Cryptojacking | [FEDERAL TRADE COMMISSION - Drizly Complaint](https://archive.ph/BbOvv) |
 | LA Times  | 2018, February  | S3 global write access | N/A | Cryptojacking | [Coinhive cryptojacking added to homicide.latimes.com](https://web.archive.org/web/20210413201832/https://www.tripwire.com/state-of-security/security-data-protection/la-times-website-cryptojacking-attack/) |
 | Tesla | 2018, February  | Globally exposed Kubernetes console, Pod with AWS credentials | N/A | Cryptojacking | [Hack Brief: Hackers Enlisted Tesla's Public Cloud to Mine Cryptocurrency](https://www.wired.com/story/cryptojacking-tesla-amazon-cloud/) |
+| Chegg | 2018, April | Former contractor abuses broadly shared root credential | Unknown | 40 million users' data (from S3 bucket) | [FTC Complaint](https://www.ftc.gov/system/files/ftc_gov/pdf/2023151-Chegg-Complaint.pdf) |
 | imToken | 2018, June  | Email account compromise | Reset AWS account password | Minimal customer device data | [ Disclosure of Security Incidents on imToken ](https://archive.ph/bRjXi) |
 | Voova  | 2019, March  | Stolen credentials by former employee  | N/A | Deleted 23 servers |  [Sacked IT guy annihilates 23 of his ex-employer’s AWS servers](https://nakedsecurity.sophos.com/2019/03/22/sacked-it-guy-annihilates-23-of-his-ex-employers-aws-servers/)  |
 | Capital One  | 2019, April  | "Misconfigured WAF" that allowed for a SSRF attack  | Over-privileged EC2 Role | 100 million credit applications |  [A Technical Analysis of the Capital One Cloud Misconfiguration Breach](https://www.fugue.co/blog/a-technical-analysis-of-the-capital-one-cloud-misconfiguration-breach)  |
@@ -118,6 +101,30 @@ For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata C
 | TeamTNT | Exploit misconfigured docker and k8s | [MITRE ATT&CK -  TeamTNT](https://attack.mitre.org/groups/G0139/) |
 | UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
 | Watchdog | Exploit misconfigured docker and k8s | [TeamTNT Returns – or Does It?](https://www.trendmicro.com/en_us/research/22/j/teamtnt-returns-or-does-it.html) |
+
+## Other Cloud Threat Trend Analysis
+
+GCP's [November 2021 Cloud Threat Intelligence report](https://services.google.com/fh/files/misc/gcat-threathorizons-full-nov2021.pdf) found that:
+> Of 50 recently compromised GCP instances, 86% of the compromised Google Cloud instances were used to perform cryptocurrency mining
+
+Their [July 2022 report](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_july2022.pdf) also highlights that:
+> the most common attack vectors used across cloud providers was brute force of cloud services that are exposed to the internet and have a weak or default password ... close behind brute force attacks was the exploitation of vulnerable software
+
+[Rich Mogull's](https://twitter.com/rmogull) summary of [a 2022 AWS re:Inforce session on ransomware](https://www.firemon.com/what-you-need-to-know-about-ransomware-in-aws/) highlight's that ransomware is a common problem for AWS customers, stemming from two common exploit vectors:
+> A traditional ransomware attack against instances in AWS. The attacker compromises an instance (often via phishing a user/admin, not always direct compromise), then installs their malware to encrypt the data and spread to other reachable instances. This is really no different than ransomware in a data center since it doesn’t involve anything cloud-specific.
+
+> The attacker copies data out of an S3 bucket and then deletes the original data. This is the most commonly seen cloud native ransomware on AWS.
+
+[Expel's Q1 2022 Threat Report](https://expel.com/wp-content/uploads/2022/05/Expel-QTR-051822.pdf) found:
+> Misconfigurations and exposed long-term credentials in Amazon Web Services (AWS) and Google Cloud Platform (GCP) accounted for 3% of incidents
+> These incidents break down into two categories:
+> 1. Admins accidentally setting AWS S3 Buckets to Public
+> 2. Threat actors gaining access to exposed long-lived credentials in AWS and GCP, which resulted in unauthorized access
+
+## Talks
+
+The initial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_  [slides here](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents)
+A follow up talk was given at OWASP DevSlop in May 2022. [video](https://www.youtube.com/watch?v=JBUgAXvcObU), [slides](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents-2022)
 
 <a class="anchor" id="1"></a> [Postmortem Culture: Learning from Failure](https://sre.google/sre-book/postmortem-culture/)
 
