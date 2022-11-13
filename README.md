@@ -1,4 +1,4 @@
-## Background
+# Background
 
 Security is an exercise in managing risk. Reviewing the common root causes of security incidents is an effective way to guide prioritized remediation efforts.
 
@@ -11,7 +11,7 @@ It also excludes incidents impacting individuals, such as the periodic reports o
 
 This repository is in no way intended as a criticism of the listed companies. In the spirit of blameless postmortems [<sup>1</sup>](#1), our goal is to learn from incidents without an atmosphere of blame.
 
-## Catalog of AWS Customer Security Incidents
+# Catalog of AWS Customer Security Incidents
 
 A repository of breaches of AWS customers
 
@@ -58,7 +58,7 @@ A repository of breaches of AWS customers
 | Flexbooker | 2021, December | Unknown | Unknown | 3.7M first and last names, email addresses, phone numbers, "encrypted" passwords | [Booking management platform FlexBooker leaks 3.7 million user records](https://therecord.media/booking-management-platform-flexbooker-leaks-3-7-million-user-records/) |
 | Uber | 2022, September | Contractor account compromise leading to AWS credential discovery on a shared drive | Unknown | N/A | [Uber - Security update](https://www.uber.com/newsroom/security-update/) |
 
-## Catalog of Vendor Reports on AWS Customer Security Incidents
+## Vendor-reported AWS Customer Security Incident Case Studies
 
 | Report | Date | Root Cause | Escalation Vector(s) | Impact | Link to details|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -68,6 +68,46 @@ A repository of breaches of AWS customers
 | Mandiant: Insider Threat Scenario | 2020, September | Fired employee uses credentials | Access CI/CD server, create a new user, steal credentials | Deleted production databases | [Cloud Breaches: Case Studies, Best Practices, and Pitfalls](https://web.archive.org/web/20201103091354/https://www.youtube.com/watch?v=rtEjI_5TPdw&feature=youtu.be/) |
 | Expel case study 3 | 2022, April | Credentials in publicly available code repository | AttachUserPolicy used for privesc | Cryptomining (prevented) | [Incident report: From CLI to console, chasing an attacker in AWS](https://expel.com/blog/incident-report-from-cli-to-console-chasing-an-attacker-in-aws/) |
 | Permiso case study 1 | 2022, June | Gitlab vulnerability (CVE-2021-22205) | Credentials on the system found, used to create a backupuser | Cryptomining | [Anatomy of an Attack: Exposed keys to Crypto Mining](https://web.archive.org/web/20220629061640/https://permiso.io/blog/s/anatomy-of-attack-exposed-keys-to-crypto-mining/) |
+
+## Catalog of AWS Threat Actors
+
+| Name | Vectors | Reports |
+| ------------- | ------------- | ------------- |
+| 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
+| Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
+| Cosmic Wolf | Credential compromise | [CrowdStrike - 2022 Global Threat Report](https://irp.cdn-website.com/5d9b1ea1/files/uploaded/Report2022GTR.pdf) |
+| Demonia | Lambda Malware | [Cado Discovers Denonia: The First Malware Specifically Targeting Lambda](https://www.cadosecurity.com/cado-discovers-denonia-the-first-malware-specifically-targeting-lambda/) |
+| Kinsing | Malware| [CyberArk - Kinsing: The Malware with Two Faces](https://www.cyberark.com/resources/threat-research-blog/kinsing-the-malware-with-two-faces) |
+| LAPSUS$ / DEV-0537 | phone-based social engineering; SIM-swapping to facilitate account takeover; accessing personal email accounts of employees at target organizations; paying employees, suppliers, or business partners of target organizations for access to credentials and multifactor authentication (MFA) approval | [Microsoft - DEV-0537 criminal actor targeting organizations for data exfiltration and destruction](https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/) |
+| Rocke | Targeting known CVEs | [Cisco Talos -  Rocke: The Champion of Monero Miners ](https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html) |
+| TeamTNT | Exploit misconfigured docker and k8s | [MITRE ATT&CK -  TeamTNT](https://attack.mitre.org/groups/G0139/) |
+| UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
+| Watchdog | Exploit misconfigured docker and k8s | [TeamTNT Returns – or Does It?](https://www.trendmicro.com/en_us/research/22/j/teamtnt-returns-or-does-it.html) |
+
+## "State of the Cloud" Report Incident Takeaways
+
+| Report | Takeaways | 
+| ------------- | ------------- | 
+| Palo Alto Unit 42: [Cloud Threat Report H2 2020](https://falksangdata.no/wp-content/uploads/2021/04/unit-42-cloud-threat-report-2h-2020.pdf) | Unit 42 research shows that cryptojacking affects at least 23% of organizations globally that maintain cloud infrastructure |
+| Expel: [Q1 2022 Threat Report](https://expel.com/wp-content/uploads/2022/05/Expel-QTR-051822.pdf) | Misconfigurations and exposed long-term credentials in Amazon Web Services (AWS) and Google Cloud Platform (GCP) accounted for 3% of incidents<br />These incidents break down into two categories:<br />1. Admins accidentally setting AWS S3 Buckets to Public<br />2. Threat actors gaining access to exposed long-lived credentials in AWS and GCP, which resulted in unauthorized access |
+| Fugue: [The State of Cloud Security 2021](https://f.hubspotusercontent20.net/hubfs/4846674/Resources%20Content/State_of_Cloud_Security_2021.pdf) | N/A |
+| IDC for Ermetic: [State of Cloud Security 2021](https://www.vpngids.nl/wp-content/uploads/ermetic-idc-survey-report-state-of-cloud-security-2021.pdf) | Most organizations (63%) confirmed that their sensitive data has been exposed in the cloud |
+| Snyk: [State of Cloud Native Application Security 2021](https://go.snyk.io/rs/677-THP-415/images/State%20of%20CNAS.pdf) | Over 56% experienced a misconfiguration or known unpatched vulnerability incident involving their cloud native applications |
+| GCP: [November 2021 Cloud Threat Intelligence report](https://services.google.com/fh/files/misc/gcat-threathorizons-full-nov2021.pdf) | Of 50 recently compromised GCP instances, 86% of the compromised Google Cloud instances were used to perform cryptocurrency mining |
+| AWS: [2022 re:Inforce session on ransomware](https://www.firemon.com/what-you-need-to-know-about-ransomware-in-aws) h/t [Rich Mogull](https://twitter.com/rmogull)  | ransomware is a common problem for AWS customers, stemming from two common exploit vectors:<br />A traditional ransomware attack against instances in AWS. The attacker compromises an instance (often via phishing a user/admin, not always direct compromise), then installs their malware to encrypt the data and spread to other reachable instances. This is really no different than ransomware in a data center since it doesn’t involve anything cloud-specific.<br />The attacker copies data out of an S3 bucket and then deletes the original data. This is the most commonly seen cloud native ransomware on AWS.| 
+| CrowdStrike: [2022 Global Threat Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/Report2022GTR.pdf) | Cloud-related threats are particularly likely to become more prevalent and to evolve, given that targeted intrusion adversaries are expected to continue prioritizing targets that provide direct access to large consolidated stores of high-value data |
+| CrowdStrike: [Protectors of the Cloud eBook](https://go.crowdstrike.com/rs/281-OBQ-266/images/eBookProtectorsoftheCloudEng.pdf) | CrowdStrike continues to see adversary activity in three particular areas concerning the cloud:<br />Neglected cloud infrastructure that is slated for retirement yet still contains sensitive data<br />A lack of outbound restrictions and workload protection to exfiltrate your data<br />Adversaries leveraging common cloud services to obfuscate malicious activity |
+| Datadog: [State of AWS Security 2022](https://www.datadoghq.com/state-of-aws-security/) | N/A |
+| ENISA [Threat Landscape 2022](https://www.enisa.europa.eu/topics/cyber-threats/threats-and-trends) | Cybercriminals target cloud services mostly in the following ways. \n * Exploiting cloud vulnerabilities: virtualisation infrastructure has been increasingly targeted (e.g. VMWare vSphere and ESXi platforms) by cybercriminals and especially by ransomware groups.<br />• Using cloud services for hosting their infrastructure: cybercriminals take advantage of the highly scalable and reliable cloud infrastructure and use legitimate cloud services to bypass security controls by blending into normal network traffic.<br />• Targeting cloud credentials: cybercriminals use social engineering attacks to harvest credentials for cloud services (e.g. Microsoft Office 365, Okta, etc.).<br />• Exploiting misconfigured image containers cybercriminals increasingly target poorly configured Docker containers and Kubernetes clusters.<br />• Targeting cloud instances for cryptomining (e.g. TeamTNT group): security researchers have identified a cloud-focused toolset from the TeamTNT group.<br />• Targeting cloud infrastructure (e.g. Azure AD), cloud application programming interfaces (APIs), and cloud-hosted backups by ransomware groups to infiltrate cloud environments and increase impact. |
+| Fidelis: [2022 AWS Cloud Security Report](https://connect.fidelissecurity.com/rs/884-ZRZ-648/images/2022-AWS-Cloud-Security-Report.pdf) | For the 31% of organizations that experienced a security incident in the cloud, misconfiguration was the leading cause (28%), followed by inappropriately shared data (17%) and account compromise (15%). Exploited vulnerabilities account for 13% of incidents |
+| GCP: [July 2022 Cloud Threat Intelligence report](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_july2022.pdf) | the most common attack vectors used across cloud providers was brute force of cloud services that are exposed to the internet and have a weak or default password ... close behind brute force attacks was the exploitation of vulnerable software | 
+| IBM: [Cost of a Data Breach 2022](https://ermetic.com/blog/cloud/ibm-cost-of-a-data-breach-2022-highlights-for-cloud-security-professionals/)| 45% of Breaches Were Cloud-Based. Stolen or compromised credentials were the number one attack vector in the past two years. Following credentials, the next most common initial attack vectors were:<br />Second place: Phishing - 16% of breaches, $4.91M average costs<br />Third place: Cloud misconfigurations - 15% of breaches, $4.14M average costs<br />Fourth place: Third-party software vulnerability - 13% of breaches, $4.55M average costs|<br /> |
+| (ISC)2: [2022 Cloud Security Report](https://www.isc2.org/-/media/5E48A83950264AB1B265B1F073F5C9FB.ashx) | We asked cybersecurity professionals about the cloud security threats that most concern them. Misconfiguration of cloud security remains the biggest cloud security risk according to 62% of cybersecurity professionals in our survey. This is followed by insecure interfaces/APIs (54%), exfiltration of sensitive data (51%) and unauthorized access (50%). |
+| Orca: [2022 State of Public Cloud Security](https://orca.security/wp-content/uploads/2022/09/Orca-Securitys-2022-State-of-Public-Cloud-Security-Report.pdf) | N/A |
+| Palo Alto Unit 42: [Incident Response Threat Report 2022](https://www.paloaltonetworks.com/unit42/2022-incident-response-report) |  Nearly 65% of known cloud security incidents were due to misconfigurations. The main culprit? IAM configuration. |
+| riskrecon: [Cloud Risk Surface Report](https://cdn2.hubspot.net/hubfs/2477095/Cloud%20Risk%20Surface%20Report%202019/RR_Cloud-Report_Web_final%20(1).pdf) | N/A |
+| Snyk: [State of cloud security 2022](https://resources.snyk.io/state-of-cloud-security) | 80% of organizations experienced a serious cloud security incident during the last year - 33% breach, 26% leak, 27% intrusion, 23% cryptomining |
+| Wiz: [2022 cloud security threats report](https://www.datocms-assets.com/75231/1659965344-6223652ebbad288bbdfa046e_2022-cloud-security-threats.pdf) | Effectively, unintentionally exposed databases are one of the most common sources of data breaches |
 
 ## Catalog of AWS Exploits via SSRF
 
@@ -86,40 +126,6 @@ A repository of breaches of AWS customers
 * [Mozilla - AWS SSRF to Pull AWS Metadata and Keys](https://bugzilla.mozilla.org/show_bug.cgi?id=1550366)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
-
-## Catalog of AWS Threat Actors
-
-| Name | Vectors | Reports |
-| ------------- | ------------- | ------------- |
-| 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
-| Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
-| Cosmic Wolf | Credential compromise | [CrowdStrike - 2022 Global Threat Report](https://irp.cdn-website.com/5d9b1ea1/files/uploaded/Report2022GTR.pdf) |
-| Demonia | Lambda Malware | [Cado Discovers Denonia: The First Malware Specifically Targeting Lambda](https://www.cadosecurity.com/cado-discovers-denonia-the-first-malware-specifically-targeting-lambda/) |
-| Kinsing | Malware| [CyberArk - Kinsing: The Malware with Two Faces](https://www.cyberark.com/resources/threat-research-blog/kinsing-the-malware-with-two-faces) |
-| LAPSUS$ / DEV-0537 | phone-based social engineering; SIM-swapping to facilitate account takeover; accessing personal email accounts of employees at target organizations; paying employees, suppliers, or business partners of target organizations for access to credentials and multifactor authentication (MFA) approval | [Microsoft - DEV-0537 criminal actor targeting organizations for data exfiltration and destruction](https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/) |
-| Rocke | Targeting known CVEs | [Cisco Talos -  Rocke: The Champion of Monero Miners ](https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html) |
-| TeamTNT | Exploit misconfigured docker and k8s | [MITRE ATT&CK -  TeamTNT](https://attack.mitre.org/groups/G0139/) |
-| UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
-| Watchdog | Exploit misconfigured docker and k8s | [TeamTNT Returns – or Does It?](https://www.trendmicro.com/en_us/research/22/j/teamtnt-returns-or-does-it.html) |
-
-## Other Cloud Threat Trend Analysis
-
-GCP's [November 2021 Cloud Threat Intelligence report](https://services.google.com/fh/files/misc/gcat-threathorizons-full-nov2021.pdf) found that:
-> Of 50 recently compromised GCP instances, 86% of the compromised Google Cloud instances were used to perform cryptocurrency mining
-
-Their [July 2022 report](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_july2022.pdf) also highlights that:
-> the most common attack vectors used across cloud providers was brute force of cloud services that are exposed to the internet and have a weak or default password ... close behind brute force attacks was the exploitation of vulnerable software
-
-[Rich Mogull's](https://twitter.com/rmogull) summary of [a 2022 AWS re:Inforce session on ransomware](https://www.firemon.com/what-you-need-to-know-about-ransomware-in-aws/) highlight's that ransomware is a common problem for AWS customers, stemming from two common exploit vectors:
-> A traditional ransomware attack against instances in AWS. The attacker compromises an instance (often via phishing a user/admin, not always direct compromise), then installs their malware to encrypt the data and spread to other reachable instances. This is really no different than ransomware in a data center since it doesn’t involve anything cloud-specific.
-
-> The attacker copies data out of an S3 bucket and then deletes the original data. This is the most commonly seen cloud native ransomware on AWS.
-
-[Expel's Q1 2022 Threat Report](https://expel.com/wp-content/uploads/2022/05/Expel-QTR-051822.pdf) found:
-> Misconfigurations and exposed long-term credentials in Amazon Web Services (AWS) and Google Cloud Platform (GCP) accounted for 3% of incidents
-> These incidents break down into two categories:
-> 1. Admins accidentally setting AWS S3 Buckets to Public
-> 2. Threat actors gaining access to exposed long-lived credentials in AWS and GCP, which resulted in unauthorized access
 
 ## Talks
 
