@@ -75,6 +75,7 @@ A repository of breaches of AWS customers
 | Name | Vectors | Reports |
 | ------------- | ------------- | ------------- |
 | 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
+| AndroxGh0st / Xcatze  | Exposed Laravel .env configs, use compromise for SES spam or malicious email  | [Lacework Labs - AndroxGh0st: the python malware exploiting your AWS keys](https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys/) |
 | Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
 | Cosmic Wolf | Credential compromise | [CrowdStrike - 2022 Global Threat Report](https://irp.cdn-website.com/5d9b1ea1/files/uploaded/Report2022GTR.pdf) |
 | Demonia | Lambda Malware | [Cado Discovers Denonia: The First Malware Specifically Targeting Lambda](https://www.cadosecurity.com/cado-discovers-denonia-the-first-malware-specifically-targeting-lambda/) |
