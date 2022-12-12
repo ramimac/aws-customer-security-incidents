@@ -112,7 +112,14 @@ A repository of breaches of AWS customers
 | Snyk: [State of cloud security 2022](https://resources.snyk.io/state-of-cloud-security) | 80% of organizations experienced a serious cloud security incident during the last year - 33% breach, 26% leak, 27% intrusion, 23% cryptomining |
 | Wiz: [2022 cloud security threats report](https://www.datocms-assets.com/75231/1659965344-6223652ebbad288bbdfa046e_2022-cloud-security-threats.pdf) | Effectively, unintentionally exposed databases are one of the most common sources of data breaches |
 
-## Catalog of AWS Exploits via SSRF
+
+## Disclosure (responsible, coordinated, public)
+
+| Vulnerability | Reference |
+| ------------- | ------------- |
+| AWS Key in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
+
+### Catalog of AWS Exploits via SSRF
 
 [Server-side request forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) is a class of attack that is not cloud or AWS specific. However, the existence of cloud metadata services, such as [IMDS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) in AWS, have historically allowed for a substantial straightforward impact when SSRF is achieved on a cloud hosted application. For that reason, we include this list of SSRF attacks against AWS environments.
 
@@ -129,6 +136,7 @@ A repository of breaches of AWS customers
 * [Mozilla - AWS SSRF to Pull AWS Metadata and Keys](https://bugzilla.mozilla.org/show_bug.cgi?id=1550366)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
+
 
 ## Talks
 
