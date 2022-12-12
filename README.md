@@ -115,9 +115,17 @@ A repository of breaches of AWS customers
 
 ## Disclosure (responsible, coordinated, public)
 
-| Vulnerability | Reference |
-| ------------- | ------------- |
-| AWS Key in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
+| Date | Vulnerability | Reference |
+| ------------- | ------------- | ------------- |
+| 2021, Apr | Ssubdomain takeover, deleted EC2 instance  | [Subdomain takeover of www2.growasyouplan.com](https://hackerone.com/reports/1179193) |
+| 2021, Oct | AWS Creds hardcoded in MSI | [Hardcoded AWS credentials in ███████.msi](https://hackerone.com/reports/1368690) |
+| 2021, Nov | Potential subdomain takeover, dangling CNAME  | [Possible Domain Takeover on AWS Instance](https://hackerone.com/reports/1390782) |
+| 2021, Nov | Subdomain takeover, deleted S3 bucket  | [Subdomain takeover of images.crossinstall.com](https://hackerone.com/reports/1406335) |
+| 2021, Dec | Account takeover via Cognito user email change | [Flickr Account Takeover using AWS Cognito API](https://hackerone.com/reports/1342088) |
+| 2022, Feb | Credentials leaked in repository | [Access to Glassdoor's Infra (AWS) and BitBucket account through leaked repo](https://hackerone.com/reports/801531) | 
+| 2022, Oct | Subdomain takeover, deleted S3 bucket | [Subdomain takeover at http://test.www.midigator.com](https://hackerone.com/reports/1718371) |
+| 2022, Nov | AWS Creds in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
+| 2022, Jan | NoSQL-Injection discloses discloses S3 File Upload URLs | [NoSQL-Injection discloses S3 File Upload URLs](https://hackerone.com/reports/1458020) |
 
 ### Catalog of AWS Exploits via SSRF
 
@@ -134,6 +142,10 @@ A repository of breaches of AWS customers
 * [How I discovered an SSRF leading to AWS Metadata Leakage](https://techkranti.com/ssrf-aws-metadata-leakage/)
 * [Exploitation of an SSRF vulnerability against EC2 IMDSv2](https://www.yassineaboukir.com/blog/exploitation-of-an-SSRF-vulnerability-against-EC2-IMDSv2/)
 * [Mozilla - AWS SSRF to Pull AWS Metadata and Keys](https://bugzilla.mozilla.org/show_bug.cgi?id=1550366)
+* [Full read SSRF in www.evernote.com that can leak aws metadata and local file inclusion](https://hackerone.com/reports/1189367) |
+* [SSRF allows reading AWS EC2 metadata using "readapi" variable in Streamlabs Cloudbot](https://hackerone.com/reports/1108418)
+* [Server Side Request Forgery (SSRF) at app.hellosign.com leads to AWS private keys disclosure](https://hackerone.com/reports/923132)
+* [SSRF via Office file thumbnails](https://hackerone.com/reports/671935)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
