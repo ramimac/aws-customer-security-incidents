@@ -59,6 +59,8 @@ A repository of breaches of AWS customers
 | Flexbooker | 2021, December | Unknown | Unknown | 3.7M first and last names, email addresses, phone numbers, "encrypted" passwords | [Booking management platform FlexBooker leaks 3.7 million user records](https://therecord.media/booking-management-platform-flexbooker-leaks-3-7-million-user-records/) |
 | npm | 2022, April | Third party OAuth token compromise granting private repository access, containing AWS keys | Unknown | 100k users data (from 2015) | [npm security update: Attack campaign using stolen OAuth tokens](https://github.blog/2022-05-26-npm-security-update-oauth-tokens/) |
 | Uber | 2022, September | Contractor account compromise leading to AWS credential discovery on a shared drive | Unknown | N/A | [Uber - Security update](https://www.uber.com/newsroom/security-update/) |
+| Teqtivity (Uber Vendor) | 2022, December | Unknown | Unknown | "AWS backup server" with device and user infromation  | [Breach Notification Statement](https://www.teqtivity.com/breach-notification-statement), [Uber suffers new data breach after attack on vendor, info leaked online](https://www.bleepingcomputer.com/news/security/uber-suffers-new-data-breach-after-attack-on-vendor-info-leaked-online/) |
+
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
 
