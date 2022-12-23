@@ -147,6 +147,7 @@ A repository of breaches of AWS customers
 * [SSRF allows reading AWS EC2 metadata using "readapi" variable in Streamlabs Cloudbot](https://hackerone.com/reports/1108418)
 * [Server Side Request Forgery (SSRF) at app.hellosign.com leads to AWS private keys disclosure](https://hackerone.com/reports/923132)
 * [SSRF via Office file thumbnails](https://hackerone.com/reports/671935)
+* [Getting AWS creds via SSRF on rss.app](https://ruse.tech/blogs/rss-app-ssrf)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
