@@ -77,6 +77,8 @@ A repository of breaches of AWS customers
 | Positive Thinking Company case study | 2022, June | Unknown | N/A | Cryptojacking | [Mitigating a crypto jacking incident on an AWS machine from the earliest stages](https://positivethinking.tech/use-cases/mitigating-a-crypto-jacking-incident-on-an-aws-machine-from-the-earliest-stages/) |
 | Palo Alto Unit 42 | 2022, December | Code execution in Lambda context | Exfiltrate credentials from envvars | SES abuse for phishing | [Compromised Cloud Compute Credentials: Case Studies From the Wild](https://unit42.paloaltonetworks.com/compromised-cloud-compute-credentials/) |
 | Permiso case study 2 | 2022, December | Exploit publicly facing software, mainly Jupyter notebooks or k8s | N/A | Credential Theft | [Cloud Cred Harvesting Campaign - Grinch Edition](https://permiso.io/blog/s/christmas-cloud-cred-harvesting-campaign/) |
+| Expel case study 4 | 2023, January | Publicly exposed Postman server with access key credentials stored in the project’s variables |  | (likely) AWS SES abuse (prevented) | [Incident report: stolen AWS access keys](https://expel.com/blog/incident-report-stolen-aws-access-keys/) |
+
 
 ## Catalog of AWS Threat Actors
 
