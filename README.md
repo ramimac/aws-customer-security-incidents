@@ -118,6 +118,8 @@ A repository of breaches of AWS customers
 | riskrecon: [Cloud Risk Surface Report](https://cdn2.hubspot.net/hubfs/2477095/Cloud%20Risk%20Surface%20Report%202019/RR_Cloud-Report_Web_final%20(1).pdf) | N/A |
 | Snyk: [State of cloud security 2022](https://resources.snyk.io/state-of-cloud-security) | 80% of organizations experienced a serious cloud security incident during the last year - 33% breach, 26% leak, 27% intrusion, 23% cryptomining |
 | Wiz: [2022 cloud security threats report](https://www.datocms-assets.com/75231/1659965344-6223652ebbad288bbdfa046e_2022-cloud-security-threats.pdf) | Effectively, unintentionally exposed databases are one of the most common sources of data breaches |
+| GCP: [GCAT Threat Horizons January 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jan2023.pdf) | The most common cloud compromise factors from Q3 2022 include Weak or No Credentials (41.1%), API Compromise (19.6%), Software issue (17.9%), and Misconfiguration (16.1%) | 
+
 
 
 ## Disclosure (responsible, coordinated, public)
