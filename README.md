@@ -59,7 +59,7 @@ A repository of breaches of AWS customers
 | Flexbooker | 2021, December | Unknown | Unknown | 3.7M first and last names, email addresses, phone numbers, "encrypted" passwords | [Booking management platform FlexBooker leaks 3.7 million user records](https://therecord.media/booking-management-platform-flexbooker-leaks-3-7-million-user-records/) |
 | npm | 2022, April | Third party OAuth token compromise granting private repository access, containing AWS keys | Unknown | 100k users data (from 2015) | [npm security update: Attack campaign using stolen OAuth tokens](https://github.blog/2022-05-26-npm-security-update-oauth-tokens/) |
 | Uber | 2022, September | Contractor account compromise leading to AWS credential discovery on a shared drive | Unknown | N/A | [Uber - Security update](https://www.uber.com/newsroom/security-update/) |
-| Teqtivity (Uber Vendor) | 2022, December | Unknown | Unknown | "AWS backup server" with device and user infromation  | [Breach Notification Statement](https://www.teqtivity.com/breach-notification-statement), [Uber suffers new data breach after attack on vendor, info leaked online](https://www.bleepingcomputer.com/news/security/uber-suffers-new-data-breach-after-attack-on-vendor-info-leaked-online/) |
+| Teqtivity (Uber Vendor) | 2022, December | Unknown | Unknown | "AWS backup server" with device and user information  | [Breach Notification Statement](https://www.teqtivity.com/breach-notification-statement), [Uber suffers new data breach after attack on vendor, info leaked online](https://www.bleepingcomputer.com/news/security/uber-suffers-new-data-breach-after-attack-on-vendor-info-leaked-online/) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
@@ -72,7 +72,8 @@ A repository of breaches of AWS customers
 | Mandiant: Insider Threat Scenario | 2020, September | Fired employee uses credentials | Access CI/CD server, create a new user, steal credentials | Deleted production databases | [Cloud Breaches: Case Studies, Best Practices, and Pitfalls](https://web.archive.org/web/20201103091354/https://www.youtube.com/watch?v=rtEjI_5TPdw&feature=youtu.be/) |
 | Expel case study 3 | 2022, April | Credentials in publicly available code repository | AttachUserPolicy used for privesc | Cryptomining (prevented) | [Incident report: From CLI to console, chasing an attacker in AWS](https://expel.com/blog/incident-report-from-cli-to-console-chasing-an-attacker-in-aws/) |
 | Palo Alto Unit 42 | 2022, December | Code execution in Lambda context | Exfiltrate credentials from envvars | SES abuse for phishing | [Compromised Cloud Compute Credentials: Case Studies From the Wild](https://unit42.paloaltonetworks.com/compromised-cloud-compute-credentials/) |
-| Permiso case study 1 | 2022, June | Gitlab vulnerability (CVE-2021-22205) | Credentials on the system found, used to create a backupuser | Cryptomining | [Anatomy of an Attack: Exposed keys to Crypto Mining](https://web.archive.org/web/20220629061640/https://permiso.io/blog/s/anatomy-of-attack-exposed-keys-to-crypto-mining/) |
+| Permiso case study 1 | 2022, June | Gitlab vulnerability (CVE-2021-22205) | Credentials on the system found, used to create a backup user | Cryptomining | [Anatomy of an Attack: Exposed keys to Crypto Mining](https://web.archive.org/web/20220629061640/https://permiso.io/blog/s/anatomy-of-attack-exposed-keys-to-crypto-mining/) |
+| Permiso case study 2 | 2022, December | Exploit publicly facing software, mainly Jupyter notebooks or k8s | N/A | Credential Theft | [Cloud Cred Harvesting Campaign - Grinch Edition](https://permiso.io/blog/s/christmas-cloud-cred-harvesting-campaign/) |
 
 ## Catalog of AWS Threat Actors
 
