@@ -81,6 +81,9 @@ A repository of breaches of AWS customers
 | Permiso case study 2 | 2022, December | Exploit publicly facing software, mainly Jupyter notebooks or k8s | N/A | Credential Theft | [Cloud Cred Harvesting Campaign - Grinch Edition](https://permiso.io/blog/s/christmas-cloud-cred-harvesting-campaign/) |
 | Expel case study 4 | 2023, January | Publicly exposed Postman server with access key credentials stored in the project’s variables | N/A | (likely) AWS SES abuse (prevented) | [Incident report: stolen AWS access keys](https://expel.com/blog/incident-report-stolen-aws-access-keys/) |
 
+| Cado Security and Invictus Incident Response | 2023, January |  | N/A |  | [Responding to an attack in AWS](https://awstip.com/responding-to-an-attack-in-aws-9048a1a551ac) |
+
+
 ## Catalog of AWS Threat Actors
 
 | Name | Vectors | Reports |
@@ -140,9 +143,10 @@ A repository of breaches of AWS customers
 | 2021, Nov | Subdomain takeover, deleted S3 bucket  | [Subdomain takeover of images.crossinstall.com](https://hackerone.com/reports/1406335) |
 | 2021, Dec | Account takeover via Cognito user email change | [Flickr Account Takeover using AWS Cognito API](https://hackerone.com/reports/1342088) |
 | 2022, Oct | Subdomain takeover, deleted S3 bucket | [Subdomain takeover at http://test.www.midigator.com](https://hackerone.com/reports/1718371) |
-| 2022, Nov | AWS Creds in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
+| 2022, Nov | AWS credentials in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
 | 2022, Jan | NoSQL-Injection discloses discloses S3 File Upload URLs | [NoSQL-Injection discloses S3 File Upload URLs](https://hackerone.com/reports/1458020) |
 | 2022, Dec | Lack of forced verification on email update in AWS Cognito | [Account Takeover Due to Cognito Misconfiguration Earns Me €xxxx](https://medium.com/@mukundbhuva/account-takeover-due-to-cognito-misconfiguration-earns-me-xxxx-3a7b8bb9a619) |
+| 2023, Jan | AWS credentials found in 57 PyPi packages | [I scanned every package on PyPi and found 57 live AWS keys](https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-keys/) |
 
 ### Catalog of AWS Exploits via SSRF
 
