@@ -168,6 +168,11 @@ A repository of breaches of AWS customers
 * [Server Side Request Forgery (SSRF) at app.hellosign.com leads to AWS private keys disclosure](https://hackerone.com/reports/923132)
 * [SSRF via Office file thumbnails](https://hackerone.com/reports/671935)
 * [Getting AWS creds via SSRF on rss.app](https://ruse.tech/blogs/rss-app-ssrf)
+* [AWS takeover through SSRF in JavaScript](https://10degres.net/aws-takeover-through-ssrf-in-javascript/)
+* [Yahoo Small Business (Luminate) and the Not-So-Secret Keys](https://dos.sh/blog/2017/6/21/yahoo-small-business-luminate-and-the-not-so-secret-keys)
+* [Bug Bounty Story: Escalating SSRF to RCE on AWS](https://hg8.sh/posts/bugbounty/ssrf-to-rce-aws/)
+* [A Nifty SSRF Bug Bounty Write Up](https://hack-ed.net/2017/11/07/a-nifty-ssrf-bug-bounty-write-up/)
+* [Mozilla Hubs Cloud: cloud api credentials exposure](https://bugzilla.mozilla.org/show_bug.cgi?id=1707898)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
