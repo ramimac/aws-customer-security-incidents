@@ -151,6 +151,7 @@ A repository of breaches of AWS customers
 
 [Server-side request forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/) is a class of attack that is not cloud or AWS specific. However, the existence of cloud metadata services, such as [IMDS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) in AWS, have historically allowed for a substantial straightforward impact when SSRF is achieved on a cloud hosted application. For that reason, we include this list of SSRF attacks against AWS environments.
 
+* October 2014 - [Prezi Got Pwned: A Tale of Responsible Disclosure](https://engineering.prezi.com/prezi-got-pwned-a-tale-of-responsible-disclosure-ccdc71bb6dd1)
 * [Bypassing SSRF Protection to Exfiltrate AWS Metadata from LarkSuite](https://sirleeroyjenkins.medium.com/bypassing-ssrf-protection-to-exfiltrate-aws-metadata-from-larksuite-bf99a3599462)
 * [ESEA Server-Side Request Forgery and Querying AWS Meta Data](https://buer.haus/2016/04/18/esea-server-side-request-forgery-and-querying-aws-meta-data/)
 * [A pair of Plotly bugs: Stored XSS and AWS Metadata SSRF](https://web.archive.org/web/20170527104436/https://ysx.me.uk/a-pair-of-plotly-bugs-stored-xss-and-aws-metadata-ssrf/)
