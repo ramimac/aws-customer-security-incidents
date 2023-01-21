@@ -60,6 +60,7 @@ A repository of breaches of AWS customers
 | npm | 2022, April | Third party OAuth token compromise granting private repository access, containing AWS keys | Unknown | 100k users data (from 2015) | [npm security update: Attack campaign using stolen OAuth tokens](https://github.blog/2022-05-26-npm-security-update-oauth-tokens/) |
 | Uber | 2022, September | Contractor account compromise leading to AWS credential discovery on a shared drive | Unknown | N/A | [Uber - Security update](https://www.uber.com/newsroom/security-update/) |
 | Teqtivity (Uber Vendor) | 2022, December | Unknown | Unknown | "AWS backup server" with device and user information  | [Breach Notification Statement](https://www.teqtivity.com/breach-notification-statement), [Uber suffers new data breach after attack on vendor, info leaked online](https://www.bleepingcomputer.com/news/security/uber-suffers-new-data-breach-after-attack-on-vendor-info-leaked-online/) |
+| CommuteAir | 2023, January | Publicly Exposed Jenkins with hardcoded credentials | N/A | 2019 FAA No Fly List | [how to completely own an airline in 3 easy steps](https://maia.crimew.gay/posts/how-to-hack-an-airline/), [U.S. airline accidentally exposes ‘No Fly List’ on unsecured server](https://www.dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair/) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
