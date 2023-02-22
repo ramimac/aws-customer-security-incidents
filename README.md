@@ -132,6 +132,7 @@ A repository of breaches of AWS customers
 | Trend Micro: [2022 Midyear Cybersecurity Report](https://raw.githubusercontent.com/jacobdjwilson/awesome-annual-security-reports/main/Annual%20Security%20Reports/2022/TrendMicro-Defending-The-Expanding-Attack-Surface-2022.pdf) | 62% of the respondents admitted to having blind spots that weaken their security posture. 37% of the organizations also claimed to have the least insight into cloud assets. 35% said the same of their insights into networks, while 32% responded that they have the least insight into their end-user assets. | 
 | Wiz: [2022 cloud security threats report](https://www.datocms-assets.com/75231/1659965344-6223652ebbad288bbdfa046e_2022-cloud-security-threats.pdf) | Effectively, unintentionally exposed databases are one of the most common sources of data breaches |
 | GCP: [GCAT Threat Horizons January 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jan2023.pdf) | The most common cloud compromise factors from Q3 2022 include Weak or No Credentials (41.1%), API Compromise (19.6%), Software issue (17.9%), and Misconfiguration (16.1%) | 
+| Wiz: [State of the Cloud 2023](https://www.wiz.io/blog/the-top-cloud-security-threats-to-be-aware-of-in-2023) | In experiments we ran where we created S3 buckets ... we spotted attempts to list the contents of the S3 buckets in as little as 13 hours | 
 
 ## Disclosure (responsible, coordinated, public)
 
