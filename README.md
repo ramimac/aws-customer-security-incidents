@@ -85,7 +85,6 @@ A repository of breaches of AWS customers
 | Cado Security and Invictus Incident Response | 2023, January |  | N/A |  | [Responding to an attack in AWS](https://awstip.com/responding-to-an-attack-in-aws-9048a1a551ac), [Part 2](https://awstip.com/responding-to-an-attack-in-aws-dae857806aa7) |
 | AWS | 2023, February | Key disclosure, or SSRF | N/A | N/A |[The anatomy of ransomware event targeting data residing in Amazon S3](https://aws.amazon.com/blogs/security/anatomy-of-a-ransomware-event-targeting-data-in-amazon-s3/) |
 
-
 ## Catalog of AWS Threat Actors
 
 | Name | Vectors | Reports |
@@ -152,6 +151,7 @@ A repository of breaches of AWS customers
 | 2022, Dec | Lack of forced verification on email update in AWS Cognito | [Account Takeover Due to Cognito Misconfiguration Earns Me €xxxx](https://medium.com/@mukundbhuva/account-takeover-due-to-cognito-misconfiguration-earns-me-xxxx-3a7b8bb9a619) |
 | 2023, Jan | AWS credentials found in 57 PyPi packages | [I scanned every package on PyPi and found 57 live AWS keys](https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-keys/) |
 | 2023, Jan | AWS credentials disclosed in client-side source | [Owning half of a government assets through AWS](https://crypt0g30rgy.github.io/post/AWSTakeover) |
+| 2023, Feb | RCE in Lambda function with access to AWS credentials via /proc/*/environ | [Facebook bug: A Journey from Code Execution to S3 Data Leak](https://medium.com/@win3zz/facebook-bug-a-journey-from-code-execution-to-s3-data-leak-698b7d2b02ef) |
 
 ### Catalog of AWS Exploits via SSRF
 
