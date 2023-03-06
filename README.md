@@ -84,6 +84,8 @@ A repository of breaches of AWS customers
 | Expel case study 4 | 2023, January | Publicly exposed Postman server with access key credentials stored in the project’s variables | N/A | (likely) AWS SES abuse (prevented) | [Incident report: stolen AWS access keys](https://expel.com/blog/incident-report-stolen-aws-access-keys/) |
 | Cado Security and Invictus Incident Response | 2023, January |  | N/A |  | [Responding to an attack in AWS](https://awstip.com/responding-to-an-attack-in-aws-9048a1a551ac), [Part 2](https://awstip.com/responding-to-an-attack-in-aws-dae857806aa7) |
 | AWS | 2023, February | Key disclosure, or SSRF | N/A | N/A |[The anatomy of ransomware event targeting data residing in Amazon S3](https://aws.amazon.com/blogs/security/anatomy-of-a-ransomware-event-targeting-data-in-amazon-s3/) |
+| Sysdig | 2023, February | Exploit public facing k8s service | IAM creds in Lambda env vars and in S3 bucket | Data exfiltration | [SCARLETEEL: Operation leveraging Terraform, Kubernetes, and AWS for data theft](https://sysdig.com/blog/cloud-breach-terraform-data-theft/) |
+
 
 ## Catalog of AWS Threat Actors
 
