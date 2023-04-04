@@ -156,6 +156,7 @@ A repository of breaches of AWS customers
 | 2023, Jan | AWS credentials disclosed in client-side source | [Owning half of a government assets through AWS](https://crypt0g30rgy.github.io/post/AWSTakeover) |
 | 2023, Feb | RCE in Lambda function with access to AWS credentials via /proc/*/environ | [Facebook bug: A Journey from Code Execution to S3 Data Leak](https://medium.com/@win3zz/facebook-bug-a-journey-from-code-execution-to-s3-data-leak-698b7d2b02ef) |
 | 2023, Mar | Staging environment file leaked, revealing AWS Access Keys and Secrets | [Saudi social media app leaks user info and pictures](https://cybernews.com/privacy/saudi-social-media-app-leaks-user-info/) |
+| 2023, Mar | Passive subdomain takeover | [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign](https://kmsec.uk/blog/passive-takeover/) |
 
 ### Catalog of AWS Exploits via SSRF
 
