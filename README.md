@@ -86,6 +86,7 @@ A repository of breaches of AWS customers
 | Cado Security and Invictus Incident Response | 2023, January |  | N/A |  | [Responding to an attack in AWS](https://awstip.com/responding-to-an-attack-in-aws-9048a1a551ac), [Part 2](https://awstip.com/responding-to-an-attack-in-aws-dae857806aa7) |
 | AWS | 2023, February | Key disclosure, or SSRF | N/A | N/A |[The anatomy of ransomware event targeting data residing in Amazon S3](https://aws.amazon.com/blogs/security/anatomy-of-a-ransomware-event-targeting-data-in-amazon-s3/) |
 | Sysdig | 2023, February | Exploit public facing k8s service | IAM creds in Lambda env vars and in S3 bucket | Data exfiltration | [SCARLETEEL: Operation leveraging Terraform, Kubernetes, and AWS for data theft](https://sysdig.com/blog/cloud-breach-terraform-data-theft/) |
+| Invictus IR | 2023, April | exposed long-term credentials | CreateUser | data exfiltration and deletion with ransom note | [Ransomware in the cloud](https://invictus-ir.medium.com/ransomware-in-the-cloud-7f14805bbe82) |
 
 
 ## Catalog of AWS Threat Actors 
