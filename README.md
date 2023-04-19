@@ -140,6 +140,7 @@ A repository of breaches of AWS customers
 | GCP: [GCAT Threat Horizons January 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jan2023.pdf) | The most common cloud compromise factors from Q3 2022 include Weak or No Credentials (41.1%), API Compromise (19.6%), Software issue (17.9%), and Misconfiguration (16.1%) | 
 | Wiz: [State of the Cloud 2023](https://www.wiz.io/blog/the-top-cloud-security-threats-to-be-aware-of-in-2023) | In experiments we ran where we created S3 buckets ... we spotted attempts to list the contents of the S3 buckets in as little as 13 hours | 
 | Permiso: [2022 - End of Year Observations](https://permiso.io/blog/s/permiso-2022-end-of-year-observations/) | All of the incidents we detected and responded to were a result of a compromised credential ... GitHub is still one of the primary sources ... The majority of exposed keys live in three main file types: APKs, Windows Biaries, Plain Text Files | 
+| GCP: [GCAT Threat Horizons April 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_apr2023.pdf) | The most common cloud compromise factors from Q4 2022 include Weak or No Credentials (47.8%), API Compromise (19.6%), Software issue (13.0%), and Misconfiguration (10.9%) | 
 
 ## Disclosure (responsible, coordinated, public)
 
