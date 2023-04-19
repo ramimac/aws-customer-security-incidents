@@ -87,7 +87,8 @@ A repository of breaches of AWS customers
 | AWS | 2023, February | Key disclosure, or SSRF | N/A | N/A |[The anatomy of ransomware event targeting data residing in Amazon S3](https://aws.amazon.com/blogs/security/anatomy-of-a-ransomware-event-targeting-data-in-amazon-s3/) |
 | Sysdig | 2023, February | Exploit public facing k8s service | IAM creds in Lambda env vars and in S3 bucket | Data exfiltration | [SCARLETEEL: Operation leveraging Terraform, Kubernetes, and AWS for data theft](https://sysdig.com/blog/cloud-breach-terraform-data-theft/) |
 | Invictus IR | 2023, April | exposed long-term credentials | CreateUser | data exfiltration and deletion with ransom note | [Ransomware in the cloud](https://invictus-ir.medium.com/ransomware-in-the-cloud-7f14805bbe82) |
-
+| Unit 42 | 2023, April | sim-swap grants access to 10 access keys in source code | CreateUser with increased permissions | data exfiltration and deletion with ransom note | [From SIM-Swap to Data Leak on the Dark Web](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/unit42-cloud-threat-report-volume7.pdf) |
+| Unit 42 | 2023, April | SSRF via known CVE and IMDSv1 | Backdoored IAM role | Cryptojacking, outbound DDOS | [From Misconfigured Firewall to Cryptojacking Botnet](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/unit42-cloud-threat-report-volume7.pdf) |
 
 ## Catalog of AWS Threat Actors 
 
