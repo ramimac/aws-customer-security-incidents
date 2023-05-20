@@ -89,6 +89,9 @@ A repository of breaches of AWS customers
 | Invictus IR | 2023, April | exposed long-term credentials | CreateUser | data exfiltration and deletion with ransom note | [Ransomware in the cloud](https://invictus-ir.medium.com/ransomware-in-the-cloud-7f14805bbe82) |
 | Unit 42 | 2023, April | sim-swap grants access to 10 access keys in source code | CreateUser with increased permissions | data exfiltration and deletion with ransom note | [From SIM-Swap to Data Leak on the Dark Web](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/unit42-cloud-threat-report-volume7.pdf) |
 | Unit 42 | 2023, April | SSRF via known CVE and IMDSv1 | Backdoored IAM role | Cryptojacking, outbound DDOS | [From Misconfigured Firewall to Cryptojacking Botnet](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/unit42-cloud-threat-report-volume7.pdf) |
+| Mitiga (RSAC) #1 | 2023, April | Company repository w/ AWS keys merged to personal github | N/A | N/A | [It’s Getting Real & Hitting the Fan: 2023 Edition](https://static.rainfocus.com/rsac/us23/sess/1664697541032001cak3/finalwebsite/2023_USA23_AIR-T02_01_It%E2%80%99s_Getting_Real__Hitting_the_Fan_2023_Edition_Real_World_SaaS_Attacks_1682607053333001zlzZ.pdf?_gl=1*trgj4t*_ga*MjAwODIwNzYxLjE2NzA0MzUzODQ.*_ga_Q3JZKF3KQM*MTY4MzYzODkzMS44My4xLjE2ODM2NDEwMTQuNTkuMC4w) |
+| Mitiga (RSAC) #2 | 2023, April | Unknown root cause of access key compromise | N/A | Shared AMIs publicly for exfil | [It’s Getting Real & Hitting the Fan: 2023 Edition](https://static.rainfocus.com/rsac/us23/sess/1664697541032001cak3/finalwebsite/2023_USA23_AIR-T02_01_It%E2%80%99s_Getting_Real__Hitting_the_Fan_2023_Edition_Real_World_SaaS_Attacks_1682607053333001zlzZ.pdf?_gl=1*trgj4t*_ga*MjAwODIwNzYxLjE2NzA0MzUzODQ.*_ga_Q3JZKF3KQM*MTY4MzYzODkzMS44My4xLjE2ODM2NDEwMTQuNTkuMC4w) |
+
 
 ## Catalog of AWS Threat Actors 
 
