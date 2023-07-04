@@ -99,7 +99,7 @@ A repository of breaches of AWS customers
 | Name | Vectors | Reports |
 | ------------- | ------------- | ------------- |
 | 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
-| AlienFox  | Opportunistic exploitation of server side misconfigurations, AWS and SES-centric functionality | [Sentine Labs - Dissecting AlienFox | The Cloud Spammer’s Swiss Army Knife](https://www.sentinelone.com/labs/dissecting-alienfox-the-cloud-spammers-swiss-army-knife/) |
+| AlienFox  | Opportunistic exploitation of server side misconfigurations, AWS and SES-centric functionality | [Sentinel Labs - Dissecting AlienFox \| The Cloud Spammer’s Swiss Army Knife](https://www.sentinelone.com/labs/dissecting-alienfox-the-cloud-spammers-swiss-army-knife/) |
 | AndroxGh0st / Xcatze  | Exposed Laravel .env configs, use compromise for SES spam or malicious email  | [Lacework Labs - AndroxGh0st: the python malware exploiting your AWS keys](https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys/) |
 | Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
 | Cosmic Wolf | Credential compromise | [CrowdStrike - 2022 Global Threat Report](https://irp.cdn-website.com/5d9b1ea1/files/uploaded/Report2022GTR.pdf) |
@@ -169,6 +169,7 @@ A repository of breaches of AWS customers
 | 2023, Feb | RCE in Lambda function with access to AWS credentials via /proc/*/environ | [Facebook bug: A Journey from Code Execution to S3 Data Leak](https://medium.com/@win3zz/facebook-bug-a-journey-from-code-execution-to-s3-data-leak-698b7d2b02ef) |
 | 2023, Mar | Staging environment file leaked, revealing AWS Access Keys and Secrets | [Saudi social media app leaks user info and pictures](https://cybernews.com/privacy/saudi-social-media-app-leaks-user-info/) |
 | 2023, Mar | Passive subdomain takeover | [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign](https://kmsec.uk/blog/passive-takeover/) |
+| 2023, Jun | Credentials in node env file in public S3 bucket | [TripValet.com Leaks Passwords and Stripe Credentials](https://phillips.technology/blog/tripvalet-payment-breach/) |
 
 ### Catalog of AWS Exploits via SSRF
 
