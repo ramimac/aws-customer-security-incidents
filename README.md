@@ -149,6 +149,7 @@ A repository of breaches of AWS customers
 | Permiso: [2022 - End of Year Observations](https://permiso.io/blog/s/permiso-2022-end-of-year-observations/) | All of the incidents we detected and responded to were a result of a compromised credential ... GitHub is still one of the primary sources ... The majority of exposed keys live in three main file types: APKs, Windows Biaries, Plain Text Files | 
 | GCP: [GCAT Threat Horizons April 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_apr2023.pdf) | The most common cloud compromise factors from Q4 2022 include Weak or No Credentials (47.8%), API Compromise (19.6%), Software issue (13.0%), and Misconfiguration (10.9%) | 
 | Orca: [2023 Honeypotting in the Cloud Report](https://orca.security/resources/blog/2023-honeypotting-in-the-cloud-report/) | SSH honeypot within 4 minutes, but no attempts to use planted key. S3 bucket within 1 hour, key within 8 hours. Docker image never downloaded. ECR public registry accessed after four months. Elasticsearch scanned, but no attempts to use planted key. Public EBS backup never downloaded. Redis accessed after 2.5 hours, but no attempts to use planted key | 
+| Laminar: [State of Public Cloud Data Security Report 2023](https://laminarsecurity.com/wp-content/uploads/2023/03/laminar-state-of-public-cloud-data-security-report-2023.pdf) | More than three-fourths (77 percent) of respondents said their organization’s public cloud data has been accessed by an adversary in the last 12 months | 
 
 
 ## Disclosure (responsible, coordinated, public)
