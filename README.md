@@ -93,6 +93,8 @@ A repository of breaches of AWS customers
 | Mitiga (RSAC) #2 | 2023, April | Unknown root cause of access key compromise | N/A | Shared AMIs publicly for exfil | [It’s Getting Real & Hitting the Fan: 2023 Edition](https://static.rainfocus.com/rsac/us23/sess/1664697541032001cak3/finalwebsite/2023_USA23_AIR-T02_01_It%E2%80%99s_Getting_Real__Hitting_the_Fan_2023_Edition_Real_World_SaaS_Attacks_1682607053333001zlzZ.pdf?_gl=1*trgj4t*_ga*MjAwODIwNzYxLjE2NzA0MzUzODQ.*_ga_Q3JZKF3KQM*MTY4MzYzODkzMS44My4xLjE2ODM2NDEwMTQuNTkuMC4w) |
 | S2W Talon "Donjuji" | 2023, May | Development server with exposed environment variables containing IAM user credentials | N/A | Stole data from S3 | [Detailed Analysis of CloudDon, Cloud Data Breach of Korea e-commerce company](https://medium.com/s2wblog/detailed-analysis-of-clouddon-cloud-data-breach-of-korea-e-commerce-company-948c3a5df90d) |
 | Checkmarx | 2023, June | S3 bucket serving npm package bignum hijacked | N/A | Credential theft | [Hijacking S3 Buckets: New Attack Technique Exploited in the Wild by Supply Chain Attackers](https://checkmarx.com/blog/hijacking-s3-buckets-new-attack-technique-exploited-in-the-wild-by-supply-chain-attackers/) |
+| Sysdig | 2023, July | Exploit public facing Jupyter Notebook in k8s | IAM creds, including via IMDSv2. Privilege escalation via IAM misconfiguration. Access key persistence | Cryptojacking | [SCARLETEEL 2.0: Fargate, Kubernetes, and Crypto](https://sysdig.com/blog/scarleteel-2-0/) |
+
 
 ## Catalog of AWS Threat Actors 
 
