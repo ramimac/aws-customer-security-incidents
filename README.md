@@ -174,6 +174,7 @@ A repository of breaches of AWS customers
 | 2023, Mar | Staging environment file leaked, revealing AWS Access Keys and Secrets | [Saudi social media app leaks user info and pictures](https://cybernews.com/privacy/saudi-social-media-app-leaks-user-info/) |
 | 2023, Mar | Passive subdomain takeover | [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign](https://kmsec.uk/blog/passive-takeover/) |
 | 2023, Jun | Credentials in node env file in public S3 bucket | [TripValet.com Leaks Passwords and Stripe Credentials](https://phillips.technology/blog/tripvalet-payment-breach/) |
+| 2023, Jul | 1,213 AWS Secrets in Docker images | [Secrets Revealed in Container Images: An Internet-wide Study on Occurrence and Impact](https://arxiv.org/pdf/2307.03958.pdf) |
 
 ### Catalog of AWS Exploits via SSRF
 
