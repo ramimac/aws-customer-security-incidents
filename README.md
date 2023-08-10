@@ -94,6 +94,7 @@ A repository of breaches of AWS customers
 | S2W Talon "Donjuji" | 2023, May | Development server with exposed environment variables containing IAM user credentials | N/A | Stole data from S3 | [Detailed Analysis of CloudDon, Cloud Data Breach of Korea e-commerce company](https://medium.com/s2wblog/detailed-analysis-of-clouddon-cloud-data-breach-of-korea-e-commerce-company-948c3a5df90d) |
 | Checkmarx | 2023, June | S3 bucket serving npm package bignum hijacked | N/A | Credential theft | [Hijacking S3 Buckets: New Attack Technique Exploited in the Wild by Supply Chain Attackers](https://checkmarx.com/blog/hijacking-s3-buckets-new-attack-technique-exploited-in-the-wild-by-supply-chain-attackers/) |
 | Sysdig | 2023, July | Exploit public facing Jupyter Notebook in k8s | IAM creds, including via IMDSv2. Privilege escalation via IAM misconfiguration. Access key persistence | Cryptojacking | [SCARLETEEL 2.0: Fargate, Kubernetes, and Crypto](https://sysdig.com/blog/scarleteel-2-0/) |
+| CrowdStrike | 2023, August | Exploiting RCE in a custom PHP web application | IAM creds, including via IMDS. Lateral movement via SSM | Unknown | [2023 Threat Hunting Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/report-crowdstrike-2023-threat-hunting-report.pdf) |
 
 
 ## Catalog of AWS Threat Actors 
@@ -154,6 +155,7 @@ A repository of breaches of AWS customers
 | Orca: [2023 Honeypotting in the Cloud Report](https://orca.security/resources/blog/2023-honeypotting-in-the-cloud-report/) | SSH honeypot within 4 minutes, but no attempts to use planted key. S3 bucket within 1 hour, key within 8 hours. Docker image never downloaded. ECR public registry accessed after four months. Elasticsearch scanned, but no attempts to use planted key. Public EBS backup never downloaded. Redis accessed after 2.5 hours, but no attempts to use planted key | 
 | Laminar: [State of Public Cloud Data Security Report 2023](https://laminarsecurity.com/wp-content/uploads/2023/03/laminar-state-of-public-cloud-data-security-report-2023.pdf) | More than three-fourths (77 percent) of respondents said their organization’s public cloud data has been accessed by an adversary in the last 12 months | 
 | GCP: [GCAT Threat Horizons August 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jul2023.pdf) | The most common cloud compromise factors from Q1 2023 include Weak or No Credentials (54.8%), Misconfiguration (19%), Sensitive UI or API exposure (11.9%) | 
+| CrowdStrike: [2023 Threat Hunting Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/report-crowdstrike-2023-threat-hunting-report.pdf) | 160% increase in attempts to abuse cloud instance metadata APIs. 95% increase in cloud exploitation in 2022. 3X increase in cases involving cloud-concious threat actors in 2022. |
 
 ## Disclosure (responsible, coordinated, public)
 
