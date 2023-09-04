@@ -98,6 +98,7 @@ A repository of breaches of AWS customers
 | Unit42 | 2023, August | Exploiting SugarCRM zero day | Access keys on EC2 hosts, Pacu + Scoutsuite scanning | DB data exfiltration | [When a Zero Day and Access Keys Collide in the Cloud: Responding to the SugarCRM Zero-Day Vulnerability](https://unit42.paloaltonetworks.com/sugarcrm-cloud-incident-black-hat/) |
 | AWS | 2023, August | Compromise of federated user via unknown means | Access keys on EC2 hosts, Pacu + Scoutsuite scanning | DB data exfiltration | [Two real-life examples of why limiting permissions works: Lessons from AWS CIRT - Story 1: On the hunt for credentials](https://aws.amazon.com/blogs/security/two-real-life-examples-of-why-limiting-permissions-works-lessons-from-aws-cirt/) |
 | AWS | 2023, August | RCE via unintentionally exposed port in ECS task definition | N/A | Cryptojacking | [Two real-life examples of why limiting permissions works: Lessons from AWS CIRT - Story 2: More instances for crypto mining](https://aws.amazon.com/blogs/security/two-real-life-examples-of-why-limiting-permissions-works-lessons-from-aws-cirt/) |
+| Security Joes | 2023, Sep | Exploited a vulnerable version of MinIO on an AWS EC2 instance via [evil_minIO](https://github.com/AbelChe/evil_minio) | Network reconnaissance, create windows accounts | Unknown | [New Attack Vector In The Cloud: Attackers caught exploiting Object Storage Services](https://www.securityjoes.com/post/new-attack-vector-in-the-cloud-attackers-caught-exploiting-object-storage-services) |
 
 
 ## Catalog of AWS Threat Actors 
