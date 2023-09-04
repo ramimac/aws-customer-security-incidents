@@ -96,6 +96,8 @@ A repository of breaches of AWS customers
 | Sysdig | 2023, July | Exploit public facing Jupyter Notebook in k8s | IAM creds, including via IMDSv2. Privilege escalation via IAM misconfiguration. Access key persistence | Cryptojacking | [SCARLETEEL 2.0: Fargate, Kubernetes, and Crypto](https://sysdig.com/blog/scarleteel-2-0/) |
 | CrowdStrike | 2023, August | Exploiting RCE in a custom PHP web application | IAM creds, including via IMDS. Lateral movement via SSM | Unknown | [2023 Threat Hunting Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/report-crowdstrike-2023-threat-hunting-report.pdf) |
 | Unit42 | 2023, August | Exploiting SugarCRM zero day | Access keys on EC2 hosts, Pacu + Scoutsuite scanning | DB data exfiltration | [When a Zero Day and Access Keys Collide in the Cloud: Responding to the SugarCRM Zero-Day Vulnerability](https://unit42.paloaltonetworks.com/sugarcrm-cloud-incident-black-hat/) |
+| AWS | 2023, August | Compromise of federated user via unknown means | Access keys on EC2 hosts, Pacu + Scoutsuite scanning | DB data exfiltration | [Two real-life examples of why limiting permissions works: Lessons from AWS CIRT - Story 1: On the hunt for credentials](https://aws.amazon.com/blogs/security/two-real-life-examples-of-why-limiting-permissions-works-lessons-from-aws-cirt/) |
+| AWS | 2023, August | RCE via unintentionally exposed port in ECS task definition | N/A | Cryptojacking | [Two real-life examples of why limiting permissions works: Lessons from AWS CIRT - Story 2: More instances for crypto mining](https://aws.amazon.com/blogs/security/two-real-life-examples-of-why-limiting-permissions-works-lessons-from-aws-cirt/) |
 
 
 ## Catalog of AWS Threat Actors 
@@ -183,7 +185,6 @@ A repository of breaches of AWS customers
 | 2023, Jul | 1,213 AWS Secrets in Docker images | [Secrets Revealed in Container Images: An Internet-wide Study on Occurrence and Impact](https://arxiv.org/pdf/2307.03958.pdf) |
 | 2023, Jul | 650 publicly exposed RDS snapshots | [Oops, I Leaked It Again — How Mitiga Found PII in Exposed Amazon RDS Snapshots](https://www.mitiga.io/blog/how-mitiga-found-pii-in-exposed-amazon-rds-snapshots) |
 | 2023, Aug | Over-privileged cloud credentials in 1,667 mobile applications | [Credit Karma: Understanding Security Implications of Exposed Cloud Services through Automated Capability Inference](https://www.usenix.org/system/files/usenixsecurity23-wang-xueqiang-karma.pdf) |
-
 
 ### Catalog of AWS Exploits via SSRF
 
