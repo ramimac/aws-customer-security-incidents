@@ -157,6 +157,7 @@ A repository of breaches of AWS customers
 | Laminar: [State of Public Cloud Data Security Report 2023](https://laminarsecurity.com/wp-content/uploads/2023/03/laminar-state-of-public-cloud-data-security-report-2023.pdf) | More than three-fourths (77 percent) of respondents said their organization’s public cloud data has been accessed by an adversary in the last 12 months | 
 | GCP: [GCAT Threat Horizons August 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_jul2023.pdf) | The most common cloud compromise factors from Q1 2023 include Weak or No Credentials (54.8%), Misconfiguration (19%), Sensitive UI or API exposure (11.9%) | 
 | CrowdStrike: [2023 Threat Hunting Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/report-crowdstrike-2023-threat-hunting-report.pdf) | 160% increase in attempts to abuse cloud instance metadata APIs. 95% increase in cloud exploitation in 2022. 3X increase in cases involving cloud-concious threat actors in 2022. |
+| Dig Security: [The State of Cloud Data Security 2023](https://pages.dig.security/hubfs/Report%20The%20State%20of%20Cloud%20Data%20Security%20in%202023.pdf) | More than 7% of storage services containing sensitive data are public. More than 60% of storage services are not encrypted at rest, and almost 70% lack comprehensive logging. |
 
 ## Disclosure (responsible, coordinated, public)
 
