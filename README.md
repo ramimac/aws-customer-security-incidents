@@ -95,6 +95,7 @@ A repository of breaches of AWS customers
 | Checkmarx | 2023, June | S3 bucket serving npm package bignum hijacked | N/A | Credential theft | [Hijacking S3 Buckets: New Attack Technique Exploited in the Wild by Supply Chain Attackers](https://checkmarx.com/blog/hijacking-s3-buckets-new-attack-technique-exploited-in-the-wild-by-supply-chain-attackers/) |
 | Sysdig | 2023, July | Exploit public facing Jupyter Notebook in k8s | IAM creds, including via IMDSv2. Privilege escalation via IAM misconfiguration. Access key persistence | Cryptojacking | [SCARLETEEL 2.0: Fargate, Kubernetes, and Crypto](https://sysdig.com/blog/scarleteel-2-0/) |
 | CrowdStrike | 2023, August | Exploiting RCE in a custom PHP web application | IAM creds, including via IMDS. Lateral movement via SSM | Unknown | [2023 Threat Hunting Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/report-crowdstrike-2023-threat-hunting-report.pdf) |
+| Unit42 | 2023, August | Exploiting SugarCRM zero day | Access keys on EC2 hosts, Pacu + Scoutsuite scanning | DB data exfiltration | [When a Zero Day and Access Keys Collide in the Cloud: Responding to the SugarCRM Zero-Day Vulnerability](https://unit42.paloaltonetworks.com/sugarcrm-cloud-incident-black-hat/) |
 
 
 ## Catalog of AWS Threat Actors 
