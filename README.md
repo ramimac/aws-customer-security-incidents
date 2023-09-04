@@ -181,6 +181,8 @@ A repository of breaches of AWS customers
 | 2023, Jun | Credentials in node env file in public S3 bucket | [TripValet.com Leaks Passwords and Stripe Credentials](https://phillips.technology/blog/tripvalet-payment-breach/) |
 | 2023, Jul | 1,213 AWS Secrets in Docker images | [Secrets Revealed in Container Images: An Internet-wide Study on Occurrence and Impact](https://arxiv.org/pdf/2307.03958.pdf) |
 | 2023, Jul | 650 publicly exposed RDS snapshots | [Oops, I Leaked It Again — How Mitiga Found PII in Exposed Amazon RDS Snapshots](https://www.mitiga.io/blog/how-mitiga-found-pii-in-exposed-amazon-rds-snapshots) |
+| 2023, Aug | Over-privileged cloud credentials in 1,667 mobile applications | [Credit Karma: Understanding Security Implications of Exposed Cloud Services through Automated Capability Inference](https://www.usenix.org/system/files/usenixsecurity23-wang-xueqiang-karma.pdf) |
+
 
 ### Catalog of AWS Exploits via SSRF
 
