@@ -188,6 +188,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2023, Jul | 1,213 AWS Secrets in Docker images | [Secrets Revealed in Container Images: An Internet-wide Study on Occurrence and Impact](https://arxiv.org/pdf/2307.03958.pdf) |
 | 2023, Jul | 650 publicly exposed RDS snapshots | [Oops, I Leaked It Again — How Mitiga Found PII in Exposed Amazon RDS Snapshots](https://www.mitiga.io/blog/how-mitiga-found-pii-in-exposed-amazon-rds-snapshots) |
 | 2023, Aug | Over-privileged cloud credentials in 1,667 mobile applications | [Credit Karma: Understanding Security Implications of Exposed Cloud Services through Automated Capability Inference](https://www.usenix.org/system/files/usenixsecurity23-wang-xueqiang-karma.pdf) |
+| 2023, Sep | 11-12 AWS credentials in `.git` of Alexa Top 1M | [4,500 of the Top 1 Million Websites Leaked Source Code, Secrets](https://trufflesecurity.com/blog/4500-of-the-top-1-million-websites-leaked-source-code-secrets/) |
 
 ### Catalog of AWS Exploits via SSRF
 
