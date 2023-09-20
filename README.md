@@ -63,7 +63,6 @@ A repository of breaches of AWS customers
 | Teqtivity (Uber Vendor) | 2022, December | Unknown | Unknown | "AWS backup server" with device and user information  | [Breach Notification Statement](https://www.teqtivity.com/breach-notification-statement), [Uber suffers new data breach after attack on vendor, info leaked online](https://www.bleepingcomputer.com/news/security/uber-suffers-new-data-breach-after-attack-on-vendor-info-leaked-online/) |
 | CommuteAir | 2023, January | Publicly Exposed Jenkins with hardcoded credentials | N/A | 2019 FAA No Fly List | [how to completely own an airline in 3 easy steps](https://maia.crimew.gay/posts/how-to-hack-an-airline/), [U.S. airline accidentally exposes ‘No Fly List’ on unsecured server](https://www.dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair/) |
 
-
 ## Vendor-reported AWS Customer Security Incident Case Studies
 
 | Report | Date | Root Cause | Escalation Vector(s) | Impact | Link to details|
@@ -102,6 +101,8 @@ A repository of breaches of AWS customers
 
 
 ## Catalog of AWS Threat Actors 
+
+More information on these actors is available on [malpedia](https://malpedia.caad.fkie.fraunhofer.de).
 
 | Name | Vectors | Reports |
 | ------------- | ------------- | ------------- |
@@ -166,6 +167,7 @@ A repository of breaches of AWS customers
 
 | Date | Vulnerability | Reference |
 | ------------- | ------------- | ------------- |
+| 2019, May | Credentials leaked in exposed GitLab instance | [Samsung spilled SmartThings app source code and secret keys](https://techcrunch.com/2019/05/08/samsung-source-code-leak/) | 
 | 2020, Feb | Credentials leaked in repository | [Access to Glassdoor's Infra (AWS) and BitBucket account through leaked repo](https://hackerone.com/reports/801531) | 
 | 2021, Apr | Ssubdomain takeover, deleted EC2 instance  | [Subdomain takeover of www2.growasyouplan.com](https://hackerone.com/reports/1179193) |
 | 2021, Oct | AWS Creds hardcoded in MSI | [Hardcoded AWS credentials in ███████.msi](https://hackerone.com/reports/1368690) |
