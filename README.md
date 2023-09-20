@@ -184,6 +184,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2023, Feb | RCE in Lambda function with access to AWS credentials via /proc/*/environ | [Facebook bug: A Journey from Code Execution to S3 Data Leak](https://medium.com/@win3zz/facebook-bug-a-journey-from-code-execution-to-s3-data-leak-698b7d2b02ef) |
 | 2023, Mar | Staging environment file leaked, revealing AWS Access Keys and Secrets | [Saudi social media app leaks user info and pictures](https://cybernews.com/privacy/saudi-social-media-app-leaks-user-info/) |
 | 2023, Mar | Passive subdomain takeover | [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign](https://kmsec.uk/blog/passive-takeover/) |
+| 2023, Mar | 550 IPs vulnerable to SSRF via Host header, likely due to a vulnerable Lightsail image | [Finding Hundreds of SSRF Vulnerabilities on AWS](https://trickest.com/blog/ssrf-vulnerabilities-on-aws/) |
 | 2023, Jun | Credentials in node env file in public S3 bucket | [TripValet.com Leaks Passwords and Stripe Credentials](https://phillips.technology/blog/tripvalet-payment-breach/) |
 | 2023, Jul | 1,213 AWS Secrets in Docker images | [Secrets Revealed in Container Images: An Internet-wide Study on Occurrence and Impact](https://arxiv.org/pdf/2307.03958.pdf) |
 | 2023, Jul | 650 publicly exposed RDS snapshots | [Oops, I Leaked It Again — How Mitiga Found PII in Exposed Amazon RDS Snapshots](https://www.mitiga.io/blog/how-mitiga-found-pii-in-exposed-amazon-rds-snapshots) |
