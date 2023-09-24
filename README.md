@@ -108,6 +108,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | ------------- | ------------- | ------------- |
 | 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
 | AlienFox  | Opportunistic exploitation of server side misconfigurations, AWS and SES-centric functionality | [Sentinel Labs - Dissecting AlienFox \| The Cloud Spammer’s Swiss Army Knife](https://www.sentinelone.com/labs/dissecting-alienfox-the-cloud-spammers-swiss-army-knife/) |
+| AMBERSQUID  | Cryptomining, distributed on Docker Hub, using non-EC2 services | [AWS’s Hidden Threat: AMBERSQUID Cloud-Native Cryptojacking Operation](https://sysdig.com/blog/ambersquid/) |
 | AndroxGh0st / Xcatze  | Exposed Laravel .env configs, use compromise for SES spam or malicious email  | [Lacework Labs - AndroxGh0st: the python malware exploiting your AWS keys](https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys/) |
 | Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
 | Cosmic Wolf | Credential compromise | [CrowdStrike - 2022 Global Threat Report](https://irp.cdn-website.com/5d9b1ea1/files/uploaded/Report2022GTR.pdf) |
