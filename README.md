@@ -98,6 +98,8 @@ A repository of breaches of AWS customers
 | AWS | 2023, August | Compromise of federated user via unknown means | Access keys on EC2 hosts, Pacu + Scoutsuite scanning | DB data exfiltration | [Two real-life examples of why limiting permissions works: Lessons from AWS CIRT - Story 1: On the hunt for credentials](https://aws.amazon.com/blogs/security/two-real-life-examples-of-why-limiting-permissions-works-lessons-from-aws-cirt/) |
 | AWS | 2023, August | RCE via unintentionally exposed port in ECS task definition | N/A | Cryptojacking | [Two real-life examples of why limiting permissions works: Lessons from AWS CIRT - Story 2: More instances for crypto mining](https://aws.amazon.com/blogs/security/two-real-life-examples-of-why-limiting-permissions-works-lessons-from-aws-cirt/) |
 | Security Joes | 2023, Sep | Exploited a vulnerable version of MinIO on an AWS EC2 instance via [evil_minIO](https://github.com/AbelChe/evil_minio) | Network reconnaissance, create windows accounts | Unknown | [New Attack Vector In The Cloud: Attackers caught exploiting Object Storage Services](https://www.securityjoes.com/post/new-attack-vector-in-the-cloud-attackers-caught-exploiting-object-storage-services) |
+| Unit42 | 2023, Oct | Credentials exposed on Github | Create EC2 instances | Monero Cryptojacking | [CloudKeys in the Air: Tracking Malicious Operations of Exposed IAM Keys](https://unit42.paloaltonetworks.com/malicious-operations-of-exposed-iam-keys-cryptojacking/) |
+
 
 
 ## Catalog of AWS Threat Actors 
