@@ -226,6 +226,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 * [A Nifty SSRF Bug Bounty Write Up](https://hack-ed.net/2017/11/07/a-nifty-ssrf-bug-bounty-write-up/)
 * [Mozilla Hubs Cloud: cloud api credentials exposure](https://bugzilla.mozilla.org/show_bug.cgi?id=1707898)
 * [Lacework Labs: New surge in AWS credential compromises tied to Grafana SSRF attacks](https://www.lacework.com/blog/new-surge-in-aws-credential-compromises-tied-to-grafana-ssrf-attacks/)
+* [EC2 User-data to RCE](https://medium.com/@xploiterd/ec2-user-data-to-rce-f601264a75c2)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
