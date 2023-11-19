@@ -196,6 +196,8 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2023, Aug | Over-privileged cloud credentials in 1,667 mobile applications | [Credit Karma: Understanding Security Implications of Exposed Cloud Services through Automated Capability Inference](https://www.usenix.org/system/files/usenixsecurity23-wang-xueqiang-karma.pdf) |
 | 2023, Aug | librsvg memory leakage exposes Basecamp AWS keys | [AWS keys and user cookie leakage via uninitialized memory leak in outdated librsvg version in Basecamp](https://hackerone.com/reports/2107680) |
 | 2023, Sep | 11-12 AWS credentials in `.git` of Alexa Top 1M | [4,500 of the Top 1 Million Websites Leaked Source Code, Secrets](https://trufflesecurity.com/blog/4500-of-the-top-1-million-websites-leaked-source-code-secrets/) |
+| 2023, Oct | over 140 unique active, plaintext credentials to third-party services like OpenAI, AWS, GitHub, and others in Kaggle data | [Analyzing the Security of Machine Learning Research Code](https://developer.nvidia.com/blog/analyzing-the-security-of-machine-learning-research-code/) |
+
 
 ### Catalog of AWS Exploits via SSRF
 
