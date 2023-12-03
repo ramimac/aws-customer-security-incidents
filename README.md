@@ -102,14 +102,14 @@ A repository of breaches of AWS customers
 | Reliaquest | 2023, Nov | Spearphishing | Hijacked Citrix VDI | Data theft (lastpass export in S3 bucket) | [Scattered Spider Attack Analysis](https://www.reliaquest.com/blog/scattered-spider-attack-analysis-account-compromise/) |
 
 
-## Catalog of AWS Threat Actors 
+## Catalog of AWS Threat Actors and their Tools
 
 More information on these actors is available on [malpedia](https://malpedia.caad.fkie.fraunhofer.de).
 
 | Name | Vectors | Reports |
 | ------------- | ------------- | ------------- |
 | 8220 Gang | Exploit outdated and misconfigured software | [JupiterOne - 8220 Gang Cloud Botnet Targets Misconfigured Cloud Workloads](https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/) |
-| AlienFox  | Opportunistic exploitation of server side misconfigurations, AWS and SES-centric functionality | [Sentinel Labs - Dissecting AlienFox \| The Cloud Spammer’s Swiss Army Knife](https://www.sentinelone.com/labs/dissecting-alienfox-the-cloud-spammers-swiss-army-knife/) |
+| AlienFox  | Opportunistic exploitation of server side misconfigurations, AWS SES-centric functionality | [Sentinel Labs - Dissecting AlienFox \| The Cloud Spammer’s Swiss Army Knife](https://www.sentinelone.com/labs/dissecting-alienfox-the-cloud-spammers-swiss-army-knife/) |
 | AMBERSQUID  | Cryptomining, distributed on Docker Hub, using non-EC2 services | [AWS’s Hidden Threat: AMBERSQUID Cloud-Native Cryptojacking Operation](https://sysdig.com/blog/ambersquid/) |
 | AndroxGh0st / Xcatze  | Exposed Laravel .env configs, use compromise for SES spam or malicious email  | [Lacework Labs - AndroxGh0st: the python malware exploiting your AWS keys](https://www.lacework.com/blog/androxghost-the-python-malware-exploiting-your-aws-keys/) |
 | Cloud Snooper | Rootkit | [Sophos - Cloud Snooper Attack Bypasses AWS Security Measures](https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/sophoslabs-cloud-snooper-report.pdf) |
@@ -120,7 +120,8 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | LAPSUS$ / DEV-0537 | phone-based social engineering; SIM-swapping to facilitate account takeover; accessing personal email accounts of employees at target organizations; paying employees, suppliers, or business partners of target organizations for access to credentials and multifactor authentication (MFA) approval | [Microsoft - DEV-0537 criminal actor targeting organizations for data exfiltration and destruction](https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/) |
 | Legion | SES Abuse | [Permiso - Legion: The Latest Threat in Mass Spam Attacks](https://permiso.io/blog/s/legion-mass-spam-attacks-in-aws/), [Cado Security - Legion: an AWS Credential Harvester and SMTP Hijacker](https://www.cadosecurity.com/legion-an-aws-credential-harvester-and-smtp-hijacker/), [Updates to Legion: A Cloud Credential Harvester and SMTP Hijacker](https://www.cadosecurity.com/updates-to-legion-a-cloud-credential-harvester-and-smtp-hijacker/) |
 | RBAC Buster | Targeting k8s anonymous access, and use a ClusterRoleBinding and gain full access to the cluster with persistence | [First-Ever Attack Leveraging Kubernetes RBAC to Backdoor Clusters](https://blog.aquasec.com/leveraging-kubernetes-rbac-to-backdoor-clusters) |
-| Outlaw | Targeting known CVEs or SSH bruteforce | [Outlaw Group Distributes Cryptocurrency-Mining Botnet](https://www.trendmicro.com/en_us/research/18/k/outlaw-group-distributes-botnet-for-cryptocurrency-mining-scanning-and-brute-force.html) |
+| Outlaw | Targeting known CVEs or SSH bruteforce | [Outlaw Group Distributes Cryptocurrency-Mining Botnet](https://www.trendmicro.com/en_us/research/18/k/outlaw-group-distributes-botnet-for-cryptocurrency-mining-scanning-and-brute-force.html) |©
+| Predator AI | Stealer and hacktool targets AWS SES | [ChatGPT-Powered Infostealer Takes Aim at Cloud Platforms](https://www.sentinelone.com/labs/predator-ai-chatgpt-powered-infostealer-takes-aim-at-cloud-platforms/) |
 | Rocke | Targeting known CVEs | [Cisco Talos -  Rocke: The Champion of Monero Miners](https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html) |
 | Silentbob (TeamTNT or copycat) | Exploit misconfigured docker and k8s | [Aqua Security -  Threat Alert: Anatomy of Silentbob’s Cloud Attack](https://blog.aquasec.com/threat-alert-anatomy-of-silentbobs-cloud-attack), [Permiso - Agile Approach to Mass Cloud Credential Harvesting and Crypto Mining Sprints Ahead](https://permiso.io/blog/s/agile-approach-to-mass-cloud-cred-harvesting-and-cryptomining/), [SentinelOne - Cloudy With a Chance of Credentials \| AWS-Targeting Cred Stealer Expands to Azure, GCP](https://s1.ai/cloudcreds) |
 | TeamTNT | Exploit misconfigured docker and k8s | [MITRE ATT&CK -  TeamTNT](https://attack.mitre.org/groups/G0139/) |
