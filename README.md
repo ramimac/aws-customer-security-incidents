@@ -175,6 +175,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 
 | Date | Vulnerability | Reference |
 | ------------- | ------------- | ------------- |
+| 2019, Feb | 4,648 unique AWS Access Key IDs in Github | [How Bad Can It Git? Characterizing Secret Leakage in Public GitHub Repositories](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf) | 
 | 2019, May | Credentials leaked in exposed GitLab instance | [Samsung spilled SmartThings app source code and secret keys](https://techcrunch.com/2019/05/08/samsung-source-code-leak/) | 
 | 2020, Feb | Credentials leaked in repository | [Access to Glassdoor's Infra (AWS) and BitBucket account through leaked repo](https://hackerone.com/reports/801531) | 
 | 2020, Sep | ~25,000 AWS Access Keys exposed via Github | [Reliaquest - Access Keys Exposed: More Than 40% Are For Database Stores](https://www.reliaquest.com/blog/access-keys-exposed-more-than-40-are-for-database-stores/) | 
