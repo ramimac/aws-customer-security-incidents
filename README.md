@@ -39,6 +39,7 @@ A repository of breaches of AWS customers
 | Imperva | 2019, October  | “Internal compute instance” globally accessible, “Contained” AWS API key | N/A | RDS snapshot stolen | [Imperva Security Update](https://web.archive.org/web/20210620143023/https://www.imperva.com/blog/ceoblog/) |
 | Cameo | 2020, February  | Credentials in mobile app package | N/A | Access to backend infrastructure, including user data | [Celeb Shout-Out App Cameo Exposes Private Videos and User Data](https://www.vice.com/en/article/akwj5z/cameo-app-exposed-private-videos-user-data-passwords) |
 | Open Exchange Rates | 2020, March | Third-party compromise exposing access key | N/A | User database | [Exchange rate service’s customer details hacked via AWS](https://nakedsecurity.sophos.com/2020/03/20/exchange-rate-services-customer-details-hacked-via-aws/) |
+| First Republic Bank | 2020, March | Fired employee incompletely offboarded | N/A | System interruption | [First Republic Bank](https://www.breaches.cloud/incidents/first-republic/) |
 | Live Auctioneers | 2020, July | Compromised third party software granting access to cloud environment | N/A | User database, including MD5 hashed credentials | [Washington State OAG -  Live Auctioneers](https://www.atg.wa.gov/live-auctioneers/) |
 | Twilio | 2020, July  |S3 global write access | N/A | Magecart[<sup>2</sup>](#2) | [Incident Report: TaskRouter JS SDK Security Incident](https://web.archive.org/web/20210813010417/https://www.twilio.com/blog/incident-report-taskrouter-js-sdk-july-2020) |
 | Natures Basket responsible disclosure | 2020, July  | Hard-coded root keys in source code exposed via public S3 bucket | N/A | N/A | [GotRoot! AWS root Account Takeover](https://web.archive.org/web/20200825004529/https://medium.com/@gchib/naturesbasket-aws-root-account-takeover-e4aa5c5e95e1) |
@@ -236,6 +237,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 * [Mozilla Hubs Cloud: cloud api credentials exposure](https://bugzilla.mozilla.org/show_bug.cgi?id=1707898)
 * [Lacework Labs: New surge in AWS credential compromises tied to Grafana SSRF attacks](https://www.lacework.com/blog/new-surge-in-aws-credential-compromises-tied-to-grafana-ssrf-attacks/)
 * [EC2 User-data to RCE](https://medium.com/@xploiterd/ec2-user-data-to-rce-f601264a75c2)
+* [Server Side Request Forgery (SSRF) via Analytics Reports](https://hackerone.com/reports/2262382)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
