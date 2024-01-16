@@ -184,11 +184,12 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2019, May | Credentials leaked in exposed GitLab instance | [Samsung spilled SmartThings app source code and secret keys](https://techcrunch.com/2019/05/08/samsung-source-code-leak/) | 
 | 2020, Feb | Credentials leaked in repository | [Access to Glassdoor's Infra (AWS) and BitBucket account through leaked repo](https://hackerone.com/reports/801531) | 
 | 2020, Sep | ~25,000 AWS Access Keys exposed via Github | [Reliaquest - Access Keys Exposed: More Than 40% Are For Database Stores](https://www.reliaquest.com/blog/access-keys-exposed-more-than-40-are-for-database-stores/) | 
-| 2021, Apr | Ssubdomain takeover, deleted EC2 instance  | [Subdomain takeover of www2.growasyouplan.com](https://hackerone.com/reports/1179193) |
+| 2021, Apr | Subdomain takeover, deleted EC2 instance  | [Subdomain takeover of www2.growasyouplan.com](https://hackerone.com/reports/1179193) |
 | 2021, Oct | AWS Creds hardcoded in MSI | [Hardcoded AWS credentials in ███████.msi](https://hackerone.com/reports/1368690) |
 | 2021, Nov | Potential subdomain takeover, dangling CNAME  | [Possible Domain Takeover on AWS Instance](https://hackerone.com/reports/1390782) |
 | 2021, Nov | Subdomain takeover, deleted S3 bucket  | [Subdomain takeover of images.crossinstall.com](https://hackerone.com/reports/1406335) |
 | 2021, Dec | Account takeover via Cognito user email change | [Flickr Account Takeover using AWS Cognito API](https://hackerone.com/reports/1342088) |
+| 2022, Sep | 1,859 Android and iOS apps with AWS credentials | [Mobile App Supply Chain Vulnerabilities Could Endanger Sensitive Business Information](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mobile-supply-chain-aws) |
 | 2022, Oct | Subdomain takeover, deleted S3 bucket | [Subdomain takeover at http://test.www.midigator.com](https://hackerone.com/reports/1718371) |
 | 2022, Nov | AWS credentials in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
 | 2022, Jan | NoSQL-Injection discloses discloses S3 File Upload URLs | [NoSQL-Injection discloses S3 File Upload URLs](https://hackerone.com/reports/1458020) |
