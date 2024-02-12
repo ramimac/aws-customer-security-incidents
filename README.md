@@ -214,6 +214,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2023, Sep | 11-12 AWS credentials in `.git` of Alexa Top 1M | [4,500 of the Top 1 Million Websites Leaked Source Code, Secrets](https://trufflesecurity.com/blog/4500-of-the-top-1-million-websites-leaked-source-code-secrets/) |
 | 2023, Oct | over 140 unique active, plaintext credentials to third-party services like OpenAI, AWS, GitHub, and others in Kaggle data | [Analyzing the Security of Machine Learning Research Code](https://developer.nvidia.com/blog/analyzing-the-security-of-machine-learning-research-code/) |
 | 2023, Nov | 2,897 AWS Access Tokens in StackExchange dataset | [I analyzed stackoverflow](https://matan-h.com/analyze-stackoverflow) |
+| 2024, Feb | Access Key exposed in HTML | [ Football Australia leak exposes players’ details](https://cybernews.com/security/football-australia-leak-expose-players/) |
 
 
 ### Catalog of AWS Exploits via SSRF
