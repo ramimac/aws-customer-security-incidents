@@ -195,6 +195,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2021, Nov | Potential subdomain takeover, dangling CNAME  | [Possible Domain Takeover on AWS Instance](https://hackerone.com/reports/1390782) |
 | 2021, Nov | Subdomain takeover, deleted S3 bucket  | [Subdomain takeover of images.crossinstall.com](https://hackerone.com/reports/1406335) |
 | 2021, Dec | Account takeover via Cognito user email change | [Flickr Account Takeover using AWS Cognito API](https://hackerone.com/reports/1342088) |
+| 2022, May | Malicious update to `ctx` Python library | [Malicious Python library CTX removed from PyPI repo](https://portswigger.net/daily-swig/malicious-python-library-ctx-removed-from-pypi-repo) |
 | 2022, Sep | 1,859 Android and iOS apps with AWS credentials | [Mobile App Supply Chain Vulnerabilities Could Endanger Sensitive Business Information](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mobile-supply-chain-aws) |
 | 2022, Oct | Subdomain takeover, deleted S3 bucket | [Subdomain takeover at http://test.www.midigator.com](https://hackerone.com/reports/1718371) |
 | 2022, Nov | AWS credentials in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
