@@ -179,6 +179,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Dig Security: [The State of Cloud Data Security 2023](https://pages.dig.security/hubfs/Report%20The%20State%20of%20Cloud%20Data%20Security%20in%202023.pdf) | More than 7% of storage services containing sensitive data are public. More than 60% of storage services are not encrypted at rest, and almost 70% lack comprehensive logging. |
 | Wiz: [I know what you mined last summer](https://www.wiz.io/blog/cryptojacking-attacks-summer-2023) | Six cases via Open Jupyter Notebook, two via Unpatched Apache Solr. XMRig, CCminer, and XMR-Stak-RX deployed. | 
 | GCP: [GCAT Threat Horizons October 2023](https://services.google.com/fh/files/blogs/gcat_threathorizons_full_oct2023.pdf) | The most common cloud compromise factors from Q2 2023 include Weak or No Credentials (54.3%), Misconfiguration (15.2%), Sensitive UI or API exposure (15.2%), Vulnerable Software (10.9%). ~70% of attacks are intended to facilitate coin mining. | 
+| GCP: [GCAT Threat Horizons H1 2024](https://services.google.com/fh/files/misc/threat_horizons_report_h12024.pdf) | The most common cloud compromise factors from 2023 include Weak or No Credentials (51.1%), Misconfiguration (17.3%), Sensitive UI or API exposure (13.7%), Vulnerable Software (11.5%). ~66% of attacks are intended to facilitate coin mining. ~25% of attacks are intended to then target third parties. | 
 
 
 ## Disclosure (responsible, coordinated, public)
