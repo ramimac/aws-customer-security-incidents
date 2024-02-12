@@ -103,6 +103,8 @@ A repository of breaches of AWS customers
 | Security Joes | 2023, Sep | Exploited a vulnerable version of MinIO on an AWS EC2 instance via [evil_minIO](https://github.com/AbelChe/evil_minio) | Network reconnaissance, create windows accounts | Unknown | [New Attack Vector In The Cloud: Attackers caught exploiting Object Storage Services](https://www.securityjoes.com/post/new-attack-vector-in-the-cloud-attackers-caught-exploiting-object-storage-services) |
 | Unit42 | 2023, Oct | Credentials exposed on Github | Create EC2 instances | Monero Cryptojacking | [CloudKeys in the Air: Tracking Malicious Operations of Exposed IAM Keys](https://unit42.paloaltonetworks.com/malicious-operations-of-exposed-iam-keys-cryptojacking/) |
 | Reliaquest | 2023, Nov | Spearphishing | Hijacked Citrix VDI | Data theft (lastpass export in S3 bucket) | [Scattered Spider Attack Analysis](https://www.reliaquest.com/blog/scattered-spider-attack-analysis-account-compromise/) |
+| Datadog #1 | 2024, January | Leaked IAM User Key | created administrator IAM user | S3 data exfiltration, attempted cryptomining | [Tales from the cloud trenches: Amazon ECS is the new EC2 for crypto mining](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-ecs-crypto-mining/) |
+| Datadog #2 | 2024, January | Leaked IAM User Key | N/A | Cryptomining (via ECS Fargate, XMRig) | [Tales from the cloud trenches: Amazon ECS is the new EC2 for crypto mining](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-ecs-crypto-mining/) |
 
 
 ## Catalog of AWS Threat Actors and their Tools
