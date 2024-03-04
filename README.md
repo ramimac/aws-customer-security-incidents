@@ -186,7 +186,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | GCP: [GCAT Threat Horizons H1 2024](https://services.google.com/fh/files/misc/threat_horizons_report_h12024.pdf) | The most common cloud compromise factors from 2023 include Weak or No Credentials (51.1%), Misconfiguration (17.3%), Sensitive UI or API exposure (13.7%), Vulnerable Software (11.5%). ~66% of attacks are intended to facilitate coin mining. ~25% of attacks are intended to then target third parties. | 
 | Palo Alto Unit 42: [Incident Response Threat Report 2024](https://unit42.paloaltonetworks.com/unit42-incident-response-report-2024-threat-guide/) |  "we’ve seen an increase in incident responses involving cloud cases, from 6% in 2021 to 16.6% in 2023." "Visibility gaps also led to unnecessary resource exposure, such as internet-exposed remote desktops or inadequately secured cloud workloads. These exposures contributed to 9.6% of cases." |
 | CrowdStrike: [2024 Global Threat Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/GlobalThreatReport2024.pdf) | Cloud environment intrusions increased by 75% YoY. 84% of adversary-attributed cloud-conscious intrusions were focused on eCrime.  |
-
+| Cado: [H2 2023 Cloud Threat Findings Report](https://14518100.fs1.hubspotusercontent-na1.net/hubfs/14518100/H2%202023%20Cloud%20Threat%20Findings%20Report.pdf) | Attackers are getting more sophisticated around Docker, Jupyter, etc. Docker is ~90% of non-SSH honeypot traffic. Diversifying (non-cryptojacking) objectives.  |
 
 ## Disclosure (responsible, coordinated, public)
 
