@@ -109,6 +109,7 @@ A repository of breaches of AWS customers
 | Datadog #2 | 2024, January | Leaked IAM User Key | N/A | Cryptomining (via ECS Fargate, XMRig) | [Tales from the cloud trenches: Amazon ECS is the new EC2 for crypto mining](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-ecs-crypto-mining/) |
 | Invictus IR | 2024, January | Exposed IAM User (Administrator) Access Key | created administrator IAM user, added access keys for existing users, created externally assumable role | Cryptomining, SES spam/phishing, phishing infrastructure (domains) | [The curious case of DangerDev@protonmail.me](https://www.invictus-ir.com/news/the-curious-case-of-dangerdev-protonmail-me) |
 | Stephen Berger (InfoGuardAG) | 2024, February | Unknown | N/A | S3 Ransomware (deleted buckets) | [AWS Ransomware](https://dfir.ch/posts/aws_ransomware/) |
+| Sysdig | 2024, March | Exploited vulnerable Laravel + Wordpress | N/A | Meson CDN cryptomining | [Cloud Threats deploying Crypto CDN](https://sysdig.com/blog/cloud-threats-deploying-crypto-cdn/) |
 
 ## Catalog of AWS Threat Actors and their Tools
 
