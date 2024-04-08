@@ -189,6 +189,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Palo Alto Unit 42: [Incident Response Threat Report 2024](https://unit42.paloaltonetworks.com/unit42-incident-response-report-2024-threat-guide/) |  "we’ve seen an increase in incident responses involving cloud cases, from 6% in 2021 to 16.6% in 2023." "Visibility gaps also led to unnecessary resource exposure, such as internet-exposed remote desktops or inadequately secured cloud workloads. These exposures contributed to 9.6% of cases." |
 | CrowdStrike: [2024 Global Threat Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/GlobalThreatReport2024.pdf) | Cloud environment intrusions increased by 75% YoY. 84% of adversary-attributed cloud-conscious intrusions were focused on eCrime.  |
 | Cado: [H2 2023 Cloud Threat Findings Report](https://14518100.fs1.hubspotusercontent-na1.net/hubfs/14518100/H2%202023%20Cloud%20Threat%20Findings%20Report.pdf) | Attackers are getting more sophisticated around Docker, Jupyter, etc. Docker is ~90% of non-SSH honeypot traffic. Diversifying (non-cryptojacking) objectives.  |
+| AWS, Ben Fletcher: [Security Lessons Learnt From The Cloud Frontline](https://www.youtube.com/watch?v=VNlXYrJ677k) | Leaked credentials are the initial vector in 66% of incidents, 33% of these credentials are `root`. 13% of incidents are public EC2 instances. The goals are resource hijacking, ransom (delete + extort), and scorched earth  |
 
 ## Disclosure (responsible, coordinated, public)
 
