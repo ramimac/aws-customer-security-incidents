@@ -64,6 +64,8 @@ A repository of breaches of AWS customers
 | Teqtivity (Uber Vendor) | 2022, December | Unknown | Unknown | "AWS backup server" with device and user information  | [Breach Notification Statement](https://www.teqtivity.com/breach-notification-statement), [Uber suffers new data breach after attack on vendor, info leaked online](https://www.bleepingcomputer.com/news/security/uber-suffers-new-data-breach-after-attack-on-vendor-info-leaked-online/) |
 | CommuteAir | 2023, January | Publicly Exposed Jenkins with hardcoded credentials | N/A | 2019 FAA No Fly List | [how to completely own an airline in 3 easy steps](https://maia.crimew.gay/posts/how-to-hack-an-airline/), [U.S. airline accidentally exposes ‘No Fly List’ on unsecured server](https://www.dailydot.com/debug/no-fly-list-us-tsa-unprotected-server-commuteair/) |
 | Cloudflare | 2023, November | Pivot from Okta compromise due to un-rotated access token | N/A | N/A | [Cloudflare - Thanksgiving 2023 security incident](https://web.archive.org/web/20240201200520/https://blog.cloudflare.com/thanksgiving-2023-security-incident/) |
+| Sisense | 2024, April | Credentials stolen from Gitlab repository | N/A | Terabytes of customer data exfiltrated from S3 | [Why CISA is Warning CISOs About a Breach at Sisense]([https://web.archive.org/web/20240201200520/https://blog.cloudflare.com/thanksgiving-2023-security-incident/](https://krebsonsecurity.com/2024/04/why-cisa-is-warning-cisos-about-a-breach-at-sisense/)) |
+
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
