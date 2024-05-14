@@ -115,6 +115,7 @@ A repository of breaches of AWS customers
 | Stephen Berger (InfoGuardAG) | 2024, February | Unknown | N/A | S3 Ransomware (deleted buckets) | [AWS Ransomware](https://dfir.ch/posts/aws_ransomware/) |
 | Sysdig | 2024, March | Exploited vulnerable Laravel + Wordpress | N/A | Meson CDN cryptomining | [Cloud Threats deploying Crypto CDN](https://sysdig.com/blog/cloud-threats-deploying-crypto-cdn/) |
 | Datadog | 2024, March | Compromised Credentials | N/A | AWS SNS SMS Phishing | [Tales from the cloud trenches: Using malicious AWS activity to spot phishing campaigns](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-aws-activity-to-phishing/) |
+| Mandiant | 2024, April | Phishing leads to compromise of credentials in former employee's personal Google Drive | N/A | S3 data exfiltration and "Ransomware" (deleted buckets) | [Cloud compromises: Lessons learned from Mandiant investigations in 2023 - Incident Response Case Study #4](https://assets.swoogo.com/uploads/3783545-66183eb421ec0.pdf) |
 
 ## Catalog of AWS Threat Actors and their Tools
 
