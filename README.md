@@ -234,6 +234,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2024, Feb | Access Key exposed in HTML | [ Football Australia leak exposes players’ details](https://cybernews.com/security/football-australia-leak-expose-players/) |
 | 2024, Mar | Write permissions to S3 bucket, upload JS that steals credentials | [ From S3 bucket to internal network operation](https://medium.com/@red.whisperer/from-s3-bucket-to-internal-network-operation-8073954932b4) |
 | 2024, Apr | AWS credentials leaked on Postman’s Public API Network | [ (The) Postman Carries Lots of Secrets](https://trufflesecurity.com/blog/postman-carries-lots-of-secrets) |
+| 2024, May | over 200 valid AWS credentials in Public AMI Images | [AWS CloudQuarry: Digging for Secrets in Public AMIs](https://securitycafe.ro/2024/05/08/aws-cloudquarry-digging-for-secrets-in-public-amis/) |
 
 ### Catalog of AWS Exploits via SSRF
 
