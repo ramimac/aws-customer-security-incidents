@@ -204,6 +204,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2019, May | Credentials leaked in Github | [AWS secret key and NPM token leaked in MEW GitHub repos](https://github.com/Ravirajrao/HackerOne-Reports/blob/master/%23549341%20AWS%20secret%20key%20and%20NPM%20token%20leaked%20in%20MEW%20GitHub%20repos.pdf) | 
 | 2020, Feb | Credentials leaked in repository | [Access to Glassdoor's Infra (AWS) and BitBucket account through leaked repo](https://hackerone.com/reports/801531) | 
 | 2020, Sep | ~25,000 AWS Access Keys exposed via Github | [Reliaquest - Access Keys Exposed: More Than 40% Are For Database Stores](https://www.reliaquest.com/blog/access-keys-exposed-more-than-40-are-for-database-stores/) | 
+| 2021, Jan | AWS Access Tokens in Public AMI Images | [Hunting for Sensitive Data in Public Amazon Images (AMI)](https://blog.lethalbit.com/hunting-for-sensitive-data-in-public-amazon-images-ami/) |
 | 2021, Apr | Subdomain takeover, deleted EC2 instance  | [Subdomain takeover of www2.growasyouplan.com](https://hackerone.com/reports/1179193) |
 | 2021, Oct | AWS Creds hardcoded in MSI | [Hardcoded AWS credentials in ███████.msi](https://hackerone.com/reports/1368690) |
 | 2021, Nov | Potential subdomain takeover, dangling CNAME  | [Possible Domain Takeover on AWS Instance](https://hackerone.com/reports/1390782) |
