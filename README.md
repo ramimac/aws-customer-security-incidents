@@ -116,6 +116,8 @@ A repository of breaches of AWS customers
 | Datadog | 2024, March | Compromised Credentials | N/A | AWS SNS SMS Phishing | [Tales from the cloud trenches: Using malicious AWS activity to spot phishing campaigns](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-aws-activity-to-phishing/) |
 | Mandiant | 2024, April | Phishing leads to compromise of credentials in former employee's personal Google Drive | N/A | S3 data exfiltration and "Ransomware" (deleted buckets) | [Cloud compromises: Lessons learned from Mandiant investigations in 2023 - Incident Response Case Study #4](https://assets.swoogo.com/uploads/3783545-66183eb421ec0.pdf) |
 | Lacework | 2024, June | Stolen or compromised credentials | Create new console user | LLMJacking | [Detecting AI resource-hijacking with Composite Alerts](https://www.lacework.com/blog/detecting-ai-resource-hijacking-with-composite-alerts) |
+| Datadog | 2024, June | Stolen or compromised credentials | N/A | LLMJacking | [Tales from the cloud trenches: Raiding for AWS vaults, buckets and secrets](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-raiding-for-vaults-buckets-secrets/) |
+
 
 ## Catalog of AWS Threat Actors and their Tools
 
