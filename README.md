@@ -198,6 +198,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | CrowdStrike: [2024 Global Threat Report](https://go.crowdstrike.com/rs/281-OBQ-266/images/GlobalThreatReport2024.pdf) | Cloud environment intrusions increased by 75% YoY. 84% of adversary-attributed cloud-conscious intrusions were focused on eCrime.  |
 | Cado: [H2 2023 Cloud Threat Findings Report](https://14518100.fs1.hubspotusercontent-na1.net/hubfs/14518100/H2%202023%20Cloud%20Threat%20Findings%20Report.pdf) | Attackers are getting more sophisticated around Docker, Jupyter, etc. Docker is ~90% of non-SSH honeypot traffic. Diversifying (non-cryptojacking) objectives.  |
 | AWS, Ben Fletcher: [Security Lessons Learnt From The Cloud Frontline](https://www.youtube.com/watch?v=VNlXYrJ677k) | Leaked credentials are the initial vector in 66% of incidents, 33% of these credentials are `root`. 13% of incidents are public EC2 instances. The goals are resource hijacking, ransom (delete + extort), and scorched earth  |
+| Red Canary: [2024 Threat Detection Report](https://resource.redcanary.com/rs/003-YRU-314/images/2024ThreatDetectionReport_RedCanary.pdf?version=0) | Cloud Accounts was the fourth most prevalent ATT&CK technique we detected this year, increasing 16-fold in detection volume and affecting three times as many customers as last year ... expanded use of phishing kits and infostealers to collect credentials and/or MFA-signed access tokens  |
 
 ## Disclosure (responsible, coordinated, public)
 
