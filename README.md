@@ -235,9 +235,10 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2023, Sep | 11-12 AWS credentials in `.git` of Alexa Top 1M | [4,500 of the Top 1 Million Websites Leaked Source Code, Secrets](https://trufflesecurity.com/blog/4500-of-the-top-1-million-websites-leaked-source-code-secrets/) |
 | 2023, Oct | over 140 unique active, plaintext credentials to third-party services like OpenAI, AWS, GitHub, and others in Kaggle data | [Analyzing the Security of Machine Learning Research Code](https://developer.nvidia.com/blog/analyzing-the-security-of-machine-learning-research-code/) |
 | 2023, Nov | 2,897 AWS Access Tokens in StackExchange dataset | [I analyzed stackoverflow](https://matan-h.com/analyze-stackoverflow) |
-| 2024, Feb | Access Key exposed in HTML | [ Football Australia leak exposes players’ details](https://cybernews.com/security/football-australia-leak-expose-players/) |
-| 2024, Mar | Write permissions to S3 bucket, upload JS that steals credentials | [ From S3 bucket to internal network operation](https://medium.com/@red.whisperer/from-s3-bucket-to-internal-network-operation-8073954932b4) |
-| 2024, Apr | AWS credentials leaked on Postman’s Public API Network | [ (The) Postman Carries Lots of Secrets](https://trufflesecurity.com/blog/postman-carries-lots-of-secrets) |
+| 2024, Feb | Access Key exposed in HTML | [Football Australia leak exposes players’ details](https://cybernews.com/security/football-australia-leak-expose-players/) |
+| 2024, Mar | Write permissions to S3 bucket, upload JS that steals credentials | [From S3 bucket to internal network operation](https://medium.com/@red.whisperer/from-s3-bucket-to-internal-network-operation-8073954932b4) |
+| 2024, Apr | AWS credentials leaked on Postman’s Public API Network | [(The) Postman Carries Lots of Secrets](https://trufflesecurity.com/blog/postman-carries-lots-of-secrets) |
+| 2024, Apr | 3 AWS Credentials leaked in public Gists in a seven day period | [Do Secrets Leak on Public GitHub Gists in 2024?](https://trufflesecurity.com/blog/do-secrets-leak-on-public-github-gists-in-2024) |
 | 2024, May | over 200 valid AWS credentials in Public AMI Images | [AWS CloudQuarry: Digging for Secrets in Public AMIs](https://securitycafe.ro/2024/05/08/aws-cloudquarry-digging-for-secrets-in-public-amis/) |
 | 2024, May | Bitbucket secured variables leak AWS keys in plain text through artifact objects | [Holes in Your Bitbucket: Why Your CI/CD Pipeline Is Leaking Secrets](https://cloud.google.com/blog/topics/threat-intelligence/bitbucket-pipeline-leaking-secrets/) |
 | 2024, May | Publicly traded company exposed 8m+ PII records in DocumentDB Snapshot | [Publicly Exposed AWS Document DB Snapshots](https://ramimac.me/exposed-docdb) |
