@@ -244,6 +244,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2024, May | over 200 valid AWS credentials in Public AMI Images | [AWS CloudQuarry: Digging for Secrets in Public AMIs](https://securitycafe.ro/2024/05/08/aws-cloudquarry-digging-for-secrets-in-public-amis/) |
 | 2024, May | Bitbucket secured variables leak AWS keys in plain text through artifact objects | [Holes in Your Bitbucket: Why Your CI/CD Pipeline Is Leaking Secrets](https://cloud.google.com/blog/topics/threat-intelligence/bitbucket-pipeline-leaking-secrets/) |
 | 2024, May | Publicly traded company exposed 8m+ PII records in DocumentDB Snapshot | [Publicly Exposed AWS Document DB Snapshots](https://ramimac.me/exposed-docdb) |
+| 2024, July | Kubernetes escape in SAP AI Core allowed access to Loki config, leaking AWS credentials with access to S3 | [SAPwned: SAP AI vulnerabilities expose customers’ cloud environments and private AI artifacts](https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security) |
 
 ### Catalog of AWS Exploits via SSRF
 
