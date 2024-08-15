@@ -148,6 +148,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Rocke | Targeting known CVEs | [Cisco Talos -  Rocke: The Champion of Monero Miners](https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html) |
 | Silentbob (TeamTNT or copycat) | Exploit misconfigured docker and k8s | [Aqua Security -  Threat Alert: Anatomy of Silentbob’s Cloud Attack](https://blog.aquasec.com/threat-alert-anatomy-of-silentbobs-cloud-attack), [Permiso - Agile Approach to Mass Cloud Credential Harvesting and Crypto Mining Sprints Ahead](https://permiso.io/blog/s/agile-approach-to-mass-cloud-cred-harvesting-and-cryptomining/), [SentinelOne - Cloudy With a Chance of Credentials \| AWS-Targeting Cred Stealer Expands to Azure, GCP](https://s1.ai/cloudcreds), [Datadog - An analysis of a TeamTNT doppelgänger](https://securitylabs.datadoghq.com/articles/analysis-of-teamtnt-doppelganger/) |
 | SNS Sender | AWS SNS SMS Phishing Kit | [SentinelOne -  SNS Sender \| Active Campaigns Unleash Messaging Spam Through the Cloud](https://www.sentinelone.com/labs/sns-sender-active-campaigns-unleash-messaging-spam-through-the-cloud/) |
+| Spoiled Scorpius (Distributors of RansomHub) | "Delete backups from both on-premises and cloud storage" | [Unit 42: Ransomware Review: First Half of 2024](https://unit42.paloaltonetworks.com/unit-42-ransomware-leak-site-data-analysis/) |
 | TeamTNT | Exploit misconfigured docker and k8s | [MITRE ATT&CK -  TeamTNT](https://attack.mitre.org/groups/G0139/) |
 | Turla / Pensive Uras | Stealer targets AWS credentials | [Appendix for "Over the Kazuar’s Nest: Cracking Down on a Freshly Hatched Backdoor Used by Pensive Ursa (aka Turla)"](https://github.com/PaloAltoNetworks/Unti42-Threat-Intelligence-Article-Information/blob/main/Appendix-for-article-on-Pensive-Ursa-using-Kazuar.md) |
 | UNC2903 | SSRF (targeting known CVEs) | [Mandiant - Old Services, New Tricks: Cloud Metadata Abuse by UNC2903](https://www.mandiant.com/resources/blog/cloud-metadata-abuse-unc2903) |
@@ -202,6 +203,9 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | AWS, Ben Fletcher: [Security Lessons Learnt From The Cloud Frontline](https://www.youtube.com/watch?v=VNlXYrJ677k) | Leaked credentials are the initial vector in 66% of incidents, 33% of these credentials are `root`. 13% of incidents are public EC2 instances. The goals are resource hijacking, ransom (delete + extort), and scorched earth  |
 | Red Canary: [2024 Threat Detection Report](https://resource.redcanary.com/rs/003-YRU-314/images/2024ThreatDetectionReport_RedCanary.pdf?version=0) | Cloud Accounts was the fourth most prevalent ATT&CK technique we detected this year, increasing 16-fold in detection volume and affecting three times as many customers as last year ... expanded use of phishing kits and infostealers to collect credentials and/or MFA-signed access tokens  |
 | GCP: [GCAT Threat Horizons H2 2024](https://services.google.com/fh/files/misc/threat_horizons_report_h2_2024.pdf) | The most common initial vectors in H1 2024 include Weak or No Credentials (47.2%) and Misconfiguration (30.3%). ~59% of attacks are intended to facilitate coin mining. ~23.5% of attacks are intended to then target third parties. | 
+| Orca: [2024 State of Public Cloud Security](https://orca.security/wp-content/uploads/2024/02/2024-State-of-Cloud-Security-Report.pdf) | "87% of cloud malware attacks
+are via known Trojans." |
+
 
 ## Disclosure (responsible, coordinated, public)
 
