@@ -120,6 +120,7 @@ A repository of breaches of AWS customers
 | Lacework | 2024, June | Stolen or compromised credentials | Create new console user | LLMJacking | [Detecting AI resource-hijacking with Composite Alerts](https://www.lacework.com/blog/detecting-ai-resource-hijacking-with-composite-alerts) |
 | Datadog | 2024, June | Stolen or compromised credentials | N/A | LLMJacking | [Tales from the cloud trenches: Raiding for AWS vaults, buckets and secrets](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-raiding-for-vaults-buckets-secrets/) |
 | Yotam Meitar (Wiz) | 2024, June | Compromised vulnerable application (k8s Pod) | Exploit overprivileged secrets access to retrieve IDP-related credentials | S3 data exfiltration and "Ransomware" | [Responding to Sophisticated Ransom Attacks in the Cloud: A Real-World Case Study](https://www.youtube.com/watch?v=f066e7WndTQ) |
+| Unit42 | 2024, August | Exposed AWS credentials | N/A | S3 data exfiltration and extortion | [Bling Libra’s Tactical Evolution: The Threat Actor Group Behind ShinyHunters Ransomware](https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/) |
 
 
 ## Catalog of AWS Threat Actors and their Tools
