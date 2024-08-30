@@ -252,6 +252,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2024, July | Kubernetes escape in SAP AI Core allowed access to Loki config, leaking AWS credentials with access to S3 | [SAPwned: SAP AI vulnerabilities expose customers’ cloud environments and private AI artifacts](https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security) |
 | 2024, July | Leaked Secrets in Public Jenkins Logs, including 6 AWS keys | [Leaked Secrets in Public Jenkins Logs](https://trufflesecurity.com/blog/leaked-secrets-in-public-jenkins-logs) |
 | 2024, August | Leaked secrets via Virustotal's Retrohunt, Passive DNS "more than 78,000 dangling cloud resources linked to 66,000 apex domains" | [Thousands of Corporate Secrets Were Left Exposed. This Guy Found Them All](https://www.wired.com/story/secret-hunting-bill-demirkapi/), [Secrets and Shadows: Leveraging Big Data for Vulnerability Discovery at Scale](https://defcon.org/html/defcon-32/dc-32-speakers.html#54509)
+| 2024, August | 1,185 leaked AWS Access Keys in exposed `.env` | [Leaked Environment Variables Allow Large-Scale Extortion Operation of Cloud Environments](https://unit42.paloaltonetworks.com/large-scale-cloud-extortion-operation/)
 
 ### Catalog of AWS Exploits via SSRF
 
