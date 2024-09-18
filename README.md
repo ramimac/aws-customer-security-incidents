@@ -206,6 +206,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Red Canary: [2024 Threat Detection Report](https://resource.redcanary.com/rs/003-YRU-314/images/2024ThreatDetectionReport_RedCanary.pdf?version=0) | Cloud Accounts was the fourth most prevalent ATT&CK technique we detected this year, increasing 16-fold in detection volume and affecting three times as many customers as last year ... expanded use of phishing kits and infostealers to collect credentials and/or MFA-signed access tokens  |
 | GCP: [GCAT Threat Horizons H2 2024](https://services.google.com/fh/files/misc/threat_horizons_report_h2_2024.pdf) | The most common initial vectors in H1 2024 include Weak or No Credentials (47.2%) and Misconfiguration (30.3%). ~59% of attacks are intended to facilitate coin mining. ~23.5% of attacks are intended to then target third parties. | 
 | Orca: [2024 State of Public Cloud Security](https://orca.security/wp-content/uploads/2024/02/2024-State-of-Cloud-Security-Report.pdf) | "87% of cloud malware attacks are via known Trojans." |
+| Crowdstrike, Sebastian Walla: [Cloud-Conscious Tactics, Techniques, and Procedures (TTPs)](https://fwdcloudsec.org/assets/presentations/2024/europe/sebastian-walla-cloud-conscious-tactics-techniques-and-procedures-an-overview.pdf) |  ~250 cloud cases in 2023, 1/3 of which involve "cloud-conscious" threat actors, Initial access: Valid Accounts (28%), Exploit Public-Facing Application (16 %) |
 
 
 ## Disclosure (responsible, coordinated, public)
