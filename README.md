@@ -208,6 +208,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | GCP: [GCAT Threat Horizons H2 2024](https://services.google.com/fh/files/misc/threat_horizons_report_h2_2024.pdf) | The most common initial vectors in H1 2024 include Weak or No Credentials (47.2%) and Misconfiguration (30.3%). ~59% of attacks are intended to facilitate coin mining. ~23.5% of attacks are intended to then target third parties. | 
 | Orca: [2024 State of Public Cloud Security](https://orca.security/wp-content/uploads/2024/02/2024-State-of-Cloud-Security-Report.pdf) | "87% of cloud malware attacks are via known Trojans." |
 | Crowdstrike, Sebastian Walla: [Cloud-Conscious Tactics, Techniques, and Procedures (TTPs)](https://fwdcloudsec.org/assets/presentations/2024/europe/sebastian-walla-cloud-conscious-tactics-techniques-and-procedures-an-overview.pdf) |  ~250 cloud cases in 2023, 1/3 of which involve "cloud-conscious" threat actors, Initial access: Valid Accounts (28%), Exploit Public-Facing Application (16 %) |
+| Sysdig: [2024 Global Threat Report](https://sysdig.com/content/c/pf-2024-global-threat-report?x=u_WFRi) | " Many of the attacks Sysdig TRT captured this year were motivated by income generation and free access to otherwise expensive resources". LLMJacking "can run victims over $100,000 daily" |
 
 
 ## Disclosure (responsible, coordinated, public)
