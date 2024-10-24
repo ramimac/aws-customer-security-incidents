@@ -258,6 +258,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2024, July | Hard-coded AWS credential in JS | [how to pwn a billion dollar vc firm using inspect element](https://kibty.town/blog/a16z/) |
 | 2024, August | Leaked secrets via Virustotal's Retrohunt, Passive DNS "more than 78,000 dangling cloud resources linked to 66,000 apex domains" | [Thousands of Corporate Secrets Were Left Exposed. This Guy Found Them All](https://www.wired.com/story/secret-hunting-bill-demirkapi/), [Secrets and Shadows: Leveraging Big Data for Vulnerability Discovery at Scale](https://defcon.org/html/defcon-32/dc-32-speakers.html#54509)
 | 2024, August | 1,185 leaked AWS Access Keys in exposed `.env` | [Leaked Environment Variables Allow Large-Scale Extortion Operation of Cloud Environments](https://unit42.paloaltonetworks.com/large-scale-cloud-extortion-operation/)
+| 2024, October | Hardcoded AWS Access Keys in mobile apps | [Exposing the Danger Within: Hardcoded Cloud Credentials in Popular Mobile Apps](https://www.security.com/threat-intelligence/exposing-danger-within-hardcoded-cloud-credentials-popular-mobile-apps)
 
 ### Catalog of AWS Exploits via SSRF
 
