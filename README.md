@@ -209,7 +209,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Orca: [2024 State of Public Cloud Security](https://orca.security/wp-content/uploads/2024/02/2024-State-of-Cloud-Security-Report.pdf) | "87% of cloud malware attacks are via known Trojans." |
 | Crowdstrike, Sebastian Walla: [Cloud-Conscious Tactics, Techniques, and Procedures (TTPs)](https://fwdcloudsec.org/assets/presentations/2024/europe/sebastian-walla-cloud-conscious-tactics-techniques-and-procedures-an-overview.pdf) |  ~250 cloud cases in 2023, 1/3 of which involve "cloud-conscious" threat actors, Initial access: Valid Accounts (28%), Exploit Public-Facing Application (16 %) |
 | Sysdig: [2024 Global Threat Report](https://sysdig.com/content/c/pf-2024-global-threat-report?x=u_WFRi) | " Many of the attacks Sysdig TRT captured this year were motivated by income generation and free access to otherwise expensive resources". LLMJacking "can run victims over $100,000 daily" |
-
+| Expel: [Quarterly Threat Report (QTR) for Q3 2024](https://expel.com/blog/expel-quarterly-threat-report-volume-i-q3-by-the-numbers/) | "Incidents in cloud infrastructures (AWS, GCP, Azure, and Kubernetes) made up only 2% of the total incident volume. This has stayed consistent over the last few quarters" |
 
 ## Disclosure (responsible, coordinated, public)
 
