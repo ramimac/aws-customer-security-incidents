@@ -216,6 +216,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 
 | Date | Vulnerability | Reference |
 | ------------- | ------------- | ------------- |
+| 2014, Dec | Credentials leaked in Github | [My AWS Account Got Compromised](https://xingwu.me/2014/12/10/My-AWS-Account-Got-Compromised/) | 
 | 2019, Feb | 4,648 unique AWS Access Key IDs in Github | [How Bad Can It Git? Characterizing Secret Leakage in Public GitHub Repositories](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf) | 
 | 2019, May | Credentials leaked in exposed GitLab instance | [Samsung spilled SmartThings app source code and secret keys](https://techcrunch.com/2019/05/08/samsung-source-code-leak/) | 
 | 2019, May | Credentials leaked in Github | [AWS secret key and NPM token leaked in MEW GitHub repos](https://github.com/Ravirajrao/HackerOne-Reports/blob/master/%23549341%20AWS%20secret%20key%20and%20NPM%20token%20leaked%20in%20MEW%20GitHub%20repos.pdf) | 
