@@ -211,6 +211,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Sysdig: [2024 Global Threat Report](https://sysdig.com/content/c/pf-2024-global-threat-report?x=u_WFRi) | " Many of the attacks Sysdig TRT captured this year were motivated by income generation and free access to otherwise expensive resources". LLMJacking "can run victims over $100,000 daily" |
 | Expel: [Quarterly Threat Report (QTR) for Q3 2024](https://expel.com/blog/expel-quarterly-threat-report-volume-i-q3-by-the-numbers/) | "Incidents in cloud infrastructures (AWS, GCP, Azure, and Kubernetes) made up only 2% of the total incident volume. This has stayed consistent over the last few quarters" |
 | Cowbell Insurance: [Cyber Roundup Report 2024](https://cowbell.insure/wp-content/uploads/pdfs/CB-US-Q4-CyberRoundupReport24.pdf) | "Analysis relating to cloud provider usage found that businesses using Google Cloud report a 28% lower frequency of cyber incidents relative to other cloud users. In addition to a reduced frequency of incidents, Google Cloud exhibits the lowest severity of cyber incidents, while Microsoft Azure shows the highest." |
+| Tenable: [Cloud Risk Report 2024](https://dam.tenable.com/23e27766-3065-4904-95d7-b1fe015e7d59/tenable-cloud-risk-report-2024.pdf) | "38% of organizations have at least one cloud workload that is publicly exposed, critically vulnerable and highly privileged. 84.2% possess unused or longstanding access keys with critical or high severity excessive permissions." |
 
 ## Disclosure (responsible, coordinated, public)
 
