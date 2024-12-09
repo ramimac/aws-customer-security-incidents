@@ -296,6 +296,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 * [Server Side Request Forgery (SSRF) via Analytics Reports](https://hackerone.com/reports/2262382)
 * [SSRF to read AWS metaData at https://█████/ \[HtUS\]](https://hackerone.com/reports/1624140)
 * [SSRF on █████████ Allowing internal server data access](https://hackerone.com/reports/326040)
+* [The Unusual Case of Status code- 301 Redirection to AWS Security Credentials Compromise](https://logicbomb.medium.com/the-unusual-case-of-open-redirection-to-aws-security-credentials-compromise-59acc312f02b)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
 
