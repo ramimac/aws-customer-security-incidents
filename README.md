@@ -123,6 +123,7 @@ A repository of breaches of AWS customers
 | Yotam Meitar (Wiz) | 2024, June | Compromised vulnerable application (k8s Pod) | Exploit overprivileged secrets access to retrieve IDP-related credentials | S3 data exfiltration and "Ransomware" | [Responding to Sophisticated Ransom Attacks in the Cloud: A Real-World Case Study](https://www.youtube.com/watch?v=f066e7WndTQ) |
 | Unit42 | 2024, August | Exposed AWS credentials | N/A | S3 data exfiltration and extortion | [Bling Libra’s Tactical Evolution: The Threat Actor Group Behind ShinyHunters Ransomware](https://unit42.paloaltonetworks.com/shinyhunters-ransomware-extortion/) |
 | Permiso | 2024, October | Stolen or compromised credentials | N/A | LLMJacking | [When AI Gets Hijacked: Exploiting Hosted Models for Dark Roleplaying](https://permiso.io/blog/exploiting-hosted-models) |
+| Datadog | 2024, December | Stolen or compromised credentials | Create new role assumable by attacker account | Targeting SES | [Tales from the cloud trenches: Unwanted visitor](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-unwanted-visitor/#key-points-and-observations) |
 
 
 ## Catalog of AWS Threat Actors and their Tools
