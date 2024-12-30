@@ -267,6 +267,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2024, October | Hardcoded AWS Access Keys in mobile apps | [Exposing the Danger Within: Hardcoded Cloud Credentials in Popular Mobile Apps](https://www.security.com/threat-intelligence/exposing-danger-within-hardcoded-cloud-credentials-popular-mobile-apps)
 | 2024, October | Numerous leaked credentials scraped from exposed `.git` configurations | [EMERALDWHALE: 15k Cloud Credentials Stolen in Operation Targeting Exposed Git Config Files](https://sysdig.com/blog/emeraldwhale/)
 | 2024, December | 1,526 leaked AWS credentials via environment files (.env), configuration files, exposed git repositories (.git), etc. | [From Vulnerabilities to Breaches: The Shiny Nemesis Cyber Operation](https://www.vpnmentor.com/news/shiny-nemesis-report/)
+| 2024, December | AWS Access Keys leaked via Java Spring Actuator heapdump | [Customer data from 800,000 electric cars and owners exposed online](https://www.bleepingcomputer.com/news/security/customer-data-from-800-000-electric-cars-and-owners-exposed-online/)
 
 ### Catalog of AWS Exploits via SSRF
 
