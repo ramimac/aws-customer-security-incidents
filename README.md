@@ -128,6 +128,7 @@ A repository of breaches of AWS customers
 | Permiso | 2024, October | Stolen or compromised credentials | N/A | LLMJacking | [When AI Gets Hijacked: Exploiting Hosted Models for Dark Roleplaying](https://permiso.io/blog/exploiting-hosted-models) |
 | Datadog | 2024, December | Stolen or compromised credentials | Create new role assumable by attacker account | Targeting SES | [Tales from the cloud trenches: Unwanted visitor](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-unwanted-visitor/#key-points-and-observations) |
 | Wiz | 2024, December | Stolen or compromised credentials | Create new users and access keys | LLMJacking | [New Developments in LLM Hijacking Activity](https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws) |
+| Sygnia | 2025, January | Infostealer deployed via social engineering | Lambda PrivEsc to execute commands on EC2 instance | "API calls" to "critical assets" | [Sygnia’s 2025 Field Report](https://www.sygnia.co/blog/sygnia-2025-field-report-identity-based-attacks/) |
 
 ## Catalog of AWS Threat Actors and their Tools
 
