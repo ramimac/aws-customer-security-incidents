@@ -69,6 +69,7 @@ A repository of breaches of AWS customers
 | Cloudflare | 2023, November | Pivot from Okta compromise due to un-rotated access token | N/A | N/A | [Cloudflare - Thanksgiving 2023 security incident](https://web.archive.org/web/20240201200520/https://blog.cloudflare.com/thanksgiving-2023-security-incident/) |
 | Sisense | 2024, April | Credentials stolen from Gitlab repository | N/A | Terabytes of customer data exfiltrated from S3 | [Why CISA is Warning CISOs About a Breach at Sisense](https://krebsonsecurity.com/2024/04/why-cisa-is-warning-cisos-about-a-breach-at-sisense/) |
 | pcTattletale | 2024, May | Application vulnerability disclosed `root` AWS keys | N/A | Data published publicly | [Spyware app pcTattletale was hacked and its website defaced](https://techcrunch.com/2024/05/25/spyware-app-pctattletale-was-hacked-and-its-website-defaced/), [defaced site](https://web.archive.org/web/20240525013915/https://www.pctattletale.com/) |
+| BeyondTrust | 2024, December | 0day vulnerability in a 3p application | infrastructure API key to pivot cross-account | Customer Instances compromised | [BeyondTrust Remote Support SaaS Service Security Investigation](https://www.beyondtrust.com/remote-support-saas-service-security-investigation) |
 | Otelier | 2025, January | Infostealer | Credentials found in Bitbucket | 8TB of data exfiltrated from S3 | [Otelier data breach exposes info, hotel reservations of millions](https://www.bleepingcomputer.com/news/security/otelier-data-breach-exposes-info-hotel-reservations-of-millions/) |
 
 
