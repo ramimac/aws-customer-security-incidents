@@ -281,7 +281,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2024, December | 1,526 leaked AWS credentials via environment files (.env), configuration files, exposed git repositories (.git), etc. | [From Vulnerabilities to Breaches: The Shiny Nemesis Cyber Operation](https://www.vpnmentor.com/news/shiny-nemesis-report/)
 | 2024, December | AWS Access Keys leaked via Java Spring Actuator heapdump | [Customer data from 800,000 electric cars and owners exposed online](https://www.bleepingcomputer.com/news/security/customer-data-from-800-000-electric-cars-and-owners-exposed-online/)
 | 2025, February | ~150 S3 buckets with dangling references taking over | [8 Million Requests Later, We Made The SolarWinds Supply Chain Attack Look Amateur](https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/)
-
+| 2025, February | Hardcoded AWS Access Key in Eight Sleep mattress firmware | [Removing Jeff Bezos From My Bed](https://trufflesecurity.com/blog/removing-jeff-bezos-from-my-bed) | 
 
 ### Catalog of AWS Exploits via SSRF
 
