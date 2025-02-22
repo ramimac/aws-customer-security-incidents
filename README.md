@@ -130,6 +130,7 @@ A repository of breaches of AWS customers
 | Datadog | 2024, December | Stolen or compromised credentials | Create new role assumable by attacker account | Targeting SES | [Tales from the cloud trenches: Unwanted visitor](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-unwanted-visitor/#key-points-and-observations) |
 | Wiz | 2024, December | Stolen or compromised credentials | Create new users and access keys | LLMJacking | [New Developments in LLM Hijacking Activity](https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws) |
 | Sygnia | 2025, January | Infostealer deployed via social engineering | Lambda PrivEsc to execute commands on EC2 instance | "API calls" to "critical assets" | [Sygnia’s 2025 Field Report](https://www.sygnia.co/blog/sygnia-2025-field-report-identity-based-attacks/) |
+| Expel | 2025, February | Phishing/Smishing compromising Okta identities | N/A | N/A | [Expel's 2025 Annual Threat Report - Scattered Spider](https://expel.com/wp-content/uploads/2025/01/Expel-Annual-Threat-Report-2025-013025.pdf) |
 
 ## Catalog of AWS Threat Actors and their Tools
 
@@ -220,6 +221,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | Cowbell Insurance: [Cyber Roundup Report 2024](https://cowbell.insure/wp-content/uploads/pdfs/CB-US-Q4-CyberRoundupReport24.pdf) | "Analysis relating to cloud provider usage found that businesses using Google Cloud report a 28% lower frequency of cyber incidents relative to other cloud users. In addition to a reduced frequency of incidents, Google Cloud exhibits the lowest severity of cyber incidents, while Microsoft Azure shows the highest." |
 | Tenable: [Cloud Risk Report 2024](https://dam.tenable.com/23e27766-3065-4904-95d7-b1fe015e7d59/tenable-cloud-risk-report-2024.pdf) | "38% of organizations have at least one cloud workload that is publicly exposed, critically vulnerable and highly privileged. 84.2% possess unused or longstanding access keys with critical or high severity excessive permissions." |
 | GCP: [GCAT Threat Horizons H1 2025](https://services.google.com/fh/files/misc/threat_horizons_report_h1_2025.pdf) | The most common initial vectors in H1 2025 include Weak or No Credentials (45.7%) and Misconfiguration (34.3%), 17.1% API/UI compromise. "More than half (62.2%) of threat actor movements once they gained access involved attempting lateral movement within an environment and downloading tools designed for this purpose."
+| Expel: [Annual Threat Report 2025](https://expel.com/wp-content/uploads/2025/01/Expel-Annual-Threat-Report-2025-013025.pdf) | "Attacks specifically targeting cloud infrastructure accounted for approximately 2% of threats, which was identical to 2023.", ~45% credential compromise, ~32% server-side exploitation, ~14% SSRF |
 
 ## Disclosure (responsible, coordinated, public)
 
