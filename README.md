@@ -228,6 +228,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | GCP: [GCAT Threat Horizons H1 2025](https://services.google.com/fh/files/misc/threat_horizons_report_h1_2025.pdf) | The most common initial vectors in H1 2025 include Weak or No Credentials (45.7%) and Misconfiguration (34.3%), 17.1% API/UI compromise. "More than half (62.2%) of threat actor movements once they gained access involved attempting lateral movement within an environment and downloading tools designed for this purpose."
 | Expel: [Annual Threat Report 2025](https://expel.com/wp-content/uploads/2025/01/Expel-Annual-Threat-Report-2025-013025.pdf) | "Attacks specifically targeting cloud infrastructure accounted for approximately 2% of threats, which was identical to 2023.", ~45% credential compromise, ~32% server-side exploitation, ~14% SSRF |
 | Unit42: [Global Incident Response Report 2025](https://www.paloaltonetworks.com/engage/unit42-2025-global-incident-response-report) | "86% of incidents that Unit 42 responded to involved business disruption", "in nearly one in five cases, data exfiltration took place within the first hour of compromise.", "A little less than one third of cases (29%) in 2024 were cloud-related." |
+| Crowdstrike: [Global Threat Report](https://www.crowdstrike.com/explore/2025-global-threat-report) | "new and unattributed cloud intrusions increased 26% compared to 2023", "abusing valid accounts ... \[accounted\] for 35% of cloud incidents in the first half of 2024. |
 
 ## Disclosure (responsible, coordinated, public)
 
