@@ -2,6 +2,7 @@
 
 ## Talks
 
+* Andoni Alonso, Bsides Málaga 2025: [The Cloud Is Just Someone Else's Computer, But It's Still Your Problem](https://github.com/unicrons/.github/blob/main/slides/The%20Cloud%20Is%20Just%20Someone%20Else's%20Computer%2C%20But%20It's%20Still%20Your%20Problem%20%40%20Bsides%20Malaga%202025.pdf)
 * Abhinav Singh, RSAC 2024: [Blueprint For Data Defense in the Public Cloud: Strategies & Playbooks](https://static.rainfocus.com/rsac/us24/sess/1697499635209001eAXa/finalwebsite/2024_USA24_LAB1-R01_01_Blueprint-for-Data-Defense-in-the-Public-Cloud_1713894543832001YiEZ.pdf)
 * Christophe Tafani-Dereeper, Insomni'Hack 2024: [Abusing Misconfigured OIDC Authentication In Cloud Environments](https://download.scrt.ch/insomnihack/ins24-slides/Insomni%27Hack%202024_%20Abusing%20misconfigured%20OIDC%20authentication%20in%20cloud%20environments.pdf), [video](https://www.youtube.com/watch?v=r68fyFhkeV0)
 * Nick Jones, AWS Meetup Copenhagen June 2023: [Avoiding Security Breaches in AWS](https://www.nojones.net/assets/slides/withsecure_avoiding-security-breaches-in-aws_2023-06-01%20copy.pdf)
