@@ -288,6 +288,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2025, February | ~150 S3 buckets with dangling references taking over | [8 Million Requests Later, We Made The SolarWinds Supply Chain Attack Look Amateur](https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/)
 | 2025, February | Hardcoded AWS Access Key in Eight Sleep mattress firmware | [Removing Jeff Bezos From My Bed](https://trufflesecurity.com/blog/removing-jeff-bezos-from-my-bed) | 
 | 2025, February | Multiple AWS Access Keys in Common Crawl data set | [Research finds 12,000 ‘Live’ API Keys and Passwords in DeepSeek's Training Data](https://trufflesecurity.com/blog/research-finds-12-000-live-api-keys-and-passwords-in-deepseek-s-training-data) | 
+| 2025, March | Multiple AWS credentials exposed publicly due to tj-actions | [GitHub Action tj-actions/changed-files supply chain attack](https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack-cve-2025-30066) | 
 
 ### Catalog of AWS Exploits via SSRF
 
