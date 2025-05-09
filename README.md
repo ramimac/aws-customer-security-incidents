@@ -135,6 +135,7 @@ A repository of breaches of AWS customers
 | Wiz | 2024, December | Stolen or compromised credentials | Create new users and access keys | LLMJacking | [New Developments in LLM Hijacking Activity](https://www.wiz.io/blog/jinx-2401-llm-hijacking-aws) |
 | Sygnia | 2025, January | Infostealer deployed via social engineering | Lambda PrivEsc to execute commands on EC2 instance | "API calls" to "critical assets" | [Sygnia’s 2025 Field Report](https://www.sygnia.co/blog/sygnia-2025-field-report-identity-based-attacks/) |
 | Expel | 2025, February | Phishing/Smishing compromising Okta identities | N/A | N/A | [Expel's 2025 Annual Threat Report - Scattered Spider](https://expel.com/wp-content/uploads/2025/01/Expel-Annual-Threat-Report-2025-013025.pdf) |
+| Badshah | 2025, April | Stolen or compromised credentials | N/A | Exfiltration and deletion | [Securing a SaaS Company's AWS Environment After a Breach](https://badshah.io/case-studies/saas-aws-breach/) |
 
 ## Catalog of AWS Threat Actors and their Tools
 
