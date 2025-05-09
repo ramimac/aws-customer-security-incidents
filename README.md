@@ -136,7 +136,7 @@ A repository of breaches of AWS customers
 | Sygnia | 2025, January | Infostealer deployed via social engineering | Lambda PrivEsc to execute commands on EC2 instance | "API calls" to "critical assets" | [Sygnia’s 2025 Field Report](https://www.sygnia.co/blog/sygnia-2025-field-report-identity-based-attacks/) |
 | Expel | 2025, February | Phishing/Smishing compromising Okta identities | N/A | N/A | [Expel's 2025 Annual Threat Report - Scattered Spider](https://expel.com/wp-content/uploads/2025/01/Expel-Annual-Threat-Report-2025-013025.pdf) |
 | Badshah | 2025, April | Stolen or compromised credentials | N/A | Exfiltration and deletion | [Securing a SaaS Company's AWS Environment After a Breach](https://badshah.io/case-studies/saas-aws-breach/) |
-| Mandiant M-Trends 2025 | 2025, April | Stolen or compromised credentials | TKTK | Mining, LLMJacking, Resale | [M-Trends 2025: TRIPLESTRENGTH Leverages Stolen Credentials for Cloud Assets for Illicit Cryptocurrency Mining](https://services.google.com/fh/files/misc/m-trends-2025-en.pdf) |
+| Mandiant M-Trends 2025 | 2025, April | Stolen or compromised credentials | N/A | Mining, LLMJacking, Resale | [M-Trends 2025: TRIPLESTRENGTH Leverages Stolen Credentials for Cloud Assets for Illicit Cryptocurrency Mining](https://services.google.com/fh/files/misc/m-trends-2025-en.pdf) |
 
 
 ## Catalog of AWS Threat Actors and their Tools
