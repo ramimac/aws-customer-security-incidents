@@ -74,6 +74,7 @@ A repository of breaches of AWS customers
 | BeyondTrust | 2024, December | 0day vulnerability in a 3p application | infrastructure API key to pivot cross-account | Customer Instances compromised | [BeyondTrust Remote Support SaaS Service Security Investigation](https://www.beyondtrust.com/remote-support-saas-service-security-investigation) |
 | Otelier | 2025, January | Infostealer | Credentials found in Bitbucket | 8TB of data exfiltrated from S3 | [Otelier data breach exposes info, hotel reservations of millions](https://www.bleepingcomputer.com/news/security/otelier-data-breach-exposes-info-hotel-reservations-of-millions/) |
 | Bybit / Safe{Wallet} | 2025, February | Compromised developer machine | Malicious JavaScript via S3 bucket write access | $1.5 Billion dollars stolen | [Bybit Interim Investigation Reports](https://docsend.com/view/s/rmdi832mpt8u93s7#) |
+| TinaCloud | 2024, December | Credentials leaked in JS file | N/A | SES abuse for phishing | [TinaCloud: Public Disclosure of Security Breach](https://tina.io/blog/2024-12-tinacloud-public-disclosure-security-breach) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
