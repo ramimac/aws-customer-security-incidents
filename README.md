@@ -76,7 +76,7 @@ A repository of breaches of AWS customers
 | Otelier | 2025, January | Infostealer | Credentials found in Bitbucket | 8TB of data exfiltrated from S3 | [Otelier data breach exposes info, hotel reservations of millions](https://www.bleepingcomputer.com/news/security/otelier-data-breach-exposes-info-hotel-reservations-of-millions/) |
 | Bybit / Safe{Wallet} | 2025, February | Compromised developer machine | Malicious JavaScript via S3 bucket write access | $1.5 Billion dollars stolen | [Bybit Interim Investigation Reports](https://docsend.com/view/s/rmdi832mpt8u93s7#) |
 | AngelOne | 2025, March | Unknown | N/A | Data exfiltration | [Indian Stock Broker Angel One Discloses Data Breach](https://www.securityweek.com/indian-stock-broker-angel-one-discloses-data-breach/) |
-
+| Pearson | 2025, March  | Exposed GitLab token in `.git/config` | AWS credentials in source code | Data exfiltration | [Education giant Pearson hit by cyberattack exposing customer data](https://www.bleepingcomputer.com/news/security/education-giant-pearson-hit-by-cyberattack-exposing-customer-data/) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
