@@ -140,6 +140,7 @@ A repository of breaches of AWS customers
 | Expel | 2025, February | Phishing/Smishing compromising Okta identities | N/A | N/A | [Expel's 2025 Annual Threat Report - Scattered Spider](https://expel.com/wp-content/uploads/2025/01/Expel-Annual-Threat-Report-2025-013025.pdf) |
 | Badshah | 2025, April | Stolen or compromised credentials | N/A | Exfiltration and deletion | [Securing a SaaS Company's AWS Environment After a Breach](https://badshah.io/case-studies/saas-aws-breach/) |
 | Mandiant M-Trends 2025 | 2025, April | Stolen or compromised credentials | N/A | Mining, LLMJacking, Resale | [M-Trends 2025: TRIPLESTRENGTH Leverages Stolen Credentials for Cloud Assets for Illicit Cryptocurrency Mining](https://services.google.com/fh/files/misc/m-trends-2025-en.pdf) |
+| Datadog | 2025, March | Leaked credentials | Create Admin IAM Users, Lambda persistence, AWS SSO Persistence  | N/A | [Tales from the cloud trenches: The Attacker doth persist too much, methinks](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-the-attacker-doth-persist-too-much/) |
 
 
 ## Catalog of AWS Threat Actors and their Tools
