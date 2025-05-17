@@ -72,9 +72,11 @@ A repository of breaches of AWS customers
 | Sisense | 2024, April | Credentials stolen from Gitlab repository | N/A | Terabytes of customer data exfiltrated from S3 | [Why CISA is Warning CISOs About a Breach at Sisense](https://krebsonsecurity.com/2024/04/why-cisa-is-warning-cisos-about-a-breach-at-sisense/) |
 | pcTattletale | 2024, May | Application vulnerability disclosed `root` AWS keys | N/A | Data published publicly | [Spyware app pcTattletale was hacked and its website defaced](https://techcrunch.com/2024/05/25/spyware-app-pctattletale-was-hacked-and-its-website-defaced/), [defaced site](https://web.archive.org/web/20240525013915/https://www.pctattletale.com/) |
 | BeyondTrust | 2024, December | 0day vulnerability in a 3p application | infrastructure API key to pivot cross-account | Customer Instances compromised | [BeyondTrust Remote Support SaaS Service Security Investigation](https://www.beyondtrust.com/remote-support-saas-service-security-investigation) |
+| TinaCloud | 2024, December | Credentials leaked in JS file | N/A | SES abuse for phishing | [TinaCloud: Public Disclosure of Security Breach](https://tina.io/blog/2024-12-tinacloud-public-disclosure-security-breach) |
 | Otelier | 2025, January | Infostealer | Credentials found in Bitbucket | 8TB of data exfiltrated from S3 | [Otelier data breach exposes info, hotel reservations of millions](https://www.bleepingcomputer.com/news/security/otelier-data-breach-exposes-info-hotel-reservations-of-millions/) |
 | Bybit / Safe{Wallet} | 2025, February | Compromised developer machine | Malicious JavaScript via S3 bucket write access | $1.5 Billion dollars stolen | [Bybit Interim Investigation Reports](https://docsend.com/view/s/rmdi832mpt8u93s7#) |
-| TinaCloud | 2024, December | Credentials leaked in JS file | N/A | SES abuse for phishing | [TinaCloud: Public Disclosure of Security Breach](https://tina.io/blog/2024-12-tinacloud-public-disclosure-security-breach) |
+| AngelOne | 2025, March | Unknown | N/A | Data exfiltration | [Indian Stock Broker Angel One Discloses Data Breach](https://www.securityweek.com/indian-stock-broker-angel-one-discloses-data-breach/) |
+
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
