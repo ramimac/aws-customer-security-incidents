@@ -305,7 +305,7 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2025, June | AWS Access Keys leaked in API response, registration of a non-existant logging bucket, cross-tenant compromise | [OneLogin, Many Issues: How I Pivoted from a Trial Tenant to Compromising Customer Signing Keys](https://specterops.io/blog/2025/06/10/onelogin-many-issues-how-i-pivoted-from-a-trial-tenant-to-compromising-customer-signing-keys/) | 
 | 2025, July | Compromised AWS Access Key, access to Confluence DB, forge and insert a rogue token for any user | [When too much access is not enough: a story about Confluence and tokens](https://blog.quarkslab.com/a-story-about-confluence-and-tokens.html) |
 | 2025, July | 130 AWS Access Keys in Dangling "Oops" Commits | [How I Scanned all of GitHub’s “Oops Commits” for Leaked Secrets](https://trufflesecurity.com/blog/guest-post-how-i-scanned-all-of-github-s-oops-commits-for-leaked-secrets) |
-
+| 2025, July | 27 AWS Access Keys in DockerHub images | [Stop the Leak: Scanning Containers for Exposed Secrets](https://www.binarly.io/blog/stop-the-leak-scanning-containers-for-exposed-secrets) |
 
 ### Catalog of AWS Exploits via SSRF
 
