@@ -303,7 +303,9 @@ More information on these actors is available on [malpedia](https://malpedia.caa
 | 2025, March | Multiple AWS credentials exposed publicly due to tj-actions | [GitHub Action tj-actions/changed-files supply chain attack](https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack-cve-2025-30066) | 
 | 2025, March | over 7,000 valid AWS credentials exposed on DockerHub | [Fresh From The Docks: Uncovering 100,000 Valid Secrets in DockerHub](https://blog.gitguardian.com/fresh-from-the-docks-uncovering-100-000-valid-secrets-in-dockerhub/) | 
 | 2025, June | AWS Access Keys leaked in API response, registration of a non-existant logging bucket, cross-tenant compromise | [OneLogin, Many Issues: How I Pivoted from a Trial Tenant to Compromising Customer Signing Keys](https://specterops.io/blog/2025/06/10/onelogin-many-issues-how-i-pivoted-from-a-trial-tenant-to-compromising-customer-signing-keys/) | 
-| Quarkslab | 2025, July | Compromised AWS Access Key, access to Confluence DB, forge and insert a rogue token for any user | [When too much access is not enough: a story about Confluence and tokens](https://blog.quarkslab.com/a-story-about-confluence-and-tokens.html) |
+| 2025, July | Compromised AWS Access Key, access to Confluence DB, forge and insert a rogue token for any user | [When too much access is not enough: a story about Confluence and tokens](https://blog.quarkslab.com/a-story-about-confluence-and-tokens.html) |
+| 2025, July | 130 AWS Access Keys in Dangling "Oops" Commits | [How I Scanned all of GitHub’s “Oops Commits” for Leaked Secrets](https://trufflesecurity.com/blog/guest-post-how-i-scanned-all-of-github-s-oops-commits-for-leaked-secrets) |
+
 
 ### Catalog of AWS Exploits via SSRF
 
