@@ -143,7 +143,8 @@ A repository of breaches of AWS customers
 | Badshah | 2025, April | Stolen or compromised credentials | N/A | Exfiltration and deletion | [Securing a SaaS Company's AWS Environment After a Breach](https://badshah.io/case-studies/saas-aws-breach/) |
 | Mandiant M-Trends 2025 | 2025, April | Stolen or compromised credentials | N/A | Mining, LLMJacking, Resale | [M-Trends 2025: TRIPLESTRENGTH Leverages Stolen Credentials for Cloud Assets for Illicit Cryptocurrency Mining](https://services.google.com/fh/files/misc/m-trends-2025-en.pdf) |
 | Datadog | 2025, March | Leaked credentials | Create Admin IAM Users, Lambda persistence, AWS SSO Persistence  | N/A | [Tales from the cloud trenches: The Attacker doth persist too much, methinks](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-the-attacker-doth-persist-too-much/) |
-| Darktrace | 2025, July | Compromised credentials | RDP connections to other instances  | Data Exfiltration | [](https://www.darktrace.com/blog/defending-the-cloud-stopping-cyber-threats-in-azure-and-aws-with-darktrace) |
+| Darktrace #1 | 2025, July | Compromised credentials | RDP connections to other instances  | Data Exfiltration | [Defending the Cloud: Stopping Cyber Threats in Azure and AWS with Darktrace](https://www.darktrace.com/blog/defending-the-cloud-stopping-cyber-threats-in-azure-and-aws-with-darktrace) |
+| Darktrace #2 | 2025, July | SonicWall | N/A | Data Exfiltration | [Defending the Cloud: Stopping Cyber Threats in Azure and AWS with Darktrace](https://www.darktrace.com/blog/defending-the-cloud-stopping-cyber-threats-in-azure-and-aws-with-darktrace) |
 
 ---
 
