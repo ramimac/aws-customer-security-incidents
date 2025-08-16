@@ -12,15 +12,17 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2019, May | Credentials leaked in exposed GitLab instance | [Samsung spilled SmartThings app source code and secret keys](https://techcrunch.com/2019/05/08/samsung-source-code-leak/) | 
 | 2019, May | Credentials leaked in Github | [AWS secret key and NPM token leaked in MEW GitHub repos](https://github.com/Ravirajrao/HackerOne-Reports/blob/master/%23549341%20AWS%20secret%20key%20and%20NPM%20token%20leaked%20in%20MEW%20GitHub%20repos.pdf) | 
 | 2020, Feb | Credentials leaked in repository | [Access to Glassdoor's Infra (AWS) and BitBucket account through leaked repo](https://hackerone.com/reports/801531) | 
+| 2021, Jan | Analyzed 3,000 documents, found 1 public s3 bucket with PIIes | [The Need to Protect Public AWS SSM Documents](https://research.checkpoint.com/2021/the-need-to-protect-public-aws-ssm-documents-what-the-research-shows/) |
 | 2021, Apr | Subdomain takeover, deleted EC2 instance  | [Subdomain takeover of www2.growasyouplan.com](https://hackerone.com/reports/1179193) |
 | 2021, Oct | AWS Creds hardcoded in MSI | [Hardcoded AWS credentials in ███████.msi](https://hackerone.com/reports/1368690) |
 | 2021, Nov | Potential subdomain takeover, dangling CNAME  | [Possible Domain Takeover on AWS Instance](https://hackerone.com/reports/1390782) |
 | 2021, Nov | Subdomain takeover, deleted S3 bucket  | [Subdomain takeover of images.crossinstall.com](https://hackerone.com/reports/1406335) |
 | 2021, Dec | Account takeover via Cognito user email change | [Flickr Account Takeover using AWS Cognito API](https://hackerone.com/reports/1342088) |
+| 2022, Jan | NoSQL-Injection discloses discloses S3 File Upload URLs | [NoSQL-Injection discloses S3 File Upload URLs](https://hackerone.com/reports/1458020) |
 | 2022, May | Malicious update to `ctx` Python library | [Malicious Python library CTX removed from PyPI repo](https://portswigger.net/daily-swig/malicious-python-library-ctx-removed-from-pypi-repo) |
 | 2022, Oct | Subdomain takeover, deleted S3 bucket | [Subdomain takeover at http://test.www.midigator.com](https://hackerone.com/reports/1718371) |
 | 2022, Nov | AWS credentials in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
-| 2022, Jan | NoSQL-Injection discloses discloses S3 File Upload URLs | [NoSQL-Injection discloses S3 File Upload URLs](https://hackerone.com/reports/1458020) |
+| 2022, Nov | Public RDS snapshots | [Oops, I Leaked It Again](https://www.mitiga.io/blog/how-mitiga-found-pii-in-exposed-amazon-rds-snapshots) |
 | 2022, Sep | AWS credentials leaked in code repository | [Shiba Inu cloud credentials leaked on a public repository!](v) |
 | 2022, Dec | Lack of forced verification on email update in AWS Cognito | [Account Takeover Due to Cognito Misconfiguration Earns Me €xxxx](https://medium.com/@mukundbhuva/account-takeover-due-to-cognito-misconfiguration-earns-me-xxxx-3a7b8bb9a619) |
 | 2023, Jan | AWS credentials found in 57 PyPi packages | [I scanned every package on PyPi and found 57 live AWS keys](https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-keys/) |
