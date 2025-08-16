@@ -1,5 +1,8 @@
 # A list of appearances of aws-customer-security-incidents
 
+The initial data was collected for a talk at BSidesCT 2020: _Learning from AWS (Customer) Security Incidents_  [slides here](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents)
+A follow up talk was given at OWASP DevSlop in May 2022. [video](https://www.youtube.com/watch?v=JBUgAXvcObU), [slides](https://speakerdeck.com/ramimac/learning-from-aws-customer-security-incidents-2022)
+
 ## Talks
 
 * Andoni Alonso, Bsides Málaga 2025: [The Cloud Is Just Someone Else's Computer, But It's Still Your Problem](https://github.com/unicrons/.github/blob/main/slides/The%20Cloud%20Is%20Just%20Someone%20Else's%20Computer%2C%20But%20It's%20Still%20Your%20Problem%20%40%20Bsides%20Malaga%202025.pdf)
