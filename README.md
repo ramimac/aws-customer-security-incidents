@@ -148,6 +148,7 @@ A repository of breaches of AWS customers
 | Darktrace #1 | 2025, July | Compromised credentials | RDP connections to other instances  | Data Exfiltration | [Defending the Cloud: Stopping Cyber Threats in Azure and AWS with Darktrace](https://www.darktrace.com/blog/defending-the-cloud-stopping-cyber-threats-in-azure-and-aws-with-darktrace) |
 | Darktrace #2 | 2025, July | SonicWall | N/A | Data Exfiltration | [Defending the Cloud: Stopping Cyber Threats in Azure and AWS with Darktrace](https://www.darktrace.com/blog/defending-the-cloud-stopping-cyber-threats-in-azure-and-aws-with-darktrace) |
 | Google Cloud Threat Horizons UNC4899 Case | 2025, July | Malware via job opportunity premise | Session cookie theft, CloudFront & S3 JS modification | Cryptocurrency theft | [GCAT Threat Horizons H2 2025](https://services.google.com/fh/files/misc/cloud_threat_horizons_report_h22025.pdf) |
+| Wiz | 2025, September | Stolen or compromised credentials | Exit SES sandbox via support | SES abuse for phishing  | [From Compromised Keys to Phishing Campaigns: Inside a Cloud Email Service Takeover](https://www.wiz.io/blog/wiz-discovers-cloud-email-abuse-campaign) |
 
 ---
 
