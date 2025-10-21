@@ -36,7 +36,6 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2023, Aug | librsvg memory leakage exposes Basecamp AWS keys | [AWS keys and user cookie leakage via uninitialized memory leak in outdated librsvg version in Basecamp](https://hackerone.com/reports/2107680) |
 | 2024, Feb | Access Key exposed in HTML | [Football Australia leak exposes players’ details](https://cybernews.com/security/football-australia-leak-expose-players/) |
 | 2024, Mar | Write permissions to S3 bucket, upload JS that steals credentials | [From S3 bucket to internal network operation](https://medium.com/@red.whisperer/from-s3-bucket-to-internal-network-operation-8073954932b4) |
-| 2024, April | AWS credentials leaked on Postman’s Public API Network | [(The) Postman Carries Lots of Secrets](https://trufflesecurity.com/blog/postman-carries-lots-of-secrets) |
 | 2024, May | Publicly traded company exposed 8m+ PII records in DocumentDB Snapshot | [Publicly Exposed AWS Document DB Snapshots](https://ramimac.me/exposed-docdb) |
 | 2024, June | PHP_INFO disclosed credentials, resulting in SES abuse | [Suspecting that access tokens were leaked: Where to look for leak?](https://www.reddit.com/r/aws/comments/1b3340r/suspecting_that_access_tokens_were_leaked_where/) |
 | 2024, July | Kubernetes escape in SAP AI Core allowed access to Loki config, leaking AWS credentials with access to S3 | [SAPwned: SAP AI vulnerabilities expose customers’ cloud environments and private AI artifacts](https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security) |
