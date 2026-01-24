@@ -31,9 +31,10 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2023, Mar | Staging environment file leaked, revealing AWS Access Keys and Secrets | [Saudi social media app leaks user info and pictures](https://cybernews.com/privacy/saudi-social-media-app-leaks-user-info/) |
 | 2023, Mar | Passive subdomain takeover | [Passive Takeover - uncovering (and emulating) an expensive subdomain takeover campaign](https://kmsec.uk/blog/passive-takeover/) |
 | 2023, Mar | 550 IPs vulnerable to SSRF via Host header, likely due to a vulnerable Lightsail image | [Finding Hundreds of SSRF Vulnerabilities on AWS](https://trickest.com/blog/ssrf-vulnerabilities-on-aws/) |
-| 2023, Jun | Credentials in node env file in public S3 bucket | [TripValet.com Leaks Passwords and Stripe Credentials](https://phillips.technology/blog/tripvalet-payment-breach/) |
 | 2023, Mar | Staging environment file leaked, revealing AWS Access Keys and Secrets | [Saudi social media app leaks user info and pictures](https://cybernews.com/privacy/saudi-social-media-app-leaks-user-info/) |
+| 2023, Jun | Credentials in node env file in public S3 bucket | [TripValet.com Leaks Passwords and Stripe Credentials](https://phillips.technology/blog/tripvalet-payment-breach/) |
 | 2023, Aug | librsvg memory leakage exposes Basecamp AWS keys | [AWS keys and user cookie leakage via uninitialized memory leak in outdated librsvg version in Basecamp](https://hackerone.com/reports/2107680) |
+| 2023, Aug | Tata, exposed keys on website | [Hacking India’s largest automaker: Tata Motors](https://eaton-works.com/2025/10/28/tata-motors-hack/) |
 | 2024, Feb | Access Key exposed in HTML | [Football Australia leak exposes players’ details](https://cybernews.com/security/football-australia-leak-expose-players/) |
 | 2024, Mar | Write permissions to S3 bucket, upload JS that steals credentials | [From S3 bucket to internal network operation](https://medium.com/@red.whisperer/from-s3-bucket-to-internal-network-operation-8073954932b4) |
 | 2024, May | Publicly traded company exposed 8m+ PII records in DocumentDB Snapshot | [Publicly Exposed AWS Document DB Snapshots](https://ramimac.me/exposed-docdb) |
