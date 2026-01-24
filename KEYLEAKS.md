@@ -31,6 +31,4 @@
 | 2025, April | 228 AWS access keys in Postman Collections | [Leaky Postman Collections Reveal Thousands of Secrets | Wave 14 | Project Resonance](https://redhuntlabs.com/blog/leaky-postman-collections-reveal-thousands-of-secrets-wave14-project-resonance/) |
 | 2025, July | 130 AWS Access Keys in Dangling "Oops" Commits | [How I Scanned all of GitHub’s “Oops Commits” for Leaked Secrets](https://trufflesecurity.com/blog/guest-post-how-i-scanned-all-of-github-s-oops-commits-for-leaked-secrets) |
 | 2025, July | 27 AWS Access Keys in DockerHub images | [Stop the Leak: Scanning Containers for Exposed Secrets](https://www.binarly.io/blog/stop-the-leak-scanning-containers-for-exposed-secrets) |
-
-
-
+| 2025, December | 127 Cloud credentials | [Thousands of Exposed Secrets Found on Docker Hub, Putting Organizations at Risk](https://flare.io/learn/resources/docker-hub-secrets-exposed/) |
