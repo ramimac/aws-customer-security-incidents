@@ -81,6 +81,7 @@ A repository of breaches of AWS customers
 | KiranaPro | 2025, June  | Former employee, post layoff | N/A | Service disruption | [Indian grocery startup KiranaPro was hacked and its servers deleted, CEO confirms](https://techcrunch.com/2025/06/03/indian-grocery-startup-kiranapro-was-hacked-and-its-servers-deleted-ceo-confirms/), [KiranaPro Crisis Explained: Ex-Employee’s Revenge Move that Paralysed the App](https://www.outlookbusiness.com/start-up/explainers/kiranapro-crisis-explained-ex-employees-revenge-move-that-paralysed-the-app) |
 | Kodex | 2025, October  | Fraudulent legal domain transfer order | N/A | Outage when domain frozen | [Subpoena tracking platform blames outage on AWS social engineering attack](https://www.theregister.com/2025/10/02/subpoena_tracking_platform_outage_blamed/) |
 | Kiln | 2025, October  | Compromised GitHub Access Token | Credentials stolen from GitHub Actions, modify running API logic | Cryptocurrency theft | [Re-enablement of Kiln services and security incident information](https://www.kiln.fi/post/re-enablement-of-kiln-services-and-security-incident-information#) |
+| LexisNexis | 2026, February | Unpatched React2Shell vulnerability (CVE-2025-55182) | AWS Secrets Manager, Redshift, VPC databases accessed | 2GB data including ~400K user profiles | [LexisNexis Legal & Professional confirms data breach](https://www.theregister.com/2026/03/04/lexisnexis_legal_professional_confirms_data/) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
