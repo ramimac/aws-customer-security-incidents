@@ -1,0 +1,7 @@
+This is a commit by rami-wiz impersonating ramimac.
+
+Git allows arbitrary author name/email configuration. This commit appears to be
+from "Rami McCarthy <ramimac@users.noreply.github.com>" but was pushed by rami-wiz.
+
+GitHub links commits to profiles by matching the email to registered accounts.
+The only defense is commit signing - unsigned commits cannot prove authorship.
