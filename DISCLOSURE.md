@@ -54,3 +54,4 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2025, September | Cognito with signup enabled | We Hacked Burger King: How Authentication Bypass Led to Drive-Thru Audio Surveillance (DMCA'd) |
 | 2025, October | Access key leaked in frontend | [My AWS Account Got Hacked - Here Is What Happened](https://zvibiran.com/posts/aws-account-hacked/) |
 | 2025, December | AWS SES token leaked in public GitHub repository (Marriott); closed as out of scope | [GhimireVeshraj on X](https://x.com/GhimireVeshraj/status/2050916412366217449) |
+| 2026, May | AWS GovCloud admin credentials leaked in public GitHub repository (CISA contractor) | [Krebs on Security - CISA Admin Leaked AWS GovCloud Keys](https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/) |
