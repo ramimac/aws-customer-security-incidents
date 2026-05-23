@@ -53,3 +53,4 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2025, July | Compromised AWS Access Key, access to Confluence DB, forge and insert a rogue token for any user | [When too much access is not enough: a story about Confluence and tokens](https://blog.quarkslab.com/a-story-about-confluence-and-tokens.html) |
 | 2025, September | Cognito with signup enabled | We Hacked Burger King: How Authentication Bypass Led to Drive-Thru Audio Surveillance (DMCA'd) |
 | 2025, October | Access key leaked in frontend | [My AWS Account Got Hacked - Here Is What Happened](https://zvibiran.com/posts/aws-account-hacked/) |
+| 2025, December | AWS SES token leaked in public GitHub repository (Marriott); closed as out of scope | [GhimireVeshraj on X](https://x.com/GhimireVeshraj/status/2050916412366217449) |
