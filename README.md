@@ -91,6 +91,7 @@ A repository of breaches of AWS customers
 | BuddyBoss | 2026, March | CI/CD pipeline compromise via malicious GitHub Actions workflow | SSH credentials stolen, root access on AWS server, SSH key persistence | 246+ WordPress sites compromised via supply chain attack | [Ctrl-Alt-Intel - The BuddyBoss Attack: Full Incident Analysis](https://ctrlaltintel.com/research/BuddyBoss-2/) |
 | Cisco | 2026, April | Trivy supply chain compromise (CVE-2026-33634) | AWS keys stolen, unauthorized cloud account access | 300+ repos exfiltrated (AI projects, customer data) | [SANS ISC - TeamPCP Supply Chain Campaign Update 007](https://isc.sans.edu/diary/32880) |
 | Porter | 2026, April | Stale, overprivileged AWS access key | IAM role chaining to customer accounts | 21 customer accounts accessed, 3 GitHub repos cloned, secrets exposed | [Porter Security Incident Disclosure](https://gist.github.com/leetrout/2d172d2b95e8d24af0f3de0d0b03561e) |
+| Braintrust | 2026, May | Unknown (under investigation) | N/A | Customer API keys for AI models exposed | [TechCrunch - Braintrust confirms breach](https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
