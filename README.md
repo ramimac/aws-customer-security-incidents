@@ -166,6 +166,7 @@ A repository of breaches of AWS customers
 | Google Cloud Threat Horizons UNC4899 Case | 2025, July | Malware via job opportunity premise | Session cookie theft, CloudFront & S3 JS modification | Cryptocurrency theft | [GCAT Threat Horizons H2 2025](https://services.google.com/fh/files/misc/cloud_threat_horizons_report_h22025.pdf) |
 | Wiz | 2025, September | Stolen or compromised credentials | Exit SES sandbox via support | SES abuse for phishing  | [From Compromised Keys to Phishing Campaigns: Inside a Cloud Email Service Takeover](https://www.wiz.io/blog/wiz-discovers-cloud-email-abuse-campaign) |
 | Sysdig | 2025, November | Credentials exposed in public S3 buckets | Lambda code injection, IAM access key creation, backdoor admin user | LLMJacking, GPU instance provisioning | [AI-assisted cloud intrusion achieves admin access in 8 minutes](https://sysdig.com/blog/ai-assisted-cloud-intrusion-achieves-admin-access-in-8-minutes/) |
+| Fortinet | 2026, May | Shai-Hulud worm via poisoned npm/PyPI packages (TeamPCP) | IMDS credential theft, IAM admin user creation, Redshift access | Redshift data breach, credential compromise | [From CI/CD to Cloud Data: How Shai-Hulud Persistence Leads to Redshift Breach](https://www.fortinet.com/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach) |
 
 ---
 
