@@ -167,6 +167,8 @@ A repository of breaches of AWS customers
 | Wiz | 2025, September | Stolen or compromised credentials | Exit SES sandbox via support | SES abuse for phishing  | [From Compromised Keys to Phishing Campaigns: Inside a Cloud Email Service Takeover](https://www.wiz.io/blog/wiz-discovers-cloud-email-abuse-campaign) |
 | Sysdig | 2025, November | Credentials exposed in public S3 buckets | Lambda code injection, IAM access key creation, backdoor admin user | LLMJacking, GPU instance provisioning | [AI-assisted cloud intrusion achieves admin access in 8 minutes](https://sysdig.com/blog/ai-assisted-cloud-intrusion-achieves-admin-access-in-8-minutes/) |
 | Fortinet | 2026, May | Shai-Hulud worm via poisoned npm/PyPI packages (TeamPCP) | IMDS credential theft, IAM admin user creation, Redshift access | Redshift data breach, credential compromise | [From CI/CD to Cloud Data: How Shai-Hulud Persistence Leads to Redshift Breach](https://www.fortinet.com/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach) |
+| Sygnia | 2026, June | Compromised internet-facing application credentials | IAM user creation, reverse shells, CI/CD pipeline modification, Secrets Manager/Parameter Store access | Data exfiltration from RDS, infrastructure control for extortion | [Inside an AI-Assisted Cloud Attack](https://www.sygnia.co/blog/inside-an-ai-assisted-cloud-attack/) |
+| Darktrace | 2026, June | Internet-exposed SSH with weak credentials (LiteLLM-Proxy) | IAM CreateUser attempts, Bedrock InvokeModel attempts | Cryptomining (XMRig), potential LLMJacking | [When AI Infrastructure Becomes Part of the Attack Surface](https://www.darktrace.com/blog/when-ai-infrastructure-becomes-part-of-the-attack-surface) |
 
 ---
 
