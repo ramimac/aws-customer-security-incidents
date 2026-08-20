@@ -95,6 +95,7 @@ A repository of breaches of AWS customers
 | Cisco | 2026, April | Trivy supply chain compromise (CVE-2026-33634) | AWS keys stolen, unauthorized cloud account access | 300+ repos exfiltrated (AI projects, customer data) | [SANS ISC - TeamPCP Supply Chain Campaign Update 007](https://isc.sans.edu/diary/32880) |
 | Porter | 2026, April | Stale, overprivileged AWS access key | IAM role chaining to customer accounts | 21 customer accounts accessed, 3 GitHub repos cloned, secrets exposed | [Porter Security Incident Disclosure](https://gist.github.com/leetrout/2d172d2b95e8d24af0f3de0d0b03561e) |
 | Braintrust | 2026, May | Unknown (under investigation) | N/A | Customer API keys for AI models exposed | [TechCrunch - Braintrust confirms breach](https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/) |
+| Beacon | 2026, July | AWS access key exposed in public JavaScript build artifacts | Database backups accessed | Full database copy with customer data exfiltrated | [Security Incident](https://www.beaconcrm.org/incident) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
