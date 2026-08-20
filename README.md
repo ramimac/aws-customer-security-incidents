@@ -96,6 +96,7 @@ A repository of breaches of AWS customers
 | Porter | 2026, April | Stale, overprivileged AWS access key | IAM role chaining to customer accounts | 21 customer accounts accessed, 3 GitHub repos cloned, secrets exposed | [Porter Security Incident Disclosure](https://gist.github.com/leetrout/2d172d2b95e8d24af0f3de0d0b03561e) |
 | Braintrust | 2026, May | Unknown (under investigation) | N/A | Customer API keys for AI models exposed | [TechCrunch - Braintrust confirms breach](https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/) |
 | Beacon | 2026, July | AWS access key exposed in public JavaScript build artifacts | Database backups accessed | Full database copy with customer data exfiltrated | [Security Incident](https://www.beaconcrm.org/incident) |
+| Hugging Face | 2026, July | HDF5 file read + Jinja2 template injection (exploited by autonomous AI agent) | IMDS credential theft, EKS node root, VPN pivot | AWS keys and credentials compromised, 5 datasets accessed | [Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
