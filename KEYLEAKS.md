@@ -34,3 +34,4 @@
 | 2025, December | 127 Cloud credentials | [Thousands of Exposed Secrets Found on Docker Hub, Putting Organizations at Risk](https://flare.io/learn/resources/docker-hub-secrets-exposed/) |
 | 2026, March | 283 verified AWS credentials across ~10M webpages | [Keys on Doormats: Exposed API Credentials on the Web](https://arxiv.org/abs/2603.12498) |
 | 2026, April | 30,000+ cloud credentials (AWS, Azure, GCP) harvested from 65,000 .env files | [Bissa Scanner Exposed: AI-Assisted Mass Exploitation and Credential Harvesting](https://thedfirreport.com/2026/04/22/bissa-scanner-exposed-ai-assisted-mass-exploitation-and-credential-harvesting/) |
+| 2026, August | 64,024 verified AWS keys (768 with full admin rights) across git history, Hugging Face, Docker, CI logs (reanalysis of prior research) | [Leaked Corporate AWS Keys Held Full Admin Rights](https://trufflesecurity.com/blog/leaked-corporate-aws-keys-held-full-admin-rights) |
