@@ -111,6 +111,7 @@ A repository of breaches of AWS customers
 | Braintrust | 2026, May | Unknown (under investigation) | N/A | Customer API keys for AI models exposed | [TechCrunch - Braintrust confirms breach](https://techcrunch.com/2026/05/06/ai-evaluation-startup-braintrust-confirms-breach-tells-every-customer-to-rotate-sensitive-keys/) |
 | Beacon | 2026, July | AWS access key exposed in public JavaScript build artifacts | Database backups accessed | Full database copy with customer data exfiltrated | [Security Incident](https://www.beaconcrm.org/incident) |
 | Hugging Face | 2026, July | HDF5 file read + Jinja2 template injection (exploited by autonomous AI agent) | IMDS credential theft, EKS node root, VPN pivot | AWS keys and credentials compromised, 5 datasets accessed | [Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
+| JetBrains Cadence | 2026, August | Unpatched TeamCity vulnerability (CVE-2026-63077) | IAM credentials compromised, S3 buckets accessed | Personal data, 2024 backup with credentials, customer cloud credentials and source code | [Security Incident Affecting JetBrains Cadence](https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
