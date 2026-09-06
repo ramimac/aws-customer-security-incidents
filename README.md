@@ -115,6 +115,7 @@ A repository of breaches of AWS customers
 | Beacon | 2026, July | AWS access key exposed in public JavaScript build artifacts | Database backups accessed | Full database copy with customer data exfiltrated | [Security Incident](https://www.beaconcrm.org/incident) |
 | Hugging Face | 2026, July | HDF5 file read + Jinja2 template injection (exploited by autonomous AI agent) | IMDS credential theft, EKS node root, VPN pivot | AWS keys and credentials compromised, 5 datasets accessed | [Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
 | JetBrains Cadence | 2026, August | Unpatched TeamCity vulnerability (CVE-2026-63077) | IAM credentials compromised, S3 buckets accessed | Personal data, 2024 backup with credentials, customer cloud credentials and source code | [Security Incident Affecting JetBrains Cadence](https://blog.jetbrains.com/pycharm/2026/08/cadence-security-incident-august-2026/) |
+| MyDr | 2026, August | XXE vulnerability in PKCS#12 certificate handling (RCE) | GitHub API key stolen, source code accessed, AWS infrastructure compromised | 2.5TB data, 19M patient records (PESEL, prescriptions, medical notes) from 12K+ facilities | [The Record](https://therecord.media/poland-probes-mydr-healthcare-software-breach), [GovInfoSecurity](https://www.govinfosecurity.com/hack-on-med-software-firm-hits-half-polands-population-a-32580) |
 
 
 ## Vendor-reported AWS Customer Security Incident Case Studies
