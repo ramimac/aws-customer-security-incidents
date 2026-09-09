@@ -23,6 +23,8 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2022, Oct | Subdomain takeover, deleted S3 bucket | [Subdomain takeover at http://test.www.midigator.com](https://hackerone.com/reports/1718371) |
 | 2022, Nov | AWS credentials in string constant in public python package | [Infosys leaked FullAdminAccess AWS keys on PyPi for over a year](https://tomforb.es/infosys-leaked-fulladminaccess-aws-keys-on-pypi-for-over-a-year/) |
 | 2022, Nov | Public RDS snapshots | [Oops, I Leaked It Again](https://www.mitiga.io/blog/how-mitiga-found-pii-in-exposed-amazon-rds-snapshots) |
+| 2022, Jul | Hardcoded AWS, MySQL, Sendgrid credentials | [Glovo HackerOne Report](https://hackerone.com/reports/1580567) |
+| 2022, Aug | AWS credentials in config.json file | [U.S. Dept of Defense HackerOne Report](https://hackerone.com/reports/1704035) |
 | 2022, Sep | AWS credentials leaked in code repository | [Shiba Inu cloud credentials leaked on a public repository!](v) |
 | 2022, Dec | Lack of forced verification on email update in AWS Cognito | [Account Takeover Due to Cognito Misconfiguration Earns Me €xxxx](https://medium.com/@mukundbhuva/account-takeover-due-to-cognito-misconfiguration-earns-me-xxxx-3a7b8bb9a619) |
 | 2023, Jan | AWS credentials found in 57 PyPi packages | [I scanned every package on PyPi and found 57 live AWS keys](https://tomforb.es/i-scanned-every-package-on-pypi-and-found-57-live-aws-keys/) |
@@ -42,6 +44,8 @@ We have not compiled the periodic reports of cryptomining due to compromised cre
 | 2024, July | Kubernetes escape in SAP AI Core allowed access to Loki config, leaking AWS credentials with access to S3 | [SAPwned: SAP AI vulnerabilities expose customers’ cloud environments and private AI artifacts](https://www.wiz.io/blog/sapwned-sap-ai-vulnerabilities-ai-security) |
 | 2024, July | Hard-coded AWS credential in JS | [how to pwn a billion dollar vc firm using inspect element](https://kibty.town/blog/a16z/) |
 | 2024, August | S3 SSE-C ransomware technique | [Ransomware Crew Targets AWS S3 Buckets](https://www.halcyon.ai/blog/abusing-aws-native-services-ransomware-encrypting-s3-buckets-with-sse-c) |
+| 2024, October | Hardcoded AWS credentials in iOS app (Crumbl, 20M+ downloads) | [Symantec Research](https://www.security.com/threat-intelligence/exposing-danger-within-hardcoded-cloud-credentials-popular-mobile-apps) |
+| 2024, October | AWS keys and DB credentials in Docker image (Mozilla Common Voice) | [HackerOne #2401648](https://hackerone.com/reports/2401648) |
 | 2024, November | AWS guidance on preventing unintended S3 encryption with SSE-C | [Preventing unintended encryption of Amazon S3 objects](https://aws.amazon.com/blogs/security/preventing-unintended-encryption-of-amazon-s3-objects/) |
 | 2024, December | AWS Access Keys leaked via Java Spring Actuator heapdump | [Customer data from 800,000 electric cars and owners exposed online](https://www.bleepingcomputer.com/news/security/customer-data-from-800-000-electric-cars-and-owners-exposed-online/)
 | 2025, February | ~150 S3 buckets with dangling references taking over | [8 Million Requests Later, We Made The SolarWinds Supply Chain Attack Look Amateur](https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/)
