@@ -30,5 +30,6 @@
 * [SSRF to read AWS metaData at https://█████/ \[HtUS\]](https://hackerone.com/reports/1624140)
 * [SSRF on █████████ Allowing internal server data access](https://hackerone.com/reports/326040)
 * [The Unusual Case of Status code- 301 Redirection to AWS Security Credentials Compromise](https://logicbomb.medium.com/the-unusual-case-of-open-redirection-to-aws-security-credentials-compromise-59acc312f02b)
+* February 2026 - [Accessing $6 million worth of private key by a Web2 issue on SocialFi](https://x.com/0xaudron/status/2023323361309605941) (SSRF in OpenGraph endpoint to IMDS role credentials, wallet private keys found in CloudWatch Logs)
 
 For more about this attack, please see [Hacking the Cloud - Steal EC2 Metadata Credentials via SSRF](https://hackingthe.cloud/aws/exploitation/ec2-metadata-ssrf/)
